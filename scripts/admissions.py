@@ -59,6 +59,9 @@ def milestones(birth_year: int) -> Milestones:
     )
 
 
+GRADES = {f"초{n}" for n in range(1, 7)} | {f"중{n}" for n in range(1, 4)} | {f"고{n}" for n in range(1, 4)}
+
+
 def grade_in(birth_year: int, year: int, month: int) -> str:
     """주어진 시점(연·월)의 학년 이름. 학년은 3월에 바뀐다고 가정한다."""
     school_year = year if month >= 3 else year - 1
@@ -155,9 +158,31 @@ def validate() -> list[str]:
         check_sources(where, r)
 
     for t in school_types:
-        check_sources(f"highSchoolTypes[{t.get('id')}]", t)
+        where = f"highSchoolTypes[{t.get('id')}]"
+        check_sources(where, t)
+        apply = t.get("apply") or {}
+        if apply.get("grade") not in GRADES or not re.match(r"^\d{1,2}", apply.get("months", "")):
+            errors.append(f"{where}: apply(grade/months) 오류")
+        if not t.get("checklist"):
+            errors.append(f"{where}: checklist가 비어 있습니다")
     for t in tracks:
         check_sources(f"tracks[{t.get('id')}]", t)
+
+    seen_events: set[str] = set()
+    for e in load("calendar")["events"]:
+        where = f"calendar[{e.get('id')}]"
+        if e.get("id") in seen_events:
+            errors.append(f"{where}: id 중복")
+        seen_events.add(e.get("id"))
+        if not e.get("title") or not e.get("todo"):
+            errors.append(f"{where}: title/todo 누락")
+        if not e.get("grades") or any(g not in GRADES for g in e["grades"]):
+            errors.append(f"{where}: grades 오류")
+        if not e.get("months") or any(not 1 <= m <= 12 for m in e["months"]):
+            errors.append(f"{where}: months 오류")
+        for year, day in (e.get("exact") or {}).items():
+            if not DATE_RE.match(day) or not day.startswith(year) or int(day[5:7]) not in e["months"]:
+                errors.append(f"{where}: exact '{year}' 날짜 오류")
 
     # 서비스 범위의 모든 출생연도·지역에 수능/내신 규칙이 정확히 하나씩 있어야 한다.
     for year in range(cov["birthYearFrom"], cov["birthYearTo"] + 1):

@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { meta, news, rules, schoolTypes, sourceById, tracks, type Region, type Rule, type SchoolType } from "./data";
+import { meta, news, rules, tracks, type Region, type Rule } from "./data";
 import {
-  FORK_TENDENCY,
   GG_EQUALIZED,
   GG_OTHER,
   admissionYear,
@@ -21,6 +20,10 @@ import {
   type Stop,
   type YearMonth,
 } from "./engine";
+import { Sheet, Sources, type SheetContent } from "./ui";
+import { KEYS, readJson, writeJson } from "./storage";
+import { ForkTab } from "./Fork";
+import { ThisMonth, WhatsNewList, whatsNew } from "./Today";
 
 type Tab = "route" | "fork" | "news" | "gloss";
 const TABS: [Tab, string][] = [
@@ -31,28 +34,13 @@ const TABS: [Tab, string][] = [
 ];
 
 const EXAMPLE: Profile = { birthYear: 2012, birthMonth: 5, region: "gyeonggi", district: "용인" };
-const STORAGE_KEY = "showmethego3.profile";
-
 function loadProfile(): Profile | null {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    const p = JSON.parse(raw) as Profile;
-    const { birthYearFrom, birthYearTo } = meta.coverage;
-    if (p.birthYear < birthYearFrom || p.birthYear > birthYearTo) return null;
-    return p;
-  } catch {
-    return null;
-  }
+  const p = readJson<Profile | null>(KEYS.profile, null);
+  if (!p) return null;
+  const { birthYearFrom, birthYearTo } = meta.coverage;
+  return p.birthYear < birthYearFrom || p.birthYear > birthYearTo ? null : p;
 }
-function saveProfile(p: Profile | null) {
-  try {
-    if (p) localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
-    else localStorage.removeItem(STORAGE_KEY);
-  } catch {
-    /* 저장이 막힌 환경에서도 화면은 동작한다 */
-  }
-}
+const saveProfile = (p: Profile | null) => writeJson(KEYS.profile, p);
 
 const tabFromHash = (): Tab => {
   const h = window.location.hash.replace("#", "");
@@ -64,7 +52,6 @@ function today(): YearMonth {
   return { year: d.getFullYear(), month: d.getMonth() + 1 };
 }
 
-type SheetContent = { title: string; body: ReactNode };
 
 export default function App() {
   const [saved, setSaved] = useState<Profile | null>(loadProfile);
@@ -72,8 +59,13 @@ export default function App() {
   const [onboarding, setOnboarding] = useState(false);
   const [sheet, setSheet] = useState<SheetContent | null>(null);
   const now = useMemo(today, []);
+  const todayDate = useMemo(() => new Date(), []);
   const profile = saved ?? EXAMPLE;
   const isExample = saved === null;
+  // 지난 방문 시각은 처음 렌더할 때 한 번만 읽고, 이번 방문 시각으로 바꿔 둔다.
+  const [lastVisit] = useState<string | null>(() => readJson<string | null>(KEYS.lastVisit, null));
+  useEffect(() => writeJson(KEYS.lastVisit, new Date().toISOString()), []);
+  const fresh = useMemo(() => whatsNew(profile, lastVisit), [profile, lastVisit]);
 
   useEffect(() => {
     const onHash = () => setTab(tabFromHash());
@@ -115,6 +107,14 @@ export default function App() {
           <span className="brand">
             입시<b>노선도</b>
           </span>
+          {fresh.length > 0 && (
+            <button
+              className="new-badge"
+              onClick={() => setSheet({ title: "지난 방문 이후 새 소식", body: <WhatsNewList items={fresh} /> })}
+            >
+              새 소식 <b className="num">{fresh.length}</b>
+            </button>
+          )}
           <button className="chip-btn" onClick={() => setOnboarding(true)}>
             {isExample ? "우리 아이로 보기" : "정보 바꾸기"}
           </button>
@@ -122,6 +122,7 @@ export default function App() {
         {(tab === "route" || tab === "fork") && <Hero p={profile} now={now} example={isExample} />}
         {tab === "route" && (
           <>
+            <ThisMonth p={profile} now={now} today={todayDate} />
             <RouteMap
               p={profile}
               now={now}
@@ -130,7 +131,9 @@ export default function App() {
             <Changes p={profile} onRule={(r) => setSheet({ title: r.title, body: <RuleBlock r={r} /> })} />
           </>
         )}
-        {tab === "fork" && <Fork onType={(t) => setSheet(typeSheet(t))} />}
+        {tab === "fork" && (
+          <ForkTab p={profile} now={now} openSheet={setSheet} closeSheet={() => setSheet(null)} />
+        )}
         {tab === "news" && <News p={profile} now={now} />}
         {tab === "gloss" && <Glossary />}
         <Notice />
@@ -290,46 +293,6 @@ function Changes({ p, onRule }: { p: Profile; onRule: (r: Rule) => void }) {
   );
 }
 
-const FORK_ORDER = ["general", "autonomous-private", "foreign-language-international", "science", "gifted", "vocational"];
-
-function Fork({ onType }: { onType: (t: SchoolType) => void }) {
-  const types = FORK_ORDER.map((id) => schoolTypes.find((t) => t.id === id)).filter((t): t is SchoolType => !!t);
-  return (
-    <section className="section">
-      <div className="section-head">
-        <h2>고입 갈림길</h2>
-        <span className="eyebrow">옆으로 넘겨보기</span>
-      </div>
-      <div className="fork">
-        {types.map((t) => (
-          <button key={t.id} className="fork-card" onClick={() => onType(t)}>
-            <span className="round">
-              {t.round} · {t.scope}
-            </span>
-            <h3>{t.name}</h3>
-            <div className="meter" aria-label="대입에서 유리한 쪽(일반적 경향)">
-              <div className="bar">
-                <i style={{ left: `${FORK_TENDENCY[t.id] ?? 50}%` }} />
-              </div>
-              <div className="ends">
-                <span>내신·수시 유리</span>
-                <span>수능·정시 유리</span>
-              </div>
-            </div>
-            <ul>
-              {t.fitFor.map((f) => (
-                <li key={f}>{f}</li>
-              ))}
-            </ul>
-            {t.status === "needs_verification" && <span className="tag verify inline">세부 요건 확인 중</span>}
-          </button>
-        ))}
-      </div>
-      <p className="eyebrow sources-note">막대 위치는 학교 유형의 일반적인 경향이에요. 학교마다 다릅니다.</p>
-    </section>
-  );
-}
-
 type NewsFilter = "mine" | "official" | "all";
 
 function News({ p, now }: { p: Profile; now: YearMonth }) {
@@ -439,24 +402,6 @@ function Notice() {
   );
 }
 
-function Sources({ ids }: { ids: string[] }) {
-  const list = ids.map((id) => sourceById.get(id)).filter((s) => !!s);
-  if (!list.length) return null;
-  return (
-    <div className="src">
-      {list.map((s) => (
-        <span key={s!.id}>
-          {s!.official && <span className="off">공식</span>}
-          <a href={s!.url} target="_blank" rel="noopener noreferrer">
-            {s!.publisher} · {s!.title}
-          </a>
-          {s!.date && <span className="num"> ({s!.date})</span>}
-        </span>
-      ))}
-    </div>
-  );
-}
-
 function RuleBlock({ r }: { r: Rule }) {
   return (
     <div className="rule">
@@ -486,45 +431,6 @@ function stopSheet(s: Stop, toFork: () => void): SheetContent {
       </>
     ),
   };
-}
-
-function typeSheet(t: SchoolType): SheetContent {
-  return {
-    title: t.name,
-    body: (
-      <>
-        <p>{t.summary}</p>
-        <div className="rule">
-          <h3>이런 아이에게</h3>
-          <p>{t.fitFor.join(", ")}</p>
-          <h3>주의할 점</h3>
-          <p>{t.watchOut.join(" / ")}</p>
-          <p className="eyebrow">선발: {t.selectedBy}</p>
-          <span className={`status ${t.status}`}>{meta.statusLabels[t.status]}</span>
-          <Sources ids={t.sources} />
-        </div>
-      </>
-    ),
-  };
-}
-
-function Sheet({ title, body, onClose }: SheetContent & { onClose: () => void }) {
-  return (
-    <>
-      <div className="scrim" onClick={onClose} />
-      <div className="sheet" role="dialog" aria-modal="true" aria-label={title}>
-        <div className="sheet-inner">
-          <div className="grab" />
-          <h2>{title}</h2>
-          {body}
-          <p className="eyebrow">참고용 정보예요. 최종 결정 전 공식 모집요강으로 꼭 확인하세요.</p>
-          <button className="primary" autoFocus onClick={onClose}>
-            확인
-          </button>
-        </div>
-      </div>
-    </>
-  );
 }
 
 function Onboarding({

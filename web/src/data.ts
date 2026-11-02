@@ -42,6 +42,8 @@ export interface SchoolType {
   watchOut: string[];
   status: Status;
   sources: string[];
+  apply: { grade: string; months: string; note: string };
+  checklist: string[];
 }
 
 export interface Track {
@@ -61,6 +63,7 @@ export interface Meta {
   regions: Record<string, string>;
   statusLabels: Record<Status, string>;
   disclaimer: string;
+  changes: { date: string; text: string }[];
 }
 
 export const meta = metaJson as Meta;
