@@ -7,8 +7,8 @@
 
 ## 진행 단계
 
-1. **입시 제도 데이터 정리** ← 현재
-2. 전략 엔진과 모바일 UI (TypeScript + React)
+1. 입시 제도 데이터 정리 ✓
+2. **전략 엔진과 모바일 UI (TypeScript + React)** ← 현재
 3. GitHub Pages 웹 MVP + 입시 뉴스(하루 1회 자동 수집, 수동 실행 가능)
 4. 전국 확장, 앱(PWA → 스토어), SEO, 학원용 자료
 
@@ -41,3 +41,22 @@ python -m unittest discover -s tests
 ```
 
 규칙을 고치거나 추가하면 `build`를 다시 실행해 생성 파일도 함께 커밋하세요. CI가 확인합니다.
+
+## 웹 앱 (`web/`)
+
+```bash
+cd web
+npm install
+npm run dev      # http://localhost:5173/showmethego3/
+npm test         # 전략 엔진 테스트
+npm run build    # web/dist
+```
+
+- `src/engine.ts`: 생년월·지역 → 노선도 역, 세대 키워드, 남은 기간 계산 (순수 함수)
+- `src/App.tsx`: 노선도 / 갈림길 / 뉴스 / 용어 탭, 3단계 입력, 근거 바텀시트
+- `data/*.json`을 빌드 시점에 그대로 가져다 씁니다.
+
+### 배포
+
+`main`에 머지되면 `.github/workflows/pages.yml`이 https://torajim.github.io/showmethego3/ 로 배포합니다(Actions 탭에서 수동 실행도 가능).
+처음 한 번은 저장소 **Settings → Pages → Source**를 **GitHub Actions**로 바꿔야 합니다. 기존 torajim.github.io 사이트와 다른 저장소에는 영향을 주지 않습니다.
