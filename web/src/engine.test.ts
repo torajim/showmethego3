@@ -7,6 +7,7 @@ import {
   generationTags,
   herePosition,
   nearStages,
+  copula,
   relativeDay,
   type Profile,
 } from "./engine";
@@ -84,5 +85,15 @@ describe("news helpers", () => {
     expect(relativeDay("2026-11-02T09:00+09:00", now)).toBe("3시간 전");
     expect(relativeDay("2026-10-31T09:00+09:00", now)).toBe("2일 전");
     expect(relativeDay("2026-10-20T09:00+09:00", now)).toBe("10.20");
+  });
+});
+
+describe("copula", () => {
+  it("학년 이름에 맞는 조사", () => {
+    expect(copula("중2")).toBe("예요");
+    expect(copula("고3")).toBe("이에요");
+    expect(copula("초1")).toBe("이에요");
+    expect(copula("초5")).toBe("예요");
+    expect(copula("미취학")).toBe("이에요");
   });
 });

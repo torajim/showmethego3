@@ -215,3 +215,13 @@ export function relativeDay(iso: string, nowMs: number): string {
   const d = Math.floor(diff / 24);
   return d < 7 ? `${d}일 전` : iso.slice(5, 10).replace("-", ".");
 }
+
+/** "중2" → "예요", "고3" → "이에요": 학년 이름 뒤에 붙는 서술격 조사. */
+export function copula(grade: string): string {
+  const last = grade.slice(-1);
+  // 숫자는 읽는 소리 기준: 2(이)·4(사)·5(오)는 받침 없음
+  if ("245".includes(last) && /\d/.test(last)) return "예요";
+  if (/\d/.test(last)) return "이에요";
+  const code = last.charCodeAt(0) - 0xac00;
+  return code >= 0 && code < 11172 && code % 28 === 0 ? "예요" : "이에요";
+}

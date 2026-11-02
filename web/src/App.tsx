@@ -7,6 +7,7 @@ import {
   admissionYear,
   applies,
   buildStops,
+  copula,
   formatRemaining,
   generationTags,
   gradeAt,
@@ -169,7 +170,8 @@ function Hero({ p, now, example }: { p: Profile; now: YearMonth; example: boolea
       <h1>
         우리 아이는 지금
         <br />
-        <em>{gradeAt(Y, now)}</em>이에요
+        <em>{gradeAt(Y, now)}</em>
+        {copula(gradeAt(Y, now))}
       </h1>
       <div className="gen">
         {generationTags(p, rules).map((t) => (
