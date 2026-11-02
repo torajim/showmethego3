@@ -80,7 +80,7 @@ export function buildStops(p: Profile, allRules: Rule[]): Stop[] {
     title: "중학교 입학",
     text: "시험 없이 사는 곳의 학교군·중학구 안에서 추첨으로 배정돼요.",
     rules: [R("middle-school-assignment"), R("curriculum-2022-middle"), medical],
-    alert: medical ? "지방 의약학 지역인재를 노린다면 이사는 이 전에" : undefined,
+    alert: medical ? "지방 의약학 지역인재를 노린다면 이사는 중학교 입학 전에" : undefined,
   });
 
   const gg12 = R("gyeonggi-middle-grade-1-2");
@@ -90,7 +90,7 @@ export function buildStops(p: Profile, allRules: Rule[]): Stop[] {
       year: Y + 13,
       month: 8,
       title: "중1 2학기, 고입 내신이 시작돼요",
-      text: "경기는 이 학기 성적부터 고입에 반영돼요.",
+      text: "경기는 중학교 1학년 2학기 성적부터 고입에 반영돼요.",
       rules: [gg12],
     });
   }
