@@ -9,6 +9,8 @@ import {
   nearStages,
   copula,
   relativeDay,
+  regionScore,
+  sortNewsForProfile,
   type Profile,
 } from "./engine";
 
@@ -95,5 +97,23 @@ describe("copula", () => {
     expect(copula("초1")).toBe("이에요");
     expect(copula("초5")).toBe("예요");
     expect(copula("미취학")).toBe("이에요");
+  });
+});
+
+describe("news region ranking", () => {
+  const items = [
+    { id: "a", publishedAt: "2026-11-02T10:00+09:00", regions: [], places: [] },
+    { id: "b", publishedAt: "2026-11-01T10:00+09:00", regions: ["gyeonggi"], places: ["경기"] },
+    { id: "c", publishedAt: "2026-10-30T10:00+09:00", regions: ["gyeonggi"], places: ["용인"] },
+    { id: "d", publishedAt: "2026-11-02T11:00+09:00", regions: ["other"], places: [] },
+    { id: "e", publishedAt: "2026-11-02T12:00+09:00", regions: ["seoul"], places: ["서울"] },
+  ];
+  it("우리 학군 > 우리 시·도 > 전국 > 다른 지역", () => {
+    expect(sortNewsForProfile(items, gg(2012, "용인")).map((i) => i.id)).toEqual(["c", "b", "a", "e", "d"]);
+    expect(sortNewsForProfile(items, seoul(2012)).map((i) => i.id)).toEqual(["e", "a", "d", "b", "c"]);
+  });
+  it("안양권은 과천·군포·의왕 기사도 우리 학군으로 본다", () => {
+    expect(regionScore({ regions: ["gyeonggi"], places: ["과천"] }, gg(2012, "안양권"))).toBe(3);
+    expect(regionScore({}, gg(2012))).toBe(1);
   });
 });

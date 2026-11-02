@@ -37,6 +37,13 @@ class ParseTest(unittest.TestCase):
         self.assertEqual(by["2028 대입 수시 확대"]["tags"], ["대입"])
         self.assertEqual(by["2028 대입 수시 확대"]["publishedAt"], "2026-11-01T10:00+09:00")
 
+    def test_places(self):
+        self.assertEqual(fetch_news.places("서울시교육청, 2027 고입 설명회"), (["seoul"], ["서울"]))
+        self.assertEqual(fetch_news.places("용인 수지 고교 배정 발표"), (["gyeonggi"], ["용인"]))
+        self.assertEqual(fetch_news.places("경남교육청 고교학점제 설명회"), (["other"], []))
+        self.assertEqual(fetch_news.places("2028 대입 수시 확대"), ([], []))
+        self.assertEqual(fetch_news.places("경기 침체 속 대입 사교육비"), ([], []))
+
     def test_is_official(self):
         self.assertTrue(fetch_news.is_official("https://www.korea.kr"))
         self.assertTrue(fetch_news.is_official("https://www.sen.go.kr/x"))
