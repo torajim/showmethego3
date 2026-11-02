@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { meta, rules, schoolTypes, sourceById, tracks, type Region, type Rule, type SchoolType } from "./data";
+import { meta, news, rules, schoolTypes, sourceById, tracks, type Region, type Rule, type SchoolType } from "./data";
 import {
   FORK_TENDENCY,
   GG_EQUALIZED,
@@ -11,7 +11,9 @@ import {
   generationTags,
   gradeAt,
   herePosition,
+  nearStages,
   regionLabel,
+  relativeDay,
   type Profile,
   type Stop,
   type YearMonth,
@@ -126,7 +128,7 @@ export default function App() {
           </>
         )}
         {tab === "fork" && <Fork onType={(t) => setSheet(typeSheet(t))} />}
-        {tab === "news" && <News />}
+        {tab === "news" && <News p={profile} now={now} />}
         {tab === "gloss" && <Glossary />}
         <Notice />
         {!isExample && (
@@ -324,20 +326,67 @@ function Fork({ onType }: { onType: (t: SchoolType) => void }) {
   );
 }
 
-function News() {
+type NewsFilter = "mine" | "official" | "all";
+
+function News({ p, now }: { p: Profile; now: YearMonth }) {
+  const [filter, setFilter] = useState<NewsFilter>("mine");
+  const stages = nearStages(p.birthYear, now);
+  const nowMs = Date.now();
+  const list = news.items.filter((n) =>
+    filter === "all" ? true : filter === "official" ? n.official : n.stages.some((s) => (stages as string[]).includes(s)),
+  );
+  const chips: [NewsFilter, string][] = [
+    ["mine", `${gradeAt(p.birthYear, now)}에게 중요한 소식`],
+    ["official", "공식 발표"],
+    ["all", "전체"],
+  ];
   return (
     <section className="section">
       <div className="section-head">
         <h2>입시 뉴스</h2>
+        <span className="eyebrow num">{news.updatedAt.slice(0, 10).split("-").join(".")} 업데이트</span>
       </div>
-      <div className="empty">
-        <b>매일 아침 새 소식을 모아올게요</b>
-        <p>
-          교육부·교육청·대교협 발표는 <span className="off-inline">공식</span> 표시로 언론 기사와 구분해서 보여드려요.
-          우리 아이 학년에 해당하는 소식만 골라볼 수도 있어요.
-        </p>
-        <p className="eyebrow">뉴스 연결은 준비 중이에요</p>
+      <div className="filters" role="tablist" aria-label="뉴스 필터">
+        {chips.map(([id, label]) => (
+          <button key={id} role="tab" aria-selected={filter === id} className="filter" onClick={() => setFilter(id)}>
+            {label}
+          </button>
+        ))}
       </div>
+      {list.length === 0 ? (
+        <div className="empty">
+          <b>최근 30일 동안 해당 소식이 없어요</b>
+          <p>다른 필터를 눌러 전체 소식을 볼 수 있어요.</p>
+        </div>
+      ) : (
+        <ul className="news">
+          {list.map((n) => (
+            <li key={n.id}>
+              <a href={n.url} target="_blank" rel="noopener noreferrer">
+                <span className="news-meta">
+                  {n.official && <span className="off">공식</span>}
+                  <span>{n.publisher}</span>
+                  <span className="num">· {relativeDay(n.publishedAt, nowMs)}</span>
+                </span>
+                <b>{n.title}</b>
+                {n.tags.length > 0 && (
+                  <span className="tags">
+                    {n.tags.map((t) => (
+                      <span key={t} className="tag">
+                        {t}
+                      </span>
+                    ))}
+                  </span>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+      <p className="eyebrow sources-note">
+        매일 아침 6시에 언론 보도와 정부 발표(대한민국 정책브리핑)를 모아요. 제목을 누르면 원문으로 이동합니다. 기사 내용은
+        언론사의 것이며, 제도 확정 여부는 공식 발표로 확인하세요.
+      </p>
     </section>
   );
 }

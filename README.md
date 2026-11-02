@@ -8,8 +8,8 @@
 ## 진행 단계
 
 1. 입시 제도 데이터 정리 ✓
-2. **전략 엔진과 모바일 UI (TypeScript + React)** ← 현재
-3. GitHub Pages 웹 MVP + 입시 뉴스(하루 1회 자동 수집, 수동 실행 가능)
+2. 전략 엔진과 모바일 UI (TypeScript + React) ✓
+3. **GitHub Pages 웹 MVP + 입시 뉴스(하루 1회 자동 수집, 수동 실행 가능)** ← 현재
 4. 전국 확장, 앱(PWA → 스토어), SEO, 학원용 자료
 
 첫 버전 범위: **서울·경기**, **2008~2020년생**.
@@ -60,3 +60,10 @@ npm run build    # web/dist
 
 `main`에 머지되면 `.github/workflows/pages.yml`이 https://torajim.github.io/showmethego3/ 로 배포합니다(Actions 탭에서 수동 실행도 가능).
 처음 한 번은 저장소 **Settings → Pages → Source**를 **GitHub Actions**로 바꿔야 합니다. 기존 torajim.github.io 사이트와 다른 저장소에는 영향을 주지 않습니다.
+
+## 입시 뉴스 (`data/news.json`)
+
+- `scripts/fetch_news.py`가 Google 뉴스 RSS 검색으로 최근 30일 입시 기사를 모읍니다. 제목·언론사·발행 시각·원문 링크만 저장합니다.
+- 대한민국 정책브리핑, 교육부, 교육청, 평가원, 대교협 출처는 `official: true`로 표시되어 화면에 "공식" 배지가 붙습니다.
+- `.github/workflows/news.yml`이 매일 06:00(KST)에 수집하고, 바뀐 내용이 있으면 `main`에 커밋한 뒤 사이트를 다시 배포합니다.
+- 바로 갱신하려면 Actions → **news** → **Run workflow**를 누르세요.

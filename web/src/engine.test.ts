@@ -1,6 +1,15 @@
 import { describe, expect, it } from "vitest";
 import { rules } from "./data";
-import { buildStops, formatRemaining, gradeAt, generationTags, herePosition, type Profile } from "./engine";
+import {
+  buildStops,
+  formatRemaining,
+  gradeAt,
+  generationTags,
+  herePosition,
+  nearStages,
+  relativeDay,
+  type Profile,
+} from "./engine";
 
 const gg = (birthYear: number, district = "용인"): Profile => ({ birthYear, birthMonth: 5, region: "gyeonggi", district });
 const seoul = (birthYear: number): Profile => ({ birthYear, birthMonth: 5, region: "seoul", district: null });
@@ -61,5 +70,19 @@ describe("generationTags / formatRemaining", () => {
     expect(formatRemaining({ year: 2026, month: 11 }, { year: 2027, month: 11 })).toBe("1년");
     expect(formatRemaining({ year: 2026, month: 11 }, { year: 2027, month: 2 })).toBe("3개월");
     expect(formatRemaining({ year: 2026, month: 11 }, { year: 2025, month: 2 })).toBe("지났어요");
+  });
+});
+
+
+describe("news helpers", () => {
+  it("학년에 따라 가까운 단계", () => {
+    expect(nearStages(2012, { year: 2026, month: 11 })).toEqual(["middle", "high"]);
+    expect(nearStages(2009, { year: 2026, month: 11 })).toEqual(["high", "university"]);
+  });
+  it("상대 시간", () => {
+    const now = new Date("2026-11-02T12:00:00+09:00").getTime();
+    expect(relativeDay("2026-11-02T09:00+09:00", now)).toBe("3시간 전");
+    expect(relativeDay("2026-10-31T09:00+09:00", now)).toBe("2일 전");
+    expect(relativeDay("2026-10-20T09:00+09:00", now)).toBe("10.20");
   });
 });

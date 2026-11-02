@@ -200,3 +200,18 @@ export const FORK_TENDENCY: Record<string, number> = {
   "autonomous-private": 75,
   gifted: 80,
 };
+
+/** 지금 학년에서 가까운 미래에 신경 쓸 단계(뉴스 필터용). */
+export function nearStages(birthYear: number, now: YearMonth): Array<"middle" | "high" | "university"> {
+  const g = gradeAt(birthYear, now);
+  if (g.startsWith("고") || g === "졸업") return ["high", "university"];
+  return ["middle", "high"];
+}
+
+export function relativeDay(iso: string, nowMs: number): string {
+  const diff = Math.floor((nowMs - new Date(iso).getTime()) / 3_600_000);
+  if (diff < 1) return "방금";
+  if (diff < 24) return `${diff}시간 전`;
+  const d = Math.floor(diff / 24);
+  return d < 7 ? `${d}일 전` : iso.slice(5, 10).replace("-", ".");
+}
