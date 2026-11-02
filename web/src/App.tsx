@@ -15,6 +15,8 @@ import {
   nearStages,
   regionLabel,
   relativeDay,
+  regionScore,
+  sortNewsForProfile,
   type Profile,
   type Stop,
   type YearMonth,
@@ -334,7 +336,7 @@ function News({ p, now }: { p: Profile; now: YearMonth }) {
   const [filter, setFilter] = useState<NewsFilter>("mine");
   const stages = nearStages(p.birthYear, now);
   const nowMs = Date.now();
-  const list = news.items.filter((n) =>
+  const list = sortNewsForProfile(news.items, p).filter((n) =>
     filter === "all" ? true : filter === "official" ? n.official : n.stages.some((s) => (stages as string[]).includes(s)),
   );
   const chips: [NewsFilter, string][] = [
@@ -367,6 +369,7 @@ function News({ p, now }: { p: Profile; now: YearMonth }) {
               <a href={n.url} target="_blank" rel="noopener noreferrer">
                 <span className="news-meta">
                   {n.official && <span className="off">공식</span>}
+                  {regionScore(n, p) >= 2 && <span className="local">우리 지역</span>}
                   <span>{n.publisher}</span>
                   <span className="num">· {relativeDay(n.publishedAt, nowMs)}</span>
                 </span>

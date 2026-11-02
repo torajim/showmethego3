@@ -83,6 +83,10 @@ export interface NewsItem {
   publishedAt: string;
   tags: string[];
   stages: string[];
+  /** seoul / gyeonggi / other. 비어 있으면 전국 소식. */
+  regions?: string[];
+  /** 제목에 나온 서울·경기 지명 */
+  places?: string[];
 }
 
 export const news = newsJson as { updatedAt: string; source: string; items: NewsItem[] };

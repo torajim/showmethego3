@@ -38,6 +38,11 @@ QUERIES = [
     "고입 자사고 외고 과학고",
     "의대 정원 지역인재",
     "교육부 대입",
+    # 서비스 지역(서울·경기) 소식
+    "서울시교육청 고입",
+    "서울 중학교 배정",
+    "경기도교육청 고입",
+    "경기 고교 평준화",
     # 공식 발표(대한민국 정책브리핑에 실린 교육부·교육청 보도자료)
     "site:korea.kr 수능",
     "site:korea.kr 대입",
@@ -71,6 +76,22 @@ TAGS: list[tuple[str, str, tuple[str, ...]]] = [
     ("고입", "middle", ("고입", "자사고", "외고", "국제고", "과학고", "영재학교", "특목고", "일반고 배정", "평준화")),
     ("중학교", "middle", ("중학교 배정", "중학교 입학", "중학생")),
 ]
+
+# 지역 판별용 지명. 다른 시·도에도 있는 이름(중구, 동구, 강서구 등)은 넣지 않는다.
+SEOUL_PLACES = (
+    "서울", "종로", "용산구", "성동구", "광진구", "동대문", "중랑구", "성북구", "강북구", "도봉구", "노원구",
+    "은평구", "서대문", "마포구", "양천구", "구로구", "금천구", "영등포", "동작구", "관악구", "서초구",
+    "강남구", "송파구", "강동구", "대치동", "목동",
+)
+GYEONGGI_PLACES = (
+    "경기", "수원", "성남", "분당", "용인", "고양", "일산", "부천", "안산", "안양", "과천", "군포", "의왕",
+    "광명", "의정부", "화성", "동탄", "평택", "시흥", "파주", "김포", "남양주", "하남", "구리", "오산",
+    "이천", "안성", "양주", "포천", "동두천", "여주", "가평", "양평", "연천",
+)
+OTHER_PLACES = (
+    "부산", "대구", "인천", "광주광역", "광주시교육청", "대전", "울산", "세종", "강원", "충북", "충남", "충청",
+    "전북", "전남", "전라", "경북", "경남", "경상", "제주", "창원", "청주", "천안", "전주", "포항",
+)
 
 RELEVANT = tuple(k for _, _, keys in TAGS for k in keys)
 TITLE_SUFFIX = re.compile(r"\s+-\s+[^-]+$")
@@ -111,6 +132,24 @@ def tag(title: str) -> tuple[list[str], list[str]]:
     return tags, stages
 
 
+def places(title: str) -> tuple[list[str], list[str]]:
+    """제목에 나온 지역 코드(seoul/gyeonggi/other)와 서울·경기 지명."""
+    regions: list[str] = []
+    found: list[str] = []
+    for code, names in (("seoul", SEOUL_PLACES), ("gyeonggi", GYEONGGI_PLACES)):
+        hit = [n for n in names if n in title]
+        if hit:
+            regions.append(code)
+            found += hit
+    # "경기도"가 아니라 "경기 침체" 같은 일반 명사로 쓰인 경우를 줄이기 위해 교육 맥락 지명이 함께 있을 때만 인정
+    if "gyeonggi" in regions and found == ["경기"] and not any(k in title for k in ("경기도", "경기교육", "경기 교육", "경기 고", "경기 중")):
+        regions.remove("gyeonggi")
+        found = []
+    if any(n in title for n in OTHER_PLACES):
+        regions.append("other")
+    return regions, found
+
+
 def parse(xml_bytes: bytes, now: datetime) -> list[dict]:
     items = []
     root = ET.fromstring(xml_bytes)
@@ -133,6 +172,7 @@ def parse(xml_bytes: bytes, now: datetime) -> list[dict]:
         if not any(k in title for k in RELEVANT):
             continue
         tags, stages = tag(title)
+        regions, found_places = places(title)
         items.append(
             {
                 "id": hashlib.sha1(re.sub(r"\W", "", title).encode()).hexdigest()[:12],
@@ -144,6 +184,8 @@ def parse(xml_bytes: bytes, now: datetime) -> list[dict]:
                 "publishedAt": published.astimezone(KST).isoformat(timespec="minutes"),
                 "tags": tags,
                 "stages": stages,
+                "regions": regions,
+                "places": found_places,
             }
         )
     return items

@@ -225,3 +225,32 @@ export function copula(grade: string): string {
   const code = last.charCodeAt(0) - 0xac00;
   return code >= 0 && code < 11172 && code % 28 === 0 ? "예요" : "이에요";
 }
+
+const DISTRICT_PLACES: Record<string, string[]> = {
+  안양권: ["안양", "과천", "군포", "의왕"],
+  성남: ["성남", "분당"],
+  고양: ["고양", "일산"],
+};
+
+/** 뉴스 정렬 점수: 우리 학군 3 > 우리 시·도 2 > 전국 1 > 다른 지역만 0. */
+export function regionScore(item: { regions?: string[]; places?: string[] }, p: Profile): number {
+  const regions = item.regions ?? [];
+  const places = item.places ?? [];
+  if (p.district) {
+    const mine = DISTRICT_PLACES[p.district] ?? [p.district];
+    if (places.some((x) => mine.includes(x))) return 3;
+  }
+  if (regions.includes(p.region)) return 2;
+  if (regions.length === 0) return 1;
+  return 0;
+}
+
+/** 지역 점수가 높은 순, 같으면 최신 순. */
+export function sortNewsForProfile<T extends { regions?: string[]; places?: string[]; publishedAt: string }>(
+  items: T[],
+  p: Profile,
+): T[] {
+  return [...items].sort(
+    (a, b) => regionScore(b, p) - regionScore(a, p) || b.publishedAt.localeCompare(a.publishedAt),
+  );
+}

@@ -183,3 +183,4 @@ body { margin: 0; }
 .news b { font-size: 15.5px; font-weight: 600; line-height: 1.45; word-break: keep-all; overflow-wrap: anywhere; }
 .news-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 12.5px; color: var(--sub); }
 .news-meta .off { font-size: 10.5px; font-weight: 700; background: var(--accent); color: var(--surface); border-radius: 4px; padding: 1px 5px; }
+.news-meta .local { font-size: 10.5px; font-weight: 700; background: var(--ok-soft); color: var(--ok); border-radius: 4px; padding: 1px 5px; }
