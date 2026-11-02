@@ -1,0 +1,223 @@
+{
+  "rules": [
+    {
+      "id": "school-entry-age",
+      "stage": "all",
+      "category": "학제",
+      "title": "초등학교 입학 연도는 출생 연도 + 7년",
+      "summary": "2009학년도부터 1월 1일~12월 31일 출생자가 같은 해 3월에 함께 초등학교에 입학합니다. 따라서 생년월이 1·2월이어도 같은 해 출생자와 같은 학년입니다. 조기입학이나 입학유예를 한 경우는 학년이 달라지므로 직접 조정해야 합니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": [],
+      "note": "초·중등교육법 제13조(취학 의무) 기준. 개별 출처는 4단계에서 법령 링크로 보강 예정."
+    },
+    {
+      "id": "csat-selective-2022-2027",
+      "stage": "university",
+      "category": "수능",
+      "title": "선택형 수능 (2027학년도까지)",
+      "summary": "국어·수학은 공통과목 + 선택과목, 탐구는 최대 2과목 선택 구조입니다. 2027학년도 수능(2026년 11월 19일 시행)이 이 체제의 마지막 시험입니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2008 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["csat-2027-date", "moe-2028-reform"]
+    },
+    {
+      "id": "csat-integrated-2028",
+      "stage": "university",
+      "category": "수능",
+      "title": "통합형 수능 (2028학년도부터)",
+      "summary": "국어·수학·사회탐구·과학탐구·직업탐구에서 선택과목이 없어지고 모든 수험생이 같은 과목을 봅니다. 탐구는 통합사회·통합과학을 치릅니다. 심화수학(미적분Ⅱ·기하)은 도입되지 않았습니다.",
+      "appliesTo": { "birthYearFrom": 2009, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["moe-2028-reform"],
+      "note": "2013년생 이후에는 추가 개편 가능성이 있어 매년 재확인이 필요합니다."
+    },
+    {
+      "id": "retake-risk-2008",
+      "stage": "university",
+      "category": "전략",
+      "title": "2008년생은 재수 시 시험 체제가 바뀝니다",
+      "summary": "2028학년도부터 수능 과목 구조가 통합형으로 바뀌므로, 2027학년도 입시에서 재수를 택하면 다른 과목 구조의 수능을 준비해야 합니다. 현역 입시의 중요도가 상대적으로 큽니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2008 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["moe-2028-reform", "csat-2027-date"]
+    },
+    {
+      "id": "hs-grade-9-levels",
+      "stage": "high",
+      "category": "내신",
+      "title": "고교 내신 9등급 상대평가",
+      "summary": "2015 개정 교육과정 기준으로 내신이 9등급 상대평가(1등급 상위 4%)로 산출됩니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2008 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["newsis-2025-hs-changes"]
+    },
+    {
+      "id": "hs-grade-5-levels",
+      "stage": "high",
+      "category": "내신",
+      "title": "고교 내신 5등급 상대평가 + 성취도 병기",
+      "summary": "2025년 고1부터 내신이 5등급 상대평가로 바뀌어 1등급이 상위 10%까지로 넓어집니다. 성취도(A~E)도 함께 기재됩니다. 예체능·과학탐구실험, 사회·과학 융합선택과목은 절대평가만 합니다. 등급 하나의 무게가 커지므로 한 과목의 실수가 미치는 영향이 큽니다.",
+      "appliesTo": { "birthYearFrom": 2009, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["moe-2028-reform", "newsis-2025-hs-changes"]
+    },
+    {
+      "id": "credit-system",
+      "stage": "high",
+      "category": "고교학점제",
+      "title": "고교학점제 전면 시행",
+      "summary": "2025년 고1부터 고교학점제가 전면 시행되어 학생이 진로에 맞춰 과목을 고르고, 출석률과 학업성취율 기준을 넘어야 과목을 이수합니다. 과목 선택이 곧 대입 학생부종합전형의 근거가 되므로 중3 때부터 진로와 선택과목을 함께 그려두는 것이 좋습니다.",
+      "appliesTo": { "birthYearFrom": 2009, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["newsis-2025-hs-changes", "moe-credit-2026"]
+    },
+    {
+      "id": "credit-system-relief-2026",
+      "stage": "high",
+      "category": "고교학점제",
+      "title": "2026학년도 이수 기준 완화",
+      "summary": "2026학년도 고1·고2부터 선택과목은 출석률만으로 이수를 판단하고, 출석 미달 시 온라인 추가 학습으로 학점을 받을 수 있습니다. 공통과목은 학업성취율 기준이 유지되지만 최소 성취수준 보장지도를 마치면 이수됩니다. 수행평가 비율·횟수는 학교 자율로 조정됩니다.",
+      "appliesTo": { "birthYearFrom": 2009, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["moe-credit-2026"],
+      "note": "2026학년도 고1·고2(2009~2010년생)에 확정 적용. 이후 학년의 적용 방식은 매년 재확인 필요."
+    },
+    {
+      "id": "curriculum-2022-middle",
+      "stage": "middle",
+      "category": "교육과정",
+      "title": "중학교 2022 개정 교육과정",
+      "summary": "2025년 중1부터 2022 개정 교육과정이 적용됩니다. 중학교 성적은 성취평가(A~E)로 기록되며, 고입 전형에서 이 성적이 쓰입니다.",
+      "appliesTo": { "birthYearFrom": 2012, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["newsis-2025-hs-changes"]
+    },
+    {
+      "id": "regional-talent-medical",
+      "stage": "middle",
+      "category": "지역인재",
+      "title": "의·치·한·약·간호 지역인재전형: 중학교부터 비수도권",
+      "summary": "2022년 이후 중학교 입학자부터 비수도권 의과·치과·한의과·약학·간호 계열의 지역인재전형에 지원하려면 비수도권 중학교를 졸업하고, 그 대학이 있는 지역의 고등학교를 졸업하며, 중·고 재학 기간 동안 학교가 있는 지역에 거주해야 합니다. 서울·경기 거주 가정이 이 전형을 노린다면 이사 결정은 중학교 입학 전에 해야 합니다.",
+      "appliesTo": { "birthYearFrom": 2009, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["regional-talent-middle", "regional-talent-exception-2026"],
+      "note": "각종학교 졸업생 인정 등 세부 보완이 2026년 10월 기준 추진 중."
+    },
+    {
+      "id": "medical-quota-2027",
+      "stage": "university",
+      "category": "의약학",
+      "title": "의대 정원 2027학년도 3,548명, 지역의사제 시행",
+      "summary": "2027학년도 의대 정원은 3,548명(2024학년도 대비 490명 증원)으로 확정됐고, 증원분은 지역의사제 전형으로 선발합니다. 지역의사제로 입학하면 졸업 후 10년간 지역 공공의료기관 등에서 근무해야 합니다. 2028~2031학년도는 3,671명 규모로 운영될 예정입니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2012 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["med-quota-2027"],
+      "note": "2028~2031학년도 정원은 '예정'으로 보도됨. 2032학년도 이후(2013년생~)는 미정."
+    },
+    {
+      "id": "regional-doctor-2028",
+      "stage": "university",
+      "category": "의약학",
+      "title": "2028학년도 지역의사전형은 대부분 수시",
+      "summary": "2028학년도 지역의사전형 선발 인원 610명 가운데 약 93.6%가 수시(학생부종합 310명, 학생부교과 261명)입니다. 정시로 뽑는 대학은 3곳뿐이어서 내신과 학생부 관리가 사실상 핵심입니다.",
+      "appliesTo": { "birthYearFrom": 2009, "birthYearTo": 2009 },
+      "regions": ["KR"],
+      "status": "confirmed",
+      "sources": ["regional-doctor-2028"],
+      "note": "진학사 분석 보도 기준. 최종 인원은 대학별 시행계획으로 확인."
+    },
+    {
+      "id": "special-hs-retained",
+      "stage": "high",
+      "category": "고교 유형",
+      "title": "자사고·외고·국제고 존치",
+      "summary": "2024년 초·중등교육법 시행령 개정으로 자사고·외고·국제고가 일반고로 일괄 전환되지 않고 유지됩니다. 이들 학교는 후기에 선발하며, 전국단위 자사고는 지역인재 20% 선발이 의무화됐습니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2020 },
+      "regions": ["KR"],
+      "status": "needs_verification",
+      "sources": ["special-hs-retained-2024"],
+      "note": "2025년 이후 정부의 고교 체제 정책 변화 여부를 아직 확인하지 못했습니다. 공개 전 교육부 자료로 재확인 필요."
+    },
+    {
+      "id": "seoul-hs-absolute-grade",
+      "stage": "high",
+      "category": "고입",
+      "title": "서울 일반고 배정: 석차 대신 절대평가 성적",
+      "summary": "서울은 2025학년도 고입부터 일반고 지원자를 중학교 석차백분율이 아닌 절대평가(성취도) 성적으로 선발한 뒤, 지망·정원·통학 편의를 고려해 단계별로 추첨 배정합니다. 성적 산출도 담임이 아닌 교육청이 합니다.",
+      "appliesTo": { "birthYearFrom": 2009, "birthYearTo": 2020 },
+      "regions": ["seoul"],
+      "status": "confirmed",
+      "sources": ["seoul-hs-absolute-grade", "sen-admission-board"]
+    },
+    {
+      "id": "seoul-hs-lottery-stages",
+      "stage": "high",
+      "category": "고입",
+      "title": "서울 후기 일반고 단계별 추첨 배정",
+      "summary": "서울 후기 일반고는 1단계(서울 전체 학교 중 지망, 정원 일부), 2단계(거주지 학교군 내 지망), 3단계(통합학교군 내 통학 편의 고려)의 단계별 추첨으로 배정됩니다. 원하는 학교가 있다면 1·2단계 지망 전략이 중요합니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2020 },
+      "regions": ["seoul"],
+      "status": "needs_verification",
+      "sources": ["sen-admission-board"],
+      "note": "단계별 정원 비율(예: 1단계 20%, 2단계 40%)은 2027학년도 전형요강 원문으로 확인 후 수치를 넣을 예정."
+    },
+    {
+      "id": "gyeonggi-equalized-hs",
+      "stage": "high",
+      "category": "고입",
+      "title": "경기 평준화 지역 일반고: 내신 200점 선발 후 추첨",
+      "summary": "경기도 평준화 학군(수원, 성남, 안양권, 부천, 고양, 광명, 안산, 의정부, 용인)은 학군별 일반고 정원만큼 중학교 내신(200점 만점)으로 먼저 선발한 뒤 '선복수지원-후추첨'으로 배정합니다. 수원·성남·안양권·고양·안산·용인은 학군내배정과 구역내배정 2단계, 부천·광명·의정부는 학군내배정 1단계로 진행합니다.",
+      "appliesTo": { "birthYearFrom": 2011, "birthYearTo": 2020 },
+      "regions": ["gyeonggi"],
+      "status": "confirmed",
+      "sources": ["goe-2027-hs-assignment", "goe-satp"]
+    },
+    {
+      "id": "gyeonggi-middle-grade-1-2",
+      "stage": "middle",
+      "category": "고입",
+      "title": "경기 고입: 중1 2학기 내신부터 반영 (2027학년도~)",
+      "summary": "경기도는 2027학년도 고입부터 중학교 1학년 2학기 내신을 고입 전형에 반영합니다. 중1 때부터 성적이 고입에 쓰인다는 뜻입니다.",
+      "appliesTo": { "birthYearFrom": 2011, "birthYearTo": 2020 },
+      "regions": ["gyeonggi"],
+      "status": "confirmed",
+      "sources": ["goe-2027-hs-assignment"]
+    },
+    {
+      "id": "gyeonggi-non-equalized",
+      "stage": "high",
+      "category": "고입",
+      "title": "경기 비평준화 지역: 학교별 내신 선발",
+      "summary": "평준화 학군이 아닌 경기 지역의 일반고는 학교별로 중학교 내신 등을 기준으로 선발합니다. 지원하는 학교에 따라 합격선이 다르므로 중학교 내신 관리가 곧 고입 전략입니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2020 },
+      "regions": ["gyeonggi"],
+      "status": "needs_verification",
+      "sources": ["goe-satp"],
+      "note": "비평준화 지역 목록과 선발 기준 세부는 2027학년도 경기도 고입 기본계획 원문으로 확인 필요."
+    },
+    {
+      "id": "middle-school-assignment",
+      "stage": "middle",
+      "category": "중입",
+      "title": "중학교는 거주지 기준 학교군·중학구 추첨 배정",
+      "summary": "서울·경기 모두 중학교는 시험 없이 거주지가 속한 학교군 또는 중학구 안에서 추첨으로 배정됩니다. 원하는 중학교가 있다면 배정 기준일 전에 해당 학교군에 실제로 거주해야 하며, 근거리 통학 대상자 지정 같은 예외 절차가 있습니다.",
+      "appliesTo": { "birthYearFrom": 2008, "birthYearTo": 2020 },
+      "regions": ["seoul", "gyeonggi"],
+      "status": "needs_verification",
+      "sources": ["sen-admission-board", "goe-satp"],
+      "note": "학교군 목록, 배정 기준일, 근거리 지정 요건은 교육지원청별 원문으로 확인 후 지역별 데이터로 분리 예정."
+    }
+  ]
+}
