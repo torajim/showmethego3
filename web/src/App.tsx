@@ -24,13 +24,14 @@ import { Sheet, Sources, type SheetContent } from "./ui";
 import { KEYS, readJson, writeJson } from "./storage";
 import { ForkTab } from "./Fork";
 import { ThisMonth, WhatsNewList, whatsNew } from "./Today";
+import { SchoolsSection } from "./Schools";
 
-type Tab = "route" | "fork" | "news" | "gloss";
+type Tab = "route" | "fork" | "news" | "school";
 const TABS: [Tab, string][] = [
   ["route", "노선도"],
   ["fork", "갈림길"],
   ["news", "뉴스"],
-  ["gloss", "용어"],
+  ["school", "학교"],
 ];
 
 const EXAMPLE: Profile = { birthYear: 2012, birthMonth: 5, region: "gyeonggi", district: "용인" };
@@ -43,7 +44,8 @@ function loadProfile(): Profile | null {
 const saveProfile = (p: Profile | null) => writeJson(KEYS.profile, p);
 
 const tabFromHash = (): Tab => {
-  const h = window.location.hash.replace("#", "");
+  const raw = window.location.hash.replace("#", "");
+  const h = raw === "gloss" ? "school" : raw; // 예전 '용어' 탭 링크
   return (TABS.find(([t]) => t === h)?.[0] ?? "route") as Tab;
 };
 
@@ -135,7 +137,12 @@ export default function App() {
           <ForkTab p={profile} now={now} openSheet={setSheet} closeSheet={() => setSheet(null)} />
         )}
         {tab === "news" && <News p={profile} now={now} />}
-        {tab === "gloss" && <Glossary />}
+        {tab === "school" && (
+          <>
+            <SchoolsSection p={profile} now={now} openSheet={setSheet} />
+            <Glossary />
+          </>
+        )}
         <Notice />
         {!isExample && (
           <button
@@ -561,10 +568,10 @@ const ICON_PATHS: Record<Tab, ReactNode> = {
       <path d="M8 9h8M8 13h8M8 17h5" />
     </>
   ),
-  gloss: (
+  school: (
     <>
-      <path d="M5 4h10a4 4 0 0 1 4 4v12H9a4 4 0 0 1-4-4z" />
-      <path d="M9 9h6M9 13h4" />
+      <path d="M3 10 12 5l9 5-9 5z" />
+      <path d="M7 12.5V17c3 2 7 2 10 0v-4.5M21 10v5" />
     </>
   ),
 };
