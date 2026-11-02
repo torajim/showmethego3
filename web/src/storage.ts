@@ -23,4 +23,5 @@ export const KEYS = {
   checks: "showmethego3.checks",
   compare: "showmethego3.compare",
   lastVisit: "showmethego3.lastVisit",
+  schoolArea: "showmethego3.schoolArea",
 } as const;

@@ -67,3 +67,10 @@ npm run build    # web/dist
 - 대한민국 정책브리핑, 교육부, 교육청, 평가원, 대교협 출처는 `official: true`로 표시되어 화면에 "공식" 배지가 붙습니다.
 - `.github/workflows/news.yml`이 매일 06:00(KST)에 수집하고, 바뀐 내용이 있으면 `main`에 커밋한 뒤 사이트를 다시 배포합니다.
 - 바로 갱신하려면 Actions → **news** → **Run workflow**를 누르세요.
+
+## 우리 동네 학교 (`data/schools.json`)
+
+- `scripts/fetch_schools.py`가 [학교알리미](https://www.schoolinfo.go.kr) 공시정보 OpenAPI에서 서울·경기 중·고등학교 기본 정보(학생·학급·교원 수, 전입·전출, 동아리, 설립·남녀공학·고교 유형)를 모은다. 출처: 공공누리 제1유형(출처표시).
+- 인증키는 저장소 Secrets의 `SCHOOLINFO_API_KEY`. 2026년 이후 발급 키는 시·군·구 코드가 필수라서 시·군·구마다 호출한다.
+- `.github/workflows/schools.yml`: 매월 2일 06:30 KST, 수집 스크립트가 main에 들어올 때, Actions의 "Run workflow"로 실행. 바뀐 내용이 있으면 커밋하고 사이트를 다시 배포한다.
+- 진학 실적·학업성취처럼 학교 서열로 읽힐 수 있는 정보는 다루지 않는다.

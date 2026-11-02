@@ -1,0 +1,59 @@
+name: schools
+
+# 학교알리미 공시정보로 서울·경기 중·고등학교 기본 정보를 갱신한다.
+# 공시는 1년에 몇 번만 바뀌므로 매월 2일 06:30 KST(UTC 1일 21:30)에 확인하고,
+# 수집 스크립트가 바뀌어 main에 들어오면 바로 한 번 실행한다.
+# Actions 탭에서 "Run workflow"로 언제든 수동 실행할 수 있다.
+# 인증키: 저장소 Secrets의 SCHOOLINFO_API_KEY
+on:
+  schedule:
+    - cron: "30 21 1 * *"
+  push:
+    branches: [main]
+    paths: [scripts/fetch_schools.py]
+  workflow_dispatch:
+
+concurrency:
+  group: schools
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_schools.py
+        env:
+          SCHOOLINFO_API_KEY: ${{ secrets.SCHOOLINFO_API_KEY }}
+      - id: commit
+        run: |
+          if git diff --quiet -- data/schools.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "학교 정보 변경 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/schools.json
+          git commit -m "Update school info from 학교알리미 ($(TZ=Asia/Seoul date +%Y-%m-%d))"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: fetch
+    if: needs.fetch.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
