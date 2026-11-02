@@ -1,3 +1,4 @@
+import newsJson from "../../data/news.json";
 import metaJson from "../../data/meta.json";
 import sourcesJson from "../../data/sources.json";
 import rulesJson from "../../data/rules.json";
@@ -70,3 +71,18 @@ export const tracks = tracksJson.tracks as Track[];
 
 export const sourceById = new Map(sources.map((s) => [s.id, s]));
 export const ruleById = new Map(rules.map((r) => [r.id, r]));
+
+
+export interface NewsItem {
+  id: string;
+  title: string;
+  url: string;
+  publisher: string;
+  publisherUrl: string;
+  official: boolean;
+  publishedAt: string;
+  tags: string[];
+  stages: string[];
+}
+
+export const news = newsJson as { updatedAt: string; source: string; items: NewsItem[] };

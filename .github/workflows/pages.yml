@@ -6,6 +6,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_call: # news.yml이 뉴스 갱신 후 호출
 
 permissions:
   contents: read
@@ -24,6 +25,8 @@ jobs:
         working-directory: web
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main # 뉴스 커밋 직후 호출될 때도 최신 main을 빌드
       - uses: actions/setup-node@v4
         with:
           node-version: 22
