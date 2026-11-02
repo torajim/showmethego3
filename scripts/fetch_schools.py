@@ -156,8 +156,10 @@ def collect(key: str, year: int, pause: float = 0.15) -> list[dict]:
 def main(argv: list[str]) -> int:
     key = os.environ.get("SCHOOLINFO_API_KEY", "").strip()
     if not key:
-        print("SCHOOLINFO_API_KEY가 없어 건너뜁니다.", file=sys.stderr)
-        return 0
+        print("SCHOOLINFO_API_KEY가 없습니다. 저장소 Settings → Secrets and variables → Actions → "
+              "Repository secrets에 같은 이름으로 넣어 주세요.", file=sys.stderr)
+        # GitHub Actions에서는 실패로 표시해 키 누락을 바로 알 수 있게 한다.
+        return 1 if os.environ.get("GITHUB_ACTIONS") == "true" else 0
     now = datetime.now(KST)
     schools: list[dict] = []
     year = now.year

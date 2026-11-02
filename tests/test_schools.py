@@ -46,14 +46,14 @@ class SchoolsTest(unittest.TestCase):
         self.assertIsNone(s["students"])
         self.assertIsNone(s["clubs"])
 
-    def test_no_key_is_noop(self):
+    def test_no_key(self):
         import os
-        old = os.environ.pop("SCHOOLINFO_API_KEY", None)
-        try:
-            self.assertEqual(fs.main([]), 0)
-        finally:
-            if old is not None:
-                os.environ["SCHOOLINFO_API_KEY"] = old
+        from unittest import mock
+        env = {k: v for k, v in os.environ.items() if k not in ("SCHOOLINFO_API_KEY", "GITHUB_ACTIONS")}
+        with mock.patch.dict(os.environ, env, clear=True):
+            self.assertEqual(fs.main([]), 0)  # 로컬에서는 조용히 건너뜀
+            os.environ["GITHUB_ACTIONS"] = "true"
+            self.assertEqual(fs.main([]), 1)  # Actions에서는 실패로 표시
 
 
 if __name__ == "__main__":
