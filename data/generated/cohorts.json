@@ -1,0 +1,479 @@
+{
+  "generatedFrom": "2026-11-02",
+  "cohorts": [
+    {
+      "birthYear": 2008,
+      "elementaryEntry": 2015,
+      "middleEntry": 2021,
+      "highEntry": 2024,
+      "csatExamYear": 2026,
+      "admissionYear": 2027,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-selective-2022-2027",
+          "retake-risk-2008",
+          "hs-grade-9-levels",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-selective-2022-2027",
+          "retake-risk-2008",
+          "hs-grade-9-levels",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2009,
+      "elementaryEntry": 2016,
+      "middleEntry": 2022,
+      "highEntry": 2025,
+      "csatExamYear": 2027,
+      "admissionYear": 2028,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "regional-doctor-2028",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "regional-doctor-2028",
+          "special-hs-retained",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2010,
+      "elementaryEntry": 2017,
+      "middleEntry": 2023,
+      "highEntry": 2026,
+      "csatExamYear": 2028,
+      "admissionYear": 2029,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2011,
+      "elementaryEntry": 2018,
+      "middleEntry": 2024,
+      "highEntry": 2027,
+      "csatExamYear": 2029,
+      "admissionYear": 2030,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2012,
+      "elementaryEntry": 2019,
+      "middleEntry": 2025,
+      "highEntry": 2028,
+      "csatExamYear": 2030,
+      "admissionYear": 2031,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "medical-quota-2027",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2013,
+      "elementaryEntry": 2020,
+      "middleEntry": 2026,
+      "highEntry": 2029,
+      "csatExamYear": 2031,
+      "admissionYear": 2032,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2014,
+      "elementaryEntry": 2021,
+      "middleEntry": 2027,
+      "highEntry": 2030,
+      "csatExamYear": 2032,
+      "admissionYear": 2033,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2015,
+      "elementaryEntry": 2022,
+      "middleEntry": 2028,
+      "highEntry": 2031,
+      "csatExamYear": 2033,
+      "admissionYear": 2034,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2016,
+      "elementaryEntry": 2023,
+      "middleEntry": 2029,
+      "highEntry": 2032,
+      "csatExamYear": 2034,
+      "admissionYear": 2035,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2017,
+      "elementaryEntry": 2024,
+      "middleEntry": 2030,
+      "highEntry": 2033,
+      "csatExamYear": 2035,
+      "admissionYear": 2036,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2018,
+      "elementaryEntry": 2025,
+      "middleEntry": 2031,
+      "highEntry": 2034,
+      "csatExamYear": 2036,
+      "admissionYear": 2037,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2019,
+      "elementaryEntry": 2026,
+      "middleEntry": 2032,
+      "highEntry": 2035,
+      "csatExamYear": 2037,
+      "admissionYear": 2038,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    },
+    {
+      "birthYear": 2020,
+      "elementaryEntry": 2027,
+      "middleEntry": 2033,
+      "highEntry": 2036,
+      "csatExamYear": 2038,
+      "admissionYear": 2039,
+      "rulesByRegion": {
+        "seoul": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "seoul-hs-absolute-grade",
+          "seoul-hs-lottery-stages",
+          "middle-school-assignment"
+        ],
+        "gyeonggi": [
+          "school-entry-age",
+          "csat-integrated-2028",
+          "hs-grade-5-levels",
+          "credit-system",
+          "credit-system-relief-2026",
+          "curriculum-2022-middle",
+          "regional-talent-medical",
+          "special-hs-retained",
+          "gyeonggi-equalized-hs",
+          "gyeonggi-middle-grade-1-2",
+          "gyeonggi-non-equalized",
+          "middle-school-assignment"
+        ]
+      }
+    }
+  ]
+}

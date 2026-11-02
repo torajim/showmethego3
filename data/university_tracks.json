@@ -1,0 +1,64 @@
+{
+  "tracks": [
+    {
+      "id": "susi-gyogwa",
+      "name": "학생부교과전형",
+      "season": "수시",
+      "mainFactor": "고교 내신 등급",
+      "summary": "내신 성적이 당락을 좌우합니다. 수능 최저학력기준을 두는 대학이 많습니다. 학교장 추천이 필요한 지역균형 전형도 대부분 이 유형입니다.",
+      "goodWhen": ["내신을 잘 받을 수 있는 고교 환경", "꾸준한 성실형"],
+      "status": "confirmed",
+      "sources": ["adiga"]
+    },
+    {
+      "id": "susi-jonghap",
+      "name": "학생부종합전형",
+      "season": "수시",
+      "mainFactor": "학교생활기록부 전체(과목 선택, 세부능력 특기사항, 활동)",
+      "summary": "성적뿐 아니라 어떤 과목을 골라 어떻게 공부했는지를 종합 평가합니다. 고교학점제에서는 진로에 맞는 과목 선택이 곧 평가 근거가 됩니다.",
+      "goodWhen": ["진로가 비교적 일찍 정해진 경우", "수업 참여와 탐구 기록이 풍부한 경우"],
+      "status": "confirmed",
+      "sources": ["adiga", "moe-2028-reform"]
+    },
+    {
+      "id": "susi-nonsul",
+      "name": "논술전형",
+      "season": "수시",
+      "mainFactor": "대학별 논술 시험",
+      "summary": "대학이 직접 출제하는 논술 시험이 핵심이고, 내신 반영 비중은 작습니다. 수능 최저학력기준을 함께 요구하는 경우가 많습니다.",
+      "goodWhen": ["내신이 아쉽지만 글쓰기·수리 논증에 강한 경우"],
+      "status": "confirmed",
+      "sources": ["adiga"]
+    },
+    {
+      "id": "jeongsi",
+      "name": "수능위주전형(정시)",
+      "season": "정시",
+      "mainFactor": "수능 점수",
+      "summary": "수능 성적으로 선발합니다. 일부 대학은 학생부 교과평가를 함께 반영합니다. 2028학년도부터는 통합형 수능으로 치릅니다.",
+      "goodWhen": ["내신 경쟁이 치열한 고교(자사고·학군지)", "수능형 학습에 강한 경우"],
+      "status": "confirmed",
+      "sources": ["adiga", "moe-2028-reform"]
+    },
+    {
+      "id": "regional-talent",
+      "name": "지역인재전형",
+      "season": "수시·정시",
+      "mainFactor": "지역 요건 + 내신 또는 수능",
+      "summary": "비수도권 대학이 해당 지역 고교 졸업자를 대상으로 뽑는 전형입니다. 의·치·한·약·간호 계열은 중학교부터 비수도권이어야 합니다.",
+      "goodWhen": ["비수도권 거주", "지방 의약학계열 목표"],
+      "status": "confirmed",
+      "sources": ["regional-talent-middle"]
+    },
+    {
+      "id": "regional-doctor",
+      "name": "지역의사전형",
+      "season": "수시 중심",
+      "mainFactor": "지역 요건 + 학생부",
+      "summary": "2027학년도부터 시행되는 의대 전형으로, 입학 후 졸업 뒤 10년간 지역 의무 근무 조건이 붙습니다.",
+      "goodWhen": ["지역 의료 진로에 확신이 있는 경우"],
+      "status": "confirmed",
+      "sources": ["med-quota-2027", "regional-doctor-2028"]
+    }
+  ]
+}

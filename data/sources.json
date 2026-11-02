@@ -1,0 +1,130 @@
+{
+  "sources": [
+    {
+      "id": "moe-2028-reform",
+      "title": "미래 사회를 대비하는 2028 대학입시제도 개편 확정안",
+      "publisher": "교육부",
+      "date": "2023-12-27",
+      "url": "https://files-scs.pstatic.net/2024/07/02/Ic4S8r8egU/[교육부+12-27(수)+브리핑시(11시)+보도자료]+(별첨)+미래+사회를+대비하는+2028+대학입시제도+개편+확정안.pdf",
+      "official": true,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "newsis-2025-hs-changes",
+      "title": "올해 신입생부터 고교 현장 격변…1등급 4→10%",
+      "publisher": "뉴시스",
+      "date": "2025-01-02",
+      "url": "https://mobile.newsis.com/view/NISX20250102_0003019022",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "moe-credit-2026",
+      "title": "2026년 달라지는 고교학점제",
+      "publisher": "대한민국 정책브리핑(교육부)",
+      "date": "2026-01-30",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148958816",
+      "official": true,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "csat-2027-date",
+      "title": "2027학년도 수능, 2026년 11월 19일 시행",
+      "publisher": "대학저널",
+      "date": "2026-06-29",
+      "url": "https://dhnews.co.kr/news/view/1065570979216060",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "med-quota-2027",
+      "title": "2027학년도 의대 정원 3548명 최종 확정…내년부터 '지역의사제' 도입",
+      "publisher": "네이트 뉴스",
+      "date": "2026-04-28",
+      "url": "https://m.news.nate.com/view/20260428n35594",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "regional-doctor-2028",
+      "title": "2028 의대 지역의사전형, 수시로 93% 뽑는다",
+      "publisher": "헤럴드경제",
+      "date": "2026-05-12",
+      "url": "https://www.heraldk.com/article/2026051220450061653",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "regional-talent-middle",
+      "title": "現중3, '지역인재 특별전형'으로 의대 가려면 중학교도 지역서 나와야",
+      "publisher": "이투데이",
+      "date": "2024-08-28",
+      "url": "https://www.etoday.co.kr/news/view/2395064",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "regional-talent-exception-2026",
+      "title": "각종학교 졸업생 지역인재 지원자격 보완 보도",
+      "publisher": "경북매일",
+      "date": "2026-10-27",
+      "url": "https://www.kbmaeil.com/article/20261027500169",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "special-hs-retained-2024",
+      "title": "자사고·외고·국제고 존치 확정…\"내달부터 시행령 적용\"",
+      "publisher": "이데일리",
+      "date": "2024-01-16",
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02774886638758376",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "seoul-hs-absolute-grade",
+      "title": "일반고 신입생 석차선발 폐지…절대평가 성적으로 선발",
+      "publisher": "세계일보",
+      "date": "2024-03-29",
+      "url": "https://www.segye.com/view/20240329507919",
+      "official": false,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "sen-admission-board",
+      "title": "서울특별시교육청 고입 자료실 (2027학년도 고입 기본계획·후기고 전형요강·근거리 통학 대상자 지정 계획)",
+      "publisher": "서울특별시교육청",
+      "date": null,
+      "url": "https://www.sen.go.kr/user/bbs/BD_selectBbsList.do?q_bbsSn=1068",
+      "official": true,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "goe-2027-hs-assignment",
+      "title": "2027학년도 경기도 평준화 지역 고등학교 학생 배정 방안",
+      "publisher": "경기도교육청",
+      "date": "2026-08",
+      "url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/08/ccd2bf92-e155-4310-8849-1c988eadf4a3.pdf",
+      "official": true,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "goe-satp",
+      "title": "경기도교육청 고등학교 입학·전학 포털",
+      "publisher": "경기도교육청",
+      "date": null,
+      "url": "https://satp.goe.go.kr",
+      "official": true,
+      "accessed": "2026-11-02"
+    },
+    {
+      "id": "adiga",
+      "title": "대입정보포털 어디가 (대학별 입학전형 시행계획)",
+      "publisher": "한국대학교육협의회",
+      "date": null,
+      "url": "https://www.adiga.kr",
+      "official": true,
+      "accessed": "2026-11-02"
+    }
+  ]
+}
