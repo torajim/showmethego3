@@ -1,15 +1,289 @@
 {
-  "updatedAt": "2026-11-05T10:15+09:00",
+  "updatedAt": "2026-11-06T10:21+09:00",
   "source": "Google 뉴스 RSS 검색 결과(제목·언론사·링크만 저장)",
   "items": [
     {
-      "id": "7c4c9994338b",
-      "title": "강동구, 2028~29 대입전략 온라인 특강 진행…학생·학부모를 위한 ′입시 해설집′",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00a2puN1lJWjRRU1cxek9KdUROZGM2MVZxcEt1TVlkTUsybHNIeUdNVTdXU1VBMkFlMkM5QkRIdkI1Y2pNMW9ZSU1EMm93SzNyZHhnbkVERGUyLVdPZ0dic2Q0S2dPMGtfUkNyTGRhZTc?oc=5",
-      "publisher": "파이낸셜경제",
-      "publisherUrl": "http://www.fnewstv.com",
+      "id": "f75183ce1844",
+      "title": "충남도의회 편삼범 의원 “인구감소지역 ‘동(洞)’ 대입 특별전형 확대해야”",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVTV3cU96OGFyajZWZEhKdElFRUdncFlFRlQ1M09MNUIxWUdnWm81a2Q4cjFBSVFUNzQxeHYwU0o3SkxzRVBOOUlPN0VBNDE0WDNhLUEtX0pyV1R5a3lqMG5TaDVaNjVzTlNmNVkwM01uZmxDU1dGdGFCTklCSm1mbllFcjA4dHJKb3ZVZkpqLU42amxpWm9BeTlHQURfWXN6Y0NFaFVIYk02cmp2YWpaZWIwNW9FX183ZlNYMmVYVktTTklqanc?oc=5",
+      "publisher": "SNS 타임즈",
+      "publisherUrl": "https://www.thesnstime.com",
       "official": false,
-      "publishedAt": "2026-11-05T10:00+09:00",
+      "publishedAt": "2026-11-06T10:11+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "d3ac28b9da12",
+      "title": "예산 덕산중, 학부모 대상 고교학점제·대입전략 연수 진행",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyNWJuc0c2QmFNTmF5VTdmbWs5ZGx5SjZjUFU0SnhaUXotLXFpenlob0M0OVdZT3YtcndvZ09TT1E5c2hSNXhJSlZKNm96SHRmb1o0dmtJbGRIS0Y4dk5QbmdTc0o?oc=5",
+      "publisher": "중도일보",
+      "publisherUrl": "https://m.joongdo.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-06T08:01+09:00",
+      "tags": [
+        "대입",
+        "고교학점제"
+      ],
+      "stages": [
+        "university",
+        "high"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "e10a9e479230",
+      "title": "한국교원대부설고 2028 대입 대비 전문가 초청 특강 개최",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0ydTN5WjN4UGR4TE13OXo1Y0Q5T0s4S0dfaHNha01pNmJEbHZZemF2ZUFhR09YZThzMmVoblNSYjVvV0c2UUpuald4TjQzR3AyVnlwSUxCaVNiVDZiWHBOQXlFVGdzWm81Ujczag?oc=5",
+      "publisher": "메가충청뉴스",
+      "publisherUrl": "https://www.megaccnews.com",
+      "official": false,
+      "publishedAt": "2026-11-06T06:19+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "6f4a02fa3377",
+      "title": "[단독]'5명 이하' 고교과목 64%는 등급 미표기…\"대입 유불리 따져봐야\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqZGZZdDd1RGY2eVJ6eUpMdnlpLVZOSDFqekV5cDBBQTBfMjFHd2RkX09DWGdiaGtDVDZfRXdQeGFIa1lHODNVZGNvTGxUWUtUM2tXTkpCLUxMQlBPZ0ZlTtIBeEFVX3lxTE1NWFpMdnRYOGVGeFk4RVN4TmEyNnNzaEo5RnNJN0JmOE9NcmVhcFJ4VXl0bmw3YXJyc1ROd1VlaVRsaFltTVFwZHI3a3ItWmxTNmJ0UkFKanlTU3U3ZFl0TVhvWjRjMEJfRm9oc3o3QXlLbmFaWXY2Rg?oc=5",
+      "publisher": "뉴시스",
+      "publisherUrl": "https://www.newsis.com",
+      "official": false,
+      "publishedAt": "2026-11-06T06:00+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "487dac6085be",
+      "title": "편삼범 충남도의원 \"인구감소지역 동 학생도 대입 특별전형 기회 줘야\"",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HVnUxSDJGWDlhY2RoVVpUQzBIbFpBTHk0WmZlUDJsS3VDRjRRdWpOdTVRMWNJUFg4bWlNRmZnWW9NWllUMkg2M2JZbzROS1pSaHdyQ1FtSmEyVm5ZTFhOLXcwMDFZZ3V5UTdz?oc=5",
+      "publisher": "충청뉴스",
+      "publisherUrl": "http://www.ccnnews.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-06T00:16+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "33aac1468907",
+      "title": "편삼범 충남도의원 “인구감소지역 ‘동’ 학생도 대입 기회 넓혀야”",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fRkZFbkowN09XZ0dCRC1lbWkyclRxZFVEb3VDenBhUzZ6LS1MTVZMbi14d2ZLVGZwaS05c1JZQzc5TWVtSTJCV1hCMDBxSnBsMUg0VlRIb2FVQUpDcEg0d3dTZXdRc1BVNXNNdg?oc=5",
+      "publisher": "에이티엔뉴스",
+      "publisherUrl": "https://www.atnnews.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-06T00:13+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "31339a329997",
+      "title": "[5분발언]편삼범 충남도의원 “인구감소지역 '동' 지역도 대입 특별전형 확대해야”",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4yX1hqdG03c0tZVU5MZE5zelNaenZ0OUtubXpHbm1qUlNiSS1wLTMtWUNFM3k4V0d0YXJmQ1pDYkVRN1FVVzNoaGNwcnNoX0xZcC1IX0s3bEdsdUVfZlE?oc=5",
+      "publisher": "놀뫼신문",
+      "publisherUrl": "https://nmn.ff.or.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T22:38+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "5d83b2895cd4",
+      "title": "시행령 개정 대입 지역인재 전형 논란 일단락",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5jc2FLLUdKaUlMSEk5Q2NfcnpuYWY3cDJzUDhMbXd2bTdvdDRmVXBoME1GRlVkZUxkT2ZUUEVySzhkMXhSekJHNTFZRWNjVldGdlNMYmpSWmRvcWRmVnVTUWY0Sk1SQzg?oc=5",
+      "publisher": "KBC광주방송",
+      "publisherUrl": "https://www.ikbc.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T21:25+09:00",
+      "tags": [
+        "대입",
+        "지역인재"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "7276dc02c80a",
+      "title": "\"고향에 남는 게 불이익\"…편삼범 의원 \"인구감소지역 ‘동’도 대입 특별전형 포함해야\"",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB1Q01POS03d1pKc3ZZbUtCT29OUXdZRFdDRGpqMW43MjRvRGhHb1FlWHViSWI2ZDBfMTc0SnJWY3BYMHJzcElKMFptdkRsRE9ZTEhUd054blpJWUs2LVBmUWtOc3JlZHR0R2h5aEhBdmhjNGxjNGs2NjhHYw?oc=5",
+      "publisher": "아산뉴스",
+      "publisherUrl": "http://www.asannews.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T20:56+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "38b651db248e",
+      "title": "충남도의회 편삼범 의원, 인구감소지역 동(洞) 대입 특별전형 확대 촉구",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WSkdlOGczMUV5WU5IMmRTRTF6TDdwLUJGWHlWWTI0WF9Gd0Q2WHhpazR0S3lFQlNGTWRUeGd6dmxIY2hOYWYwMWc5bE5UN3A1LUFuUnN5U0NjR1NSQW1aZ2RlQkxlM0FvN0VOelR3ekVEQQ?oc=5",
+      "publisher": "웹이코노미",
+      "publisherUrl": "https://www.webeconomy.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T19:40+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "02fa8f6fd70c",
+      "title": "영국 약대 유학 간 학생 평균 내신은 수학 5등급…영어는?",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa2dyVU56cXZSY0h6em9Fb0M3eE9tMFMyRHFybGR3S2RPaG1YMUpDRmdaUmE3OGVpMUtKdkRxa3FkSjNnTlFhV19WUjExZm5ZRTZRRjJNREs0cEdDYzI3di11VnRjTWRCM2FwM3hyV2kybXRUdW9kQjAtYS1BcUVNVUxfSENMYlXSAXtBVV95cUxQRlRkMnNTbGVka1dpdFdTTXRFTTFFT0t6SDBjZTlyX2lRdFVSdlFLZUZXTm5qYTZTb0JSNnQwVGFNUW1hRTltTmVsajc0cFZ1N2h4T3ZrbFJFRmJwRGhfRktHeXlzMDVTVGNuTHZaMm9TZGJQZ193YVZxQ0U?oc=5",
+      "publisher": "디지틀조선일보",
+      "publisherUrl": "https://digitalchosun.dizzo.com",
+      "official": false,
+      "publishedAt": "2026-11-05T17:48+09:00",
+      "tags": [
+        "의약학",
+        "내신"
+      ],
+      "stages": [
+        "university",
+        "high"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "bfecd3deffb0",
+      "title": "편삼범 충남도의원 “인구감소지역 동 지역 학생도 대입 특별전형 혜택 줘야”",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZRmJObWZtUmJfbzJmUkpyZ2h5aUQ0XzM2U1RFcV90VDdCaU9XTlFsbEo1bWkxdEEtWmk0U3l1RnROSHJjNV8xR1J5amdoMGE2N0JVbVV2VXEtSkltbHpxUUs2WXZFWHRTWnAw?oc=5",
+      "publisher": "프레시안",
+      "publisherUrl": "https://www.pressian.com",
+      "official": false,
+      "publishedAt": "2026-11-05T17:42+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "aad68c0337eb",
+      "title": "\"인구감소지역 동 지역 학생도 농어촌 대입 특별전형 기회 줘야\"",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0a25yQmgyalpfUUlYc0xhNzVud3ZSNkJvcE9BcnFVbkJZbVhUTGhzRzZjSm10TVBqSHZyMDBPWVRrTXZ2VXgwYjNJWlpIY1RxeU5RczdlY19LcDDSAWBBVV95cUxOelhQX21tRHpxb082MW1hZjRWeEoxMUprTTFvRm5BaXY5bW03bVpKWHpENGVua3NzemZCaU9hNmNKU3l0UlNDWU10WS12VEZrUkxMRFBLbDVCbFBRd1NCTEo?oc=5",
+      "publisher": "연합뉴스",
+      "publisherUrl": "https://www.yna.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T17:29+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "49446fd8cbbe",
+      "title": "수능 부정행위 강력 경고합니다",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NbFM4UVRGdS04THJRcjJ3T0dhcFJfQURhS01yWFhXTDZFOFd6aW01UllDdndTTVpRZjNlNVU1b1lBd3dkdzlCbHJzZWdDYnlDR1VaYjFETDZRajF3elM3alFtMms?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-05T17:23+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "cf48a40ff958",
+      "title": "편삼범 충남도의원 “인구감소지역 동(洞) 학생도 대입 특별전형 기회 확대해야”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJNm92THdGNGRoaklpRlRubzc1QkhRLThQUGhYUE83X2FUOEZFV1VGUGRfQWRYUzlFSUlwbTBpcmxGYVVHbUlsZ1BpcDFncFYxTVo2MjlUYTZ4dnRNUk50Q25xS0ZmUGJBdXVDTDNB?oc=5",
+      "publisher": "뉴스홈(newshome)",
+      "publisherUrl": "https://www.news-home.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T16:29+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "cb6c34710d10",
+      "title": "강동구, 2028~29 대입전략 온라인 특강 진행",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SZUxwejh0ZF9ocC1JZ0ZBcjFkMW1jdUswMEhCQkNFSDJ3ZGk4dVBDUDlqeGE5SkIyb05XOEZOeUhOVW1yYWNrQklEaVhMTHp6RnoyRU9GM2tfTW04UmpBSFVwLUo0bkE0X1dTYnh3?oc=5",
+      "publisher": "서울동부신문",
+      "publisherUrl": "https://www.dongbunews.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T16:19+09:00",
       "tags": [
         "대입"
       ],
@@ -24,13 +298,87 @@
       ]
     },
     {
+      "id": "48dcaefe0dab",
+      "title": "경북교육청, 경국대 의대 신설 맞춰 맞춤형 학습 지원 강화",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CQzFvTlJlRnlRaHNYNUE0ekhPQTZRZlp0ODVONHEwMUtCaUhhUlJ3MzEyeDhidTJQNkltLUtTb3JUazlwb04tMERKQ0xSTHMxU0RHQ3IyX0I2YVVyTUtxUUxjdER5azhZelJRTHdwaDBVVDTSAXNBVV95cUxOQkMxb05SZUZ5UWhzWDVBNHpIT0E2UWZadDg1TjRxMDFLQmlIYVJSdzMxMng4YnUyUDZJbS1LU29yVGs5cG9OLTBESkNMUkxzMVNER0NyMl9CNmFVck1LcVFMY3REeWs4WXpSUUx3cGgwVVQ0?oc=5",
+      "publisher": "한국일보",
+      "publisherUrl": "https://www.hankookilbo.com",
+      "official": false,
+      "publishedAt": "2026-11-05T11:35+09:00",
+      "tags": [
+        "의약학"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "2e1c91261a95",
+      "title": "[미래교육] 고교학점제 \"학교 따라 과목 다르다\"… 전북함께학교에 개선 제안 3가지",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtcE15UFc2cUg0MjM2QUp0c3RTbkstOGd5emNzWVlWOWp3OHFfbklrSEgyNlJqZ2dIYkVCY1drcHBZYUYweUJ1TlBnVXZYMXJWckk0LXBiLWtwTHpWMjY0?oc=5",
+      "publisher": "전북미래교육신문",
+      "publisherUrl": "https://edujb.com",
+      "official": false,
+      "publishedAt": "2026-11-05T10:15+09:00",
+      "tags": [
+        "고교학점제"
+      ],
+      "stages": [
+        "high"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "5762398f8f23",
+      "title": "수능 2주 남았다…'한 문제라도 더' 맞히는 막판 공부법은",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UlZCYjktdjhPeVpMNHRwY2c0Ny02bDhOSGFXRmotaHhuclRlMmlTeTlDbkFvcnBIRnpoMzl3V1ZKLXpNWEdqU25sMzhUZzN0M0xwd1lmYUMyQQ?oc=5",
+      "publisher": "뉴스1",
+      "publisherUrl": "https://www.news1.kr",
+      "official": false,
+      "publishedAt": "2026-11-05T10:06+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
       "id": "42d880c089c7",
       "title": "\"의대 유치 다음은 지역 인재\"…경북교육청, 맞춤형 진학 지원",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qeGJ5ZldGenBDWUdVUmo2RnVCTGhUQmh2MEhTYWlvNXowalpDR0o0MjFDLWFhb2FMQ2p3UVFYWGhEWGJ4OU5qMTlUY2Q5TkdZYWVjOVAxNTRRdnJKeVRIUtIBeEFVX3lxTFBYNzV2RVQwam9Cc1RKcWRURTVFX21EdVM3cWR3N1lpdFh5XzBIdWp3dTJTNnBWUjVkYnlFb0F6dzRMRmZlNTVabVpnTVluRUE4cFJacTZKS0pHTVpueDFIY2ZabWFfb0RYSW5EVmRmcjNUSlRlR3VkTg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYNzV2RVQwam9Cc1RKcWRURTVFX21EdVM3cWR3N1lpdFh5XzBIdWp3dTJTNnBWUjVkYnlFb0F6dzRMRmZlNTVabVpnTVluRUE4cFJacTZKS0pHTVpueDFIY2ZabWFfb0RYSW5EVmRmcjNUSlRlR3VkTtIBeEFVX3lxTFBYNzV2RVQwam9Cc1RKcWRURTVFX21EdVM3cWR3N1lpdFh5XzBIdWp3dTJTNnBWUjVkYnlFb0F6dzRMRmZlNTVabVpnTVluRUE4cFJacTZKS0pHTVpueDFIY2ZabWFfb0RYSW5EVmRmcjNUSlRlR3VkTg?oc=5",
       "publisher": "뉴시스",
-      "publisherUrl": "https://www.newsis.com",
+      "publisherUrl": "https://mobile.newsis.com",
       "official": false,
       "publishedAt": "2026-11-05T09:16+09:00",
+      "tags": [
+        "의약학"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "54b88610feec",
+      "title": "경북교육청, 국립경국대 의대 신설 적극 환영",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PakRVZzdueDNhM25uN3UtZ0RFRm41cEdCUExYdlF3MHFzWFl4U2owMnRLOGFoLXFSNmYwLXFwRTN5R2hlZ3JUdG1qYUk2VDh0SVFKTmh5R19wQ1RpMXlIQg?oc=5",
+      "publisher": "꽁지환경늬우스",
+      "publisherUrl": "http://www.kkongjinews.com",
+      "official": false,
+      "publishedAt": "2026-11-05T09:15+09:00",
       "tags": [
         "의약학"
       ],
@@ -60,25 +408,6 @@
       "places": []
     },
     {
-      "id": "a08ba4e564b5",
-      "title": "전북도의회, 고교학점제 운영 실태 진단 정책 토론회 열려",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6bHdDWmpCc05ual9hVVhqNFRTSVdOT2o0T0tvQTRYMGpVNV9xTlZkU0FZOF9UOGhZNU5CMW5pOS1OcHRWM2xCQk1MXzVUNGswdzRpd2tQSEx4LWdVczVWbEdmbFBSdExpNWhtUmJNNkRGQQ?oc=5",
-      "publisher": "웹이코노미",
-      "publisherUrl": "https://www.webeconomy.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-04T21:06+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
       "id": "95cb2d6e6fa9",
       "title": "'정원 40명 경국대 의대' 2030년 개교...경북 북부 \"환영\"",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc19ubjhkWWFDeXpUdk94RnlCbjU0a001RUJ5Qm1xcG5sRlkya3cwMFdva0IwYTIyUmg3Ty1XVDBjMHVQeU15bTdWYk9sUkVKaWQ1eUREdi14VnhIYW5qV0JkY3FjQjJTbVhGY1R1amJTdFRoRDZfYy1IbnE3aE1GRzMwSjFUUQ?oc=5",
@@ -96,46 +425,6 @@
         "other"
       ],
       "places": []
-    },
-    {
-      "id": "11e289aff387",
-      "title": "전북특별자치도의회 박수형 도의원, 고교학점제 운영 실태 진단 정책 토론회 개최",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE01UEFickVYRnhQN25yUEl0LXQ5OXBQUExSRUNleFB0TjFUUXJXNG4xOVdpRGkwNU1TUnZQc09xYkNVZXJ2d2ZYUHNR?oc=5",
-      "publisher": "문화매일신문",
-      "publisherUrl": "http://www.dailyculture.kr",
-      "official": false,
-      "publishedAt": "2026-11-04T18:43+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "5c434cf892c8",
-      "title": "[서울특별시서부교육지원청] 고교학점제 학업 설계의 고민, 맞춤형 1:1 상담으로 풀어간다. 서부 MAP지원단 진로·학업 설계 특강 2기 운영",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Da1dWVUljM2ZaQTRXTURpTkxkZ1p3T19xcC0wNTNzUl9jUmhoTndaUXB6Ri1UalEteDJYcHNpdU9xRUFsY2gwTTZoZUxPeTRQRjFva2lqb2JiX0RGQjV2akxUYnZxR0FmdFp0NlBPX1YwVkU?oc=5",
-      "publisher": "서울교육소식",
-      "publisherUrl": "https://enews.sen.go.kr",
-      "official": true,
-      "publishedAt": "2026-11-04T18:22+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "seoul"
-      ],
-      "places": [
-        "서울"
-      ]
     },
     {
       "id": "dbc42dbdddbb",
@@ -176,9 +465,9 @@
     {
       "id": "9d17814f6291",
       "title": "박수형 도의원, ‘고교학점제 시행 2년차, 현장 목소리 듣는다’",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xNjhua3NzM1ZsalZ1RGVtbVJPeHZESHZpVW44QXYyQkhlbW1zTFpVaXNRM2pqSzZZMHlWaEotSldjcnoyVmJMYTljNnc3TENiU3ZyVVB6ZWhLZzlOeVFFc0xoYmZRR2VpckE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlVGRC1xSTNHSzRVa09LeG9uMkdNU2MxUW5oRV8wejg4QkVIblVYWGN2MlptV3p2SEJlTDRsQ05xNXVJUFlfZXhiUExDX25XVHdleVI0YzlkekRpYjVVVlpIRm5rdHVBcHhUN3E3bDk0aURLWDlybk96dnBMRFZ0a1Y2NmRjcVU?oc=5",
       "publisher": "전북도민일보",
-      "publisherUrl": "http://www.domin.co.kr",
+      "publisherUrl": "https://www.domin.co.kr",
       "official": false,
       "publishedAt": "2026-11-04T17:19+09:00",
       "tags": [
@@ -212,56 +501,18 @@
       ]
     },
     {
-      "id": "5afa47a67cf0",
-      "title": "전북도의회, 고교학점제 시행 2년차, 현장 목소리 듣는다.",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rc054VzVNUVhXaWpIQ2xweDNkX0dDNUlVbC0wLWttX0EwVUJOWkFiUy03Y1c5SlJRbU05cE00ajFsd2dSb2ljNGl3SmZTLXRrY2pTVVg0WmJDQXNDNXdzNE9NY19jZw?oc=5",
-      "publisher": "전민일보",
-      "publisherUrl": "http://jeonmin.co.kr",
+      "id": "403be9e537f3",
+      "title": "수능까지 15일...광운대 정보과학교육원, 학평·수능 미반영 면접전형 선발",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OZFVwdUxUdVZuUjEzRVRkX2lSVGhUd2pDbEp6bzhYMExQNmxhb3M5Wi14S3ZQbUx4d19XamZUakJmSWRZWXFCeHIyU1E4THdDZVpzN1NJdG1mUHJPbTQ0UHdpRGcwUU5QcWc5UWhuRHI?oc=5",
+      "publisher": "한국강사신문",
+      "publisherUrl": "https://www.lecturernews.com",
       "official": false,
-      "publishedAt": "2026-11-04T17:05+09:00",
+      "publishedAt": "2026-11-04T15:51+09:00",
       "tags": [
-        "고교학점제"
+        "수능"
       ],
       "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "41344dc066b7",
-      "title": "울산 매곡고, 고교학점제 선택과목 안내 자료 3종 무료 공개",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6QWFRbFNGSlc5dm1CeThrNlNJeEFqSjliU0lCSGJ6NW1TVnA2UHNMd3FLNHhjT3dLbkE2NXd1WVJJYVRDeERtYnhmUnk0bkNob3JjN3NMcERHNE1tX3BZV21JMFA3WGd0aEHSAW5BVV95cUxQbElfX2V3OXkxSW1xcmlsaU1fdHlILXQzN1NwN2VUWU42TExBcXdqU0xZc1BPczBCblJLMmlLS0J2M1lhZzM3VXhLaDNQWWJCV2c3ZVFQbnpFa2FrVGtwZGZKRDFLZnVINXUzaGdBZw?oc=5",
-      "publisher": "울산매일 - 울산최초, 최고의 조간신문",
-      "publisherUrl": "https://www.iusm.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-04T17:00+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "7b8aaa0f1b70",
-      "title": "“내신이 부족해도 역전할 수 있을까?”…《나침반36.5》 11월호",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ORjRQQUxRZmU2blJkX1B5c1N4M0JjSEQ3bXlUSWg4bkFZOFlXbXhlbzVFQk1HZGFfWVR4WFN0dk1QUFBfUVVjTkQ1M3dZRmFRNEo5S2ZNZEJmYkdRVnBqUTgybERrb0dBS3c?oc=5",
-      "publisher": "에듀진 인터넷 교육신문",
-      "publisherUrl": "https://www.edujin.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-04T15:21+09:00",
-      "tags": [
-        "내신"
-      ],
-      "stages": [
-        "high"
+        "university"
       ],
       "regions": [],
       "places": []
@@ -358,25 +609,6 @@
       "places": []
     },
     {
-      "id": "5ffdfa214343",
-      "title": "박수형 전북도의원 \"고교학점제 2년차, 개선책 마련\"",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mUjVxYkJwM3gwQ3g2a3NYaHVHMzBTMVNsd284OVJRa0ZSLUxqUC1COXh5aXludkRqTi1jUDFoaURQYWlQZW1fTElpb2NjRWRua01wZDZfNzg4bF9jM3Qwc1BON3hRY1FrQ3dvOW5NaDBsZ1FCR3JIZ9IBeEFVX3lxTE1mUjVxYkJwM3gwQ3g2a3NYaHVHMzBTMVNsd284OVJRa0ZSLUxqUC1COXh5aXludkRqTi1jUDFoaURQYWlQZW1fTElpb2NjRWRua01wZDZfNzg4bF9jM3Qwc1BON3hRY1FrQ3dvOW5NaDBsZ1FCR3JIZw?oc=5",
-      "publisher": "뉴시스",
-      "publisherUrl": "https://mobile.newsis.com",
-      "official": false,
-      "publishedAt": "2026-11-04T13:55+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
       "id": "65fc30127943",
       "title": "N수생 23년 만에 최대⋯수능 막판 ‘현역의 뒷심’ 주목",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RaWNiQms3Q2NyZkdjY1BWY0xWUFZ3akNDUko2YktHeUtXR0tYV0lGODhEc2xzNGc3QzNMTkstMkZ3STFReFZYNmxHLTBUSS1xNDM1cFJRa052UURGeTRIMEIyeXRWZlpLTFlhcE9n?oc=5",
@@ -392,46 +624,6 @@
       ],
       "regions": [],
       "places": []
-    },
-    {
-      "id": "da8383b61f64",
-      "title": "전북도의회, 고교학점제 개선 과제 논의",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2VFBNUWI1SC1CUXRzZkUxWWZfTFJUZ2FsWnJuOWVYWlBUb1Jnb2lfUWc1RUtueTBXWW5rWXZwTl9tSWxvYVUwblQ3TmJsdGI1R3c?oc=5",
-      "publisher": "노컷뉴스",
-      "publisherUrl": "https://www.nocutnews.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-04T13:33+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "cd32d43d9630",
-      "title": "[2027대입] 서울시립대, 북한이탈주민 특별전형 모집요강 공개.. 1월4일~6일 원서접수",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pV0FuUlNTY1ZRR0JveUhZdlpwZlM0OU9FOTZiOXV5UFZVSXNrQk1USXdzNVhudVl3cUd5YzNXZU1IODJuc2Z4MG5vUlNmM2RsSXM1RGxiNmJkWUxGMzZEWFNFWl9CZlpMcWc?oc=5",
-      "publisher": "한입신문",
-      "publisherUrl": "https://www.hanibnews.com",
-      "official": false,
-      "publishedAt": "2026-11-04T13:27+09:00",
-      "tags": [
-        "대입"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [
-        "seoul"
-      ],
-      "places": [
-        "서울"
-      ]
     },
     {
       "id": "3234118fe496",
@@ -453,41 +645,20 @@
       "places": []
     },
     {
-      "id": "e31f6b9930b6",
-      "title": "부산교육청, 고교학점제 박람회 개최…학업 설계 정보 제공",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LRTE2ejVZdTVVM3pjOGludFBsNEJ0bFdoSlctby1MT01aV29icTBvZ253emVqYUg0TTNhUUtDckttcXZGX2lpT2FyckxpNHBiZHZBd1BFWkFjazA5T0ViQTBwTXRjZk0?oc=5",
-      "publisher": "문화저널21",
-      "publisherUrl": "https://www.mhj21.com",
-      "official": false,
-      "publishedAt": "2026-11-04T11:14+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "c90f4470e0f6",
-      "title": "'1000명당 의사 수 1.4명' 경북에 첫 의대 생긴다... \"지역 의료 발전 출발점\"",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXX29kV0R6VmpJM3dzdnNLV2I4OUhTQUtwWU50UzBhZ0licGxkTDY4T3dNZU0wR1NPYUdiRkRkMldBTW41czhFWWV0c1lPRGFVZWRjdWd3Z004WjBXVWRjUmx4MU9HcEFtLWJFWGhR0gFzQVVfeXFMTUZHRGVwMFdvY1hWQ29JN2NBTS1GaGhONmNWb2NxZFNsWkRKSV9ERWx2VHV0elpXUXBLXzRiSEhZTEEwdTFuRk5nYjlOVVppREJVbGtkYW1PM1JvR3VwQlNhRmZTbGhqQjF1SldHS0FVdHJTQQ?oc=5",
-      "publisher": "한국일보",
-      "publisherUrl": "https://www.hankookilbo.com",
-      "official": false,
-      "publishedAt": "2026-11-04T11:10+09:00",
+      "id": "df827c6bb00b",
+      "title": "의대 신설 지역/대학 선정 및 정원 배정",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zczNGcEdnU3pYaU5UaHNHRVIxZ3ZBUDVIZnlnRlpmUzlidWUxVU5BS1o2ZGdiN2dYdjhMVnM4OE5MdVhZRXg0TlNydXZsQlRYV0xvMmVJTEZoTndVcjMtZ0lfT0dZSWtUZ0hRdW1XX0pEQW9hM1E?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-04T10:47+09:00",
       "tags": [
         "의약학"
       ],
       "stages": [
         "university"
       ],
-      "regions": [
-        "other"
-      ],
+      "regions": [],
       "places": []
     },
     {
@@ -515,23 +686,6 @@
       "publisherUrl": "https://www.kyosu.net",
       "official": false,
       "publishedAt": "2026-11-04T10:31+09:00",
-      "tags": [
-        "의약학"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "df827c6bb00b",
-      "title": "의대 신설 지역/대학 선정 및 정원 배정",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcUpRQkhSbVk4elhFUEVuV2lxeV9zYWZXclhIdzhiU3pPVEROWlVMQUtaOXNJbXNKZzZxMFZuUndFcUtERXBCR09mZU1wYnVINUFPcGZPQzUwOUg4MzVGWXdvRjVOa25feXNJbjlkNllqUEs2aDMwTFB0YnVwNGpFQVZmam5vWjhtdXFWZ21JaTJ2dw?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-04T10:05+09:00",
       "tags": [
         "의약학"
       ],
@@ -786,25 +940,6 @@
       "places": []
     },
     {
-      "id": "424b909737be",
-      "title": "학교 울타리 넘은 과목 선택…충남교육청, 공동교육과정·온라인학교로 학점제 안착 속도",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15MUgzUy01YnpkY1ZjNHg0cjFUTGpIc01leG5QQ3UxS09vWjluaE4yb2hlbHdYYXdDVHFwTTNrQWFpWjVFSlp5UFFwcFQ5YUl6a2JYWGxFaHZjbDZCeUFWdENUQVBFcDlfSXk5R2R6cGQ?oc=5",
-      "publisher": "신아일보",
-      "publisherUrl": "https://www.shinailbo.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-03T16:19+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
       "id": "420542ee3bbf",
       "title": "부산교육청, 13일부터 ‘2026 고교학점제 박람회’ 개최",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaTlhlWk1faF82MzlXU2RfSV9uN0JNTnZwbS1ZSDlveHYzY0ZXQl8tWG0yb25iLVp1TnBnSDVQN0stU09JcXM5eklOdEJ1d01NRzBocTYzS1lIMldPaVVvb0hOLTNQQXBY?oc=5",
@@ -812,209 +947,6 @@
       "publisherUrl": "http://www.gayailbo.com",
       "official": false,
       "publishedAt": "2026-11-03T15:49+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "30b17d594136",
-      "title": "[단독][2028대입] '약술형 논술' 도미노 오나.. 인하대 가톨릭대 한성대 3개교 합류 ‘16개교'",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52U2xkeklWVm9TZ0E2OVFpaHVsbFRaMWZuZDVEcXEwUWt5ZGZJQTQyUU01SHpvN19BUXBWbGF3T3F4SDU5MG80SGNPYlkwTElyQjdUVmc4S3FTYTBuYXJvUnRFUVJXRXNWTHhodQ?oc=5",
-      "publisher": "베리타스알파",
-      "publisherUrl": "https://www.veritas-a.com",
-      "official": false,
-      "publishedAt": "2026-11-03T15:42+09:00",
-      "tags": [
-        "대입"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "6a568e3e0e78",
-      "title": "\"스마트안경 어떻게 구별하고 대응하나\"…제주교총, 수능 감독 지침 구체화 촉구",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42R3BkRHhvOUpITWJCVHRsMVBlNXhFS2RZeW5JU2xuaVFSbmNPb3oyellqaTNXd0xrY0NhX0tKQ1NvaWxlMlV2dGZXcE9yR3JzQU42d25DUHN5Z3lPMU5KX2dCcnk1bjZ0b0xkcnVzVDXSAXBBVV95cUxONkdwZER4bzlKSE1iQlR0bDFQZTV4RUtkWXluSVNsbmlRUm5jT296MnpZamkzV3dMa2NDYV9LSkNTb2lsZTJVdnRmV3BPckdyc0FONnduQ1BzeWd5TzFOSl9nQnJ5NW42dG9MZHJ1c1Q1?oc=5",
-      "publisher": "미디어제주",
-      "publisherUrl": "https://www.mediajeju.com",
-      "official": false,
-      "publishedAt": "2026-11-03T15:35+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "d547c23a3505",
-      "title": "인천시교육청, 고교학점제 교과전담 순회교사 AI 활용 연수 실시",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tXzRJZ0llWE53aXpneVYwQTE4NUdCcGRzTVA2UzJ4SVFRNFY1X1NLZkpGU0FmR3JYeU0wVDBQeS1lTkMzUjlhaFEtTTY4emJOc1oyRkRnN0ZyZVphLXZUdXpVTmFaRE9IY3c?oc=5",
-      "publisher": "경기도민일보 미디어",
-      "publisherUrl": "https://www.kgdm.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-03T15:34+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "ab3259edb1bb",
-      "title": "충남교육청, 고교학점제 과목 선택권 확대…공동교육과정 4569명 참여",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rNE1qZW5Lc05PWW9fRnEzeU1RdGRndzdhQWNfR1U0SzY2SThkZlZ0eVk3aUxnOWZYOHQ2Mk5zNWpjNkVJUEc2a291emZ5QWNlY2ZLVWpEZTFSd3VjbS16RGx2TXZLNy1OcE5J?oc=5",
-      "publisher": "현대경제",
-      "publisherUrl": "https://www.hdnews.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-03T14:08+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "1a96f67886e7",
-      "title": "인천시교육청, 고교학점제 순회교사 AI 활용 역량 강화 연수 실시",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nTy1TR1MzT1lGTTdMTks4NVBVTmJQZnMycVl4SUY4ZTc2YlJBZTBONjBHTWQwczk3TDREWlZPZVBFNjI3RWhwcHNwaDF5YmdXSlRyVnFjMjhUQ3Jxd1ZGajV0dXh6UlE3czJnTHJ3MzdyZw?oc=5",
-      "publisher": "웹이코노미",
-      "publisherUrl": "https://www.webeconomy.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-03T14:03+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "267a2b262384",
-      "title": "인천시교육청, 고교학점제 순회교사 AI 활용 수업 전문성 강화",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aTUxIRlpaVmRMY1lPR2ZXazh5eFBobUpKaHliSm1iYVVBU3h2bmtZTE1KN1p1c3JPY1F6cUtrUHlNa0pxQ3ZvQUxFaWMyNExwOXF4amxxUlZ3dE8wR052ZEdJR1dLQ1Nv?oc=5",
-      "publisher": "경인매일",
-      "publisherUrl": "https://www.kmaeil.com",
-      "official": false,
-      "publishedAt": "2026-11-03T13:01+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "b140813e9a51",
-      "title": "'고교학점제 박람회' 13일 벡스코 시작 4주간 진행",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OeENfOTE5S2kxMFEzQ3dEVmpJVG40R2ZBNlJHUmF2NWd3MThQZmZZLWx3TnJaVEpDSjNPU1RJc05qTGRORGtqWDBjcUs3NE9OT21nRjQtaUpwY0NWYjl4QjlmVFowdjRLQ3ZhMWtQQjE?oc=5",
-      "publisher": "SK브로드밴드 회사소개",
-      "publisherUrl": "https://news.skbroadband.com",
-      "official": false,
-      "publishedAt": "2026-11-03T12:50+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "ce95fe455f1c",
-      "title": "부산교육청, ‘2026 고교학점제 박람회’ 개최…학생 맞춤형 진로·학업 설계 지원",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GYjhMMkNoSXR4cHdHcU9SM0VLVHlwUm94bzBKb09tb0hiU3hzR3F6SE1KQ0FfMXpxb2lzTURSZURwQ05YY1VsMmVkNFlxTEFYT0JMVGNKWFpmMFBGMV9WdFIzQm9zbHJjRGhrekVLZXTSAXRBVV95cUxOd2RFM0lXRkNQMXpPaWtUdnM4bl9iMjFvTE9BRzYxQnp3LV81ejZKY2tRc0ZLLU1FU2pSQU4xZW92cGpSa1huTWpFYlJYelpUVzFsSmR3NjQ2N21LTWZOVmMtZldJYkIxdXM0ZENRR1FkNmpnaw?oc=5",
-      "publisher": "이뉴스투데이",
-      "publisherUrl": "http://www.enewstoday.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-03T11:05+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "3156e68d43a2",
-      "title": "학교폭력 조치 받으면 대학 못 가나…2027학년도 대입, 전 전형 반영 기준 따져보니",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rSnpBb3cyM0FqWC1tOFAtY3k3dmotWU9KTHc1ZVdKNWVFTDBYVlhwbXk5bXZ6M2ZzM29UMnFaZU9hblRuel9rSE1oOUkyS1VQZUhkVlltNk1GY0xvWERzUmsyOFZDNzV2QXlrVWR1UFNnd9IBckFVX3lxTE9rSnpBb3cyM0FqWC1tOFAtY3k3dmotWU9KTHc1ZVdKNWVFTDBYVlhwbXk5bXZ6M2ZzM29UMnFaZU9hblRuel9rSE1oOUkyS1VQZUhkVlltNk1GY0xvWERzUmsyOFZDNzV2QXlrVWR1UFNndw?oc=5",
-      "publisher": "로리더",
-      "publisherUrl": "https://www.lawleader.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-03T11:04+09:00",
-      "tags": [
-        "대입"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "41729cb5f197",
-      "title": "부산교육청, 13일부터 ‘고교학점제 박람회’ 개최…학생·학부모 6천명 참여 예상",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SYWRFNzViczgydHVzMFg2YUdDSDZqLUNPdEpYRC0yVzM4aVlPdndBdDVfeEZ3aWRlaWxCbExIUTRMdWV3MjJsckQxNWtWMVdvYUZDVlM4UlozbmVEaUc1bDk5azBqazY5aVRYVHlR?oc=5",
-      "publisher": "미디어인뉴스",
-      "publisherUrl": "https://www.mediainnews.com",
-      "official": false,
-      "publishedAt": "2026-11-03T10:45+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "9449a57ce66b",
-      "title": "부산교육청, 고교학점제 박람회…13일부터 개최",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YRW1XVktscWdkQ0hiZHBaaEVreGQ2M2p3UHJfR21yc1FTRnNhb1p2aHRFeE9YTktRcW5rM1BMWkp0M0E3NVZFMVNJemoxWGJxS3dKb3NUM2F3WlVXUmxXMzRVR0ZJb1Jick5lc2NmYTBLNlg1R0YtT9IBeEFVX3lxTE5YRW1XVktscWdkQ0hiZHBaaEVreGQ2M2p3UHJfR21yc1FTRnNhb1p2aHRFeE9YTktRcW5rM1BMWkp0M0E3NVZFMVNJemoxWGJxS3dKb3NUM2F3WlVXUmxXMzRVR0ZJb1Jick5lc2NmYTBLNlg1R0YtTw?oc=5",
-      "publisher": "뉴시스",
-      "publisherUrl": "https://mobile.newsis.com",
-      "official": false,
-      "publishedAt": "2026-11-03T10:28+09:00",
       "tags": [
         "고교학점제"
       ],
@@ -1078,11 +1010,62 @@
       "places": []
     },
     {
+      "id": "e103662e9e24",
+      "title": "11월 19일 수능일 출근시간 오전 10시 이후로",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa0dDZDlnbmloTFBWMktYVnZCdjVOVVV6ZFloWjJSbGFkSS1oRm0wZ01RMkhPYUZhN3FrMVlwUFZsZUJCanJxQjlTR3RIRjVfWUZlNkI1U3RWZVRPVmRxVmJLdXF1cGk0VkRZNmtlYUUtZUtlWG1jZnREN25QMW04c3Y2b2hUTDlxUWVGaXZ3TU5PblJvTkJEeWF6WGN2a3lNSjFibjFJN25mMEJjbmdvMW94Ums4TGNXUFdHNkpYYlV6b2xEZ2JN?oc=5",
+      "publisher": "K-공감",
+      "publisherUrl": "https://gonggam.korea.kr",
+      "official": true,
+      "publishedAt": "2026-10-22T16:00+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "45540801b55b",
+      "title": "수험생 여러분, 시험에만 집중하세요! 수능생을 위한 지원 안내",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SRjNKZkVQcTNKSlVwc0xBczBoTEVHWmFkYXluU1NETDhEd2xIeU1CbF9MUmt4M3E5LWhKYlNSQ19MekF6RktZaUhzUzV5MktpLUdmUVVBWnkzZi1CX01VdnY3WUUzM0NfazI1elNB?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-10-21T16:00+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
       "id": "ad0ee7bdba31",
       "title": "11월 19일 수능날, 출근시간 10시 이후로…시험장 200m 전방 차량 통제",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CSEU1N1Y3Tm1CYmE3dDFscHJOc0dxRTI0YVdBMHdQUkhPQmtYbHU2NjRON0psXzNLaHZvM3BvSmJDb2VtVVZnblpwdVJCdFRBbzV4aHd6eXRQY2NNODMydVh1c0JUaWh3eFJLQQ?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-10-20T16:00+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "6016e9bb968f",
+      "title": "수능 앞둔 수험생 여러분, 카페인 함유 식품 섭취 시 주의하세요!",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVHcxR3hlb1JiREZvVExQRENwM2k5VUpKNGhnMjBJUThFc3BGbGV2S05tU1FDNnpqNnNQdEpSQ2tOQ3FPQk5HOERlZTUwSWRFTkt1ZTgzTVJnSzFYZlhvLTB1SWFoMFlTd3hvdGtuMXF0UkRTUWk5bXJNWE52WUV0VTBiYnltNUdGR28tWG93alo?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://m.korea.kr",
       "official": true,
       "publishedAt": "2026-10-20T16:00+09:00",
       "tags": [
