@@ -1,7 +1,416 @@
 {
-  "updatedAt": "2026-11-15T09:41+09:00",
+  "updatedAt": "2026-11-16T09:41+09:00",
   "source": "Google 뉴스 RSS 검색 결과(제목·언론사·링크만 저장)",
   "items": [
+    {
+      "id": "40b35fe70aa6",
+      "title": "'내신 5등급제·고교학점제 시대' 경기권 특목·자사고 진학 전략 설명회 열린다",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QZjdISVltYUdxTnlRYnZnQXg0NjVoZlFpRHpnWVh5Z0FWZWYwbVZUOEtDa1p2VnZpYkwzMzFRMW9aRjhvTHlHczRIb1dhOEJiWVNLakRDQUZsQQ?oc=5",
+      "publisher": "파이낸셜뉴스",
+      "publisherUrl": "https://www.fnnews.com",
+      "official": false,
+      "publishedAt": "2026-11-16T09:18+09:00",
+      "tags": [
+        "내신",
+        "고교학점제",
+        "고입"
+      ],
+      "stages": [
+        "high",
+        "middle"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "9c7705186653",
+      "title": "무너지는 시험 신뢰 “수능 연기하라” 요구로…“해결책 아냐” 반론",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51bjdralRzZkVPclBOR0NNd21ZZDh0RVdyOW4ydzljcmtrZWp1RjNEUFJwajJYNWI5NFhNNXFxXzJteTNzOHVLRmRTVEUzNmZMNmZSeUlONF82YmRpbG4wSVhaOWhOVm1hZXBN0gFUQVVfeXFMT3czOWphRFJXazJLaVl5enpxTmFiTVlfOXVMUklsVFUxRFEzbkVGTWd1c1hHODZPMmNHTDg0SmhVRkkxcXJ2TE1JczZNN25uMllPU2dN?oc=5",
+      "publisher": "세계일보",
+      "publisherUrl": "https://www.segye.com",
+      "official": false,
+      "publishedAt": "2026-11-16T09:11+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "b33e5de596a1",
+      "title": "강동구, 12월 19일 2027학년도 정시전형 대입상담실 운영..\"40분간 1:1 맞춤형 상담\"",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pelliamllMDdabk5qb25iUTU3OS12al9PTkt0aGpLVlN2cjh2OTByWHJ5bTVqelc5NXBQaTVvVGNSUGcwWG9uSWRqSzh0QmpLOVMxQWVXeEZsa056d1oxeEZUN1dPQnpPZFIw?oc=5",
+      "publisher": "시정일보",
+      "publisherUrl": "https://www.sijung.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-16T09:02+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "seoul"
+      ],
+      "places": [
+        "강동구"
+      ]
+    },
+    {
+      "id": "5c9a6eda76a1",
+      "title": "‘세무사 수석 부정행위’ 파장 어디까지…평가원에 '수능 연기'·'대책 마련' 글 ...",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcTNGOFVOX3JJUHdqblZQalRyQVY1Z3gyWnROM25KRXBHbkxvUllTbWJuS2NManFYOUFPR0lQWlNWUXd5eGJ3Mll4MEVEX3duRnphTGtWQndyZnZsN05NM0xXZ0dLS0dlWkNBd09leG8zLUduMGdGWUFTMUkzRnMzSQ?oc=5",
+      "publisher": "이데일리",
+      "publisherUrl": "https://www.edaily.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-16T09:02+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "e5c51a74833f",
+      "title": "강동구, 2027학년도 정시전형 대입상담실 운영…18개 부스 마련",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDeUxFYmJBbFJndDZhc2tqWk95VTFtcTZIX3BDYS1sWlJnNnJPdWNITUI2cmU3NHNfSHM3RV9ZZ2xiY1B5UnBHMEZlamJmVGNRZXR2WXBDeUs2MjlqSGFQcXQ0Y19mTHUySUZJeGVB?oc=5",
+      "publisher": "국제뉴스",
+      "publisherUrl": "https://www.gukjenews.com",
+      "official": false,
+      "publishedAt": "2026-11-16T08:58+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "seoul"
+      ],
+      "places": [
+        "강동구"
+      ]
+    },
+    {
+      "id": "db574abf7bf4",
+      "title": "유튜버 미미미누, 수능 연기 제안 \"AI 부정행위에 더 구체적인 대책 마련해야\"",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LbkpMSGhTWnB3UXYwSW9XdkhmNWJlOWVhMnNrVkdQdjNSalo2MnItdWhJNTl6N1dOOFgzLXBsbnlDZHZudEVKMV9SSjJ6VHhWNmNHRXdMQXNyRWYyN3czNUtsVlBqdU5ReHR2ZHN0cWpUWGkyNDl5dw?oc=5",
+      "publisher": "부산일보",
+      "publisherUrl": "https://mobile.busan.com",
+      "official": false,
+      "publishedAt": "2026-11-16T08:50+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "759fa176193f",
+      "title": "'제발 수능 미뤄주세요' 연기 요구 쇄도…실제 시험 미룬 사례 봤더니",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ESDRBNVkxM0VkYkpwZldzdUJ0akZTUHRnVjdTejRpazNwNFI4aWgxVEVIanRrWUltTDN3TFhoa212R2YwcEFYdUJrUlloc3JnNjQ0S0pn?oc=5",
+      "publisher": "위키트리",
+      "publisherUrl": "https://www.wikitree.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-16T08:50+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "78b38e5f4694",
+      "title": "\"수능 하루 전에도 연기 가능하다\"…미미미누, AI 부정행위 대책없는 수능에 '분통'",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQLVktV0FldHNQb2RERld1WU1PRS1qZFNDM0YwM0xwOXVUczRxVGdNNUR5RW4wS1BuU2J3eVdaSlYzVTZwc3p2MEp5OVVwd3ZqUWpWSUJJVnhqalJB?oc=5",
+      "publisher": "부산파이낸셜뉴스",
+      "publisherUrl": "https://busan.fnnews.com",
+      "official": false,
+      "publishedAt": "2026-11-16T08:43+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "e9fc61d5424e",
+      "title": "\"진로·학업 설계\" 인천시교육청, 중3 학생 2만 2천여 명 대상 고교학점제 사전교육 운영",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05QjFZWkhreHNuOUY1Y3Z5UFZQaE9RTmJsVVQtN0V2anJoNVUwbXcwd1VwMTZ1ZnU5cjFJaFFja0JtVGxxTmJqV2J1aU1JaFh0MDlacV90VE9HOUtsdGNSZE5nUHlnWGZaU2dVLWpvUEQ?oc=5",
+      "publisher": "한국강사신문",
+      "publisherUrl": "https://www.lecturernews.com",
+      "official": false,
+      "publishedAt": "2026-11-16T08:24+09:00",
+      "tags": [
+        "고교학점제"
+      ],
+      "stages": [
+        "high"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "7c1e3ef6e517",
+      "title": "\"제발 수능 연기해 주세요\"…AI 부정 논란에 수험생도 발칵",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ocWRUWHNlR21QejhXdnZqdUM3cVQzaXRydTNoaUNTTFIzNkYtMTNyNFplc1l0NndDQ0xuTXB5MzhSODhkcU95OE1zU2tIQVUxN05abXM5QklER2xJSDVOVA?oc=5",
+      "publisher": "아시아경제",
+      "publisherUrl": "https://www.asiae.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-16T08:22+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "f26251b272ae",
+      "title": "식약처, 수능 대비 마약류 등 의약품 온라인 불법 판매·알선 점검…571건 적발",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaUtmLXpsclE4WENNY0ZPWEZiVzdEc2NMTEdVMmFhQ2dtOEIxTUVXYmxpX1N5V3hVTEFhbTd6SlJMOGNxTlBDSHlJbTR2R1RCVFZnSnhuN21OQTRuaE8tbXhlRXFFYXY3VUVMN2lxNkhiZGFMWmQyRUtkY3ppTnpZNExGQmR4eUkwRnpMR1NKc0RpZw?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-16T07:58+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "62ef9360c2c6",
+      "title": "\"수능 연기하라\" 미미미누, AI 부정사태에 수능 3일 앞두고 교육부에 촉구[Oh!쎈 이슈]",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeF9yTGJqUm9rZXcyRG5rNVhrdHhGMm1lWl9sT1ZCOVZyRmh5dzR1RlRBbFA2Z2lPc0VRcXJEeWFnTy1Iblg1YTd5U3lKaGNVRC1TREo3VVRYS3Y5d3RhOW5rT25JcUpRRmN0UFFDcnRIbkdJVTFwUU1uLTVDOEstZWFDVms0V3JBWGJ3WWgyZw?oc=5",
+      "publisher": "조선일보",
+      "publisherUrl": "https://www.chosun.com",
+      "official": false,
+      "publishedAt": "2026-11-16T07:34+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "6c521d1ec581",
+      "title": "\"수능 연기 해달라\"…AI 부정행위 여파",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54b3RzYWRzc2ZLblF0MzcxT1FtVFpkWlBlUmRkMi0weEt4cUk3RUg0elVUZlotd2RFaGQtUmRieHlDeFowbERzUEVxN21QRUdROV95WQ?oc=5",
+      "publisher": "이투데이",
+      "publisherUrl": "https://www.etoday.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-16T07:07+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "690a57d006da",
+      "title": "\"기울어진 시험장\"…수능생 중 0.1% 장애인에겐 곳곳이 사각지대",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Da0pEN0tvVmRmVUNpOEFRWjRzdTNFTlJRS3UxVC1rWlFoS21rbWdYcUNKRmxJc09CTk12Z29OcGF2Ykhpa0lSR2FvMWZBTnN0bVY3Y2tyQVE4d1AxWjY0UdIBYEFVX3lxTE1Da0pEN0tvVmRmVUNpOEFRWjRzdTNFTlJRS3UxVC1rWlFoS21rbWdYcUNKRmxJc09CTk12Z29OcGF2Ykhpa0lSR2FvMWZBTnN0bVY3Y2tyQVE4d1AxWjY0UQ?oc=5",
+      "publisher": "연합뉴스",
+      "publisherUrl": "https://www.yna.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-16T07:00+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "080a68204145",
+      "title": "수능 성적에 맞는 정시 전략은?…강동구 “‘2027학년도 정시전형 대입상담실’ 운영”",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBNek4tTWJjMzltZ1lYQkJXRWRHWDBYdkcxM2xOVWhMTkxsSV9ORXlXbHhGYThXbGJrb20xRkR4a2NFNUVxOXVLRm9TSHdUYnhv?oc=5",
+      "publisher": "문화일보",
+      "publisherUrl": "https://www.munhwa.com",
+      "official": false,
+      "publishedAt": "2026-11-16T06:56+09:00",
+      "tags": [
+        "수능",
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "seoul"
+      ],
+      "places": [
+        "강동구"
+      ]
+    },
+    {
+      "id": "5ce9523fa4e1",
+      "title": "2027학년도 대학수학능력시험 문답지 전국 85개 시험지구에 배부 시작",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX2xBVTFrNFBFQlpyZFVpNVRWZTNXaHoxejVQYmVQQ21lSVBFZk1yQjhCaUlhQm5QeVE3QWZjR2dfY3daa0pTR0hMWjdtODdYNE9MYnVvX3NsemMyY2lLdVFDRl9qNEY1SVRYYllsbHdlT0lOb0R6TGZqU3R4TFpTbGhZNmQyZncxQjdoanNldEpHdw?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-16T06:10+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "3b105cf16c87",
+      "title": "[수능 D-3]세무사 시험 파장…수능 감독 ‘초비상’",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53QUtlVWRfLVRjZ0xxTTFndG5Ca1NqRHJXWFh6cDhKelI3dWdkXzBjSGE2czhCdEFnSmZ2dzJCdU5HNUFnd3o4RFRGUjFwU0RvN3p2RWpWUnQzeXRUMkpTUFlUWnNhUnZ0U3VNc1gyaUrSAXBBVV95cUxOd0FLZVVkXy1UY2dMcU0xZ3RuQmtTakRyV1hYenA4SnpSN3VnZF8wY0hhNnM4QnRBZ0pmdncyQnVORzVBZ3d6OERURlIxcFNEbzd6dkVqVlJ0M3l0VDJKU1BZVFpzYVJ2dFN1TXNYMmlK?oc=5",
+      "publisher": "남도일보",
+      "publisherUrl": "https://www.namdonews.com",
+      "official": false,
+      "publishedAt": "2026-11-16T00:00+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "10dc13c090c1",
+      "title": "세무사 수석 AI 컨닝 자백에 \"이것도 재난, 수능 연기하라\" 요구 빗발",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9zZGZ5MkhNSl9kZFNEUmdnTjI3bVVRN3lVRDlWQXpScTR1eTlMbzM4SGpGc0tSSXA5MGc4SHBJendtSk51TWhyRQ?oc=5",
+      "publisher": "신문고뉴스",
+      "publisherUrl": "https://www.shinmoongo.net",
+      "official": false,
+      "publishedAt": "2026-11-15T23:10+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "081519f9bba0",
+      "title": "`수능 연기` 가능성은? 평가원 요청 빗발 `AI 딸깍에 등급 내려간다` [금주의 이슈]",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiWXRrcC1WV2hvTDNHcDBuMXRUc3NiOHFReWV1d1dzaTB5eVNyWG00VDdMVHJXRnNnSzRsbS1tVVRMVVZHd0NacmlZeDl3QkFpb0xYVlFkQnkwa0l5NWFZNVFn?oc=5",
+      "publisher": "매일신문",
+      "publisherUrl": "https://www.imaeil.com",
+      "official": false,
+      "publishedAt": "2026-11-15T21:30+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "b2e73a0a58cf",
+      "title": "\"고려대 의대도 다문화전형으로?\" 형평성 논란에…교육부 \"대학 자율\"",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QTU1IU29xRUdiUjFDSWZSSm0wMl9qTEhCTUItVHBTdW5xREhQdTBFejF6RVZPX2hMNmJtMDdTd241a3NKZmRCQ0xYMVBzTFBuS1I5ajVXTHF1LUtZTm9ndWpTY2FfUFJ5V1o5NVdjZ9IBb0FVX3lxTE9QTU1IU29xRUdiUjFDSWZSSm0wMl9qTEhCTUItVHBTdW5xREhQdTBFejF6RVZPX2hMNmJtMDdTd241a3NKZmRCQ0xYMVBzTFBuS1I5ajVXTHF1LUtZTm9ndWpTY2FfUFJ5V1o5NVdjZw?oc=5",
+      "publisher": "머니투데이",
+      "publisherUrl": "https://www.mt.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-15T16:04+09:00",
+      "tags": [
+        "의약학"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "861f9b64f652",
+      "title": "'역대급 N수생' 변수…수능 응시자 8년 만에 50만명 넘을까",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Cd0NSYy1DMHp5dlNpRmJSeTZYcnNzSHoyUVdPeFJDZXVVaDJiNzFfQ2xiTzdBYjRnWndRSXY4cm5VQWM5MkNQTUdEbGY1Um5NeUpITFlkc1E0RTZBSkhOWmxZbDRTOHlRWlFQVUx5eXk?oc=5",
+      "publisher": "신아일보",
+      "publisherUrl": "https://www.shinailbo.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-15T13:31+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "4aa842717bcc",
+      "title": "수능 응시자 8년 만에 50만명 넘나··· N수생 응시율 변수",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wTTdIT1RkZ3RRSkhtbDQxaWtRVDFCR3JUUlQzQlpxeDNXUkt2c1o1YUFuV1czMlpTOGt4TU1NTnNlUkljRUFsUG9PUE5mTE16Q0xBR3ktdjBXT1BFU0lVZTYzcDlsdlRs?oc=5",
+      "publisher": "대경일보",
+      "publisherUrl": "https://www.dkilbo.com",
+      "official": false,
+      "publishedAt": "2026-11-15T12:20+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "43251a8c9914",
+      "title": "현 체제 마지막 수능 D-3...'N수생' 응시 역대 최다",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUNnFSUTVyT1d6eDdLc0JrV2dfaElMZDl3Q1FmMlZhOEpPQi1zV0FEVTh1MnZidTN2UFlqeU9DRjFxQ1U4Zjd0eV9nWnRHQXJQNUpMY3ZjNkxhWS1UZnJmMW14LTVJSVYydndR0gFvQVVfeXFMUEpYS1NmNHhBNlBxSzJMVlVRUjVyMmtLX0UtVWZmcUFxaHg2STNUQkVkUVRaUmJIamxOY3hpZXBUYjJxRy14dzdzUkhjMFJFSHByRlZPb1ZSb01RRG15MlZzZnJmV1huV0dEVjQxb3d3?oc=5",
+      "publisher": "펜앤마이크",
+      "publisherUrl": "https://www.pennmike.com",
+      "official": false,
+      "publishedAt": "2026-11-15T11:14+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
     {
       "id": "543094165c3a",
       "title": "의과대학 교육의 새로운 변화, 우수사례 8편 선정",
@@ -20,13 +429,13 @@
       "places": []
     },
     {
-      "id": "be04aab9da66",
-      "title": "수능 탐구 과목별 ‘결시율’도 변수…“미응시 늘수록 불리”",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdXhhaU5MUkg1akd4Z2RyNG9rQTV3cHJXMFRkVWt6dExiOUh3aVEzUnVyekNBbkxlODhlRngycHAyQW1sRDR1OFRJTVR1YTlXNUJtNk8wdHVDLU9VMGdWRzhtdkdaVk9rQkJ4bE5vQzZQZWVRazk5cVZobm1qMS1aMQ?oc=5",
-      "publisher": "이데일리",
-      "publisherUrl": "https://www.edaily.co.kr",
+      "id": "8bb88bf4af65",
+      "title": "“AI 안경 쓴 거 아냐?”…의심받은 리트 최초 만점자, '수능 생중계' 선언",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01eDZGMmJwWjBMRXhlaS13Z21KWDlMblVFcVhZWUU0b0FKZ1UwMFhQbjlrWkg3VlNNMmtjaVljWkFTUUhuTXBWUUdaTkE5QlNyMG9OSHFMc1lPQ2J2R3h4VkNUQUt6VHZiZVHSAW5BVV95cUxPaFlRT2NPcFZhakFaa0V0VUYwbllfaFM2THpGamk4LTRQVWUydUhOSjdUaWh2enF0QXlPTmdOQUVYZlk5VldFQXFlSklUSFhQd3l5REJ0MmR5YVI2QVl6OXdudm9VRHR3M1FIdU9PQQ?oc=5",
+      "publisher": "주간조선",
+      "publisherUrl": "http://weekly.chosun.com",
       "official": false,
-      "publishedAt": "2026-11-15T08:20+09:00",
+      "publishedAt": "2026-11-15T08:22+09:00",
       "tags": [
         "수능"
       ],
@@ -71,23 +480,6 @@
       "places": []
     },
     {
-      "id": "b4c5eee6e52e",
-      "title": "서혜진 도의원, 고교학점제 교육격차 지적… 학습권 보장되어야 지역별 교육격차 해소·교원 부담 경감 대책 최소성취수준 보장지도 내실화 촉구",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kSjJRVW1VREtxeVp5NjBOOXl3N2JrNElQUjJzN2xJQS1JMWxBT1JDNmMwYXhaSUVuc2tUVUxQaXhONm9RM3JYQ1Rxck8zVmlHVGpRRUJrelhvYm9pdGhLOXU1blo4cGg1?oc=5",
-      "publisher": "광교신문",
-      "publisherUrl": "https://www.kgnews.net",
-      "official": false,
-      "publishedAt": "2026-11-15T01:49+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
       "id": "a5ae926c590c",
       "title": "인천시교육청, 중3 학생 2만 2000명 대상 고교학점제 연수",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKLW9yMGNXUkUxSmxsZ2xUT2Q2WWVEamMxZ2xtRjgzaGF5UDRveGNKbDU5NzllTmNZTkVzMjUzdXp6QWRoZjNhZmtnZ1dONlVzMTBvRnpZaWd6aDd1NG8wRQ?oc=5",
@@ -126,23 +518,6 @@
       "places": []
     },
     {
-      "id": "eacb6707a7ab",
-      "title": "[AI입시 A to Z] 수능 시험장 '이 행동'도 부정행위?",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5cXc2M3NMNXZYQ0tTel9FQ1UtYXVFSXJyWE85SFRkVVhtZGRLckJ6OFZzNUZ3RGRKVWJlaDZpMExrdWQ4ZEUtWDFyM0tjQXRLTk0wN3czWXB4T3gz?oc=5",
-      "publisher": "뉴스핌",
-      "publisherUrl": "https://www.newspim.com",
-      "official": false,
-      "publishedAt": "2026-11-14T06:00+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
       "id": "25107c157211",
       "title": "인천시교육청, 중3 2만2천명 교실 찾아간다…고교학점제 진로·과목 선택 지원",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8zY0RzeGVxejRUbTVtVElMQ1JqbUpWelB1ckk3d204VGtudmlBcVR0bGxRZVZIeGwwYlFWejV1OUlMdlVF?oc=5",
@@ -159,6 +534,23 @@
       "regions": [
         "other"
       ],
+      "places": []
+    },
+    {
+      "id": "b4c5eee6e52e",
+      "title": "서혜진 도의원, 고교학점제 교육격차 지적… 학습권 보장되어야 지역별 교육격차 해소·교원 부담 경감 대책 최소성취수준 보장지도 내실화 촉구",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85bUFTVS1xQjRndXBFbV9TZTZFNU9DU2k0eE5tVjZPTl9RUGNjc3FCY2FFdExHRzhDS0gtOEFmVmhOeDZJN1N0bUlNWUprZHBVWV94VHZtbjQtNkgwdHYwUmFXRjBtbDA3?oc=5",
+      "publisher": "경기시사투데이",
+      "publisherUrl": "http://www.yitoday.com",
+      "official": false,
+      "publishedAt": "2026-11-13T19:11+09:00",
+      "tags": [
+        "고교학점제"
+      ],
+      "stages": [
+        "high"
+      ],
+      "regions": [],
       "places": []
     },
     {
@@ -183,6 +575,25 @@
       ]
     },
     {
+      "id": "265acc338c47",
+      "title": "[2028대입] 고교학점제 고교유형/과목개설 격차? ‘지나친 불안 금물’..학종 ‘환경 감안해 평가’",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IYTk3RElmUnB1b2FtYlk3em9waUg0NmQ4cGhiN2Z0ekZLc0lzRk9BSks3Z3RjNEJtTElSWHNXYUFMU0JYSmt3Wldnci1MOEVRTnhlbHM4LVkwaUZOLUp3MGRlc0NKSjliNDljcA?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-13T18:05+09:00",
+      "tags": [
+        "대입",
+        "고교학점제"
+      ],
+      "stages": [
+        "university",
+        "high"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
       "id": "630f38b7e90b",
       "title": "[단독][2028대입] 내신5등급제 ‘1등급보다 높은 2등급’..대학별 교과전형 성취도/정성평가 ‘변수’",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IYjNiTTBxa1dzMlJUQXFqM21CR1NINjd2ejN2eUxwQ1hfRFlFOWZhZjB1RnVyb1J2Tk5rang5YkxiZDJldFEyY1JXNmlkSFRXZXI1bUFkNXV3SWU1VHJZSmFEN0hvTFlXNkNnXw?oc=5",
@@ -202,6 +613,96 @@
       "places": []
     },
     {
+      "id": "a538485ead1f",
+      "title": "'점입가경 고교학점제' 학교 간 개설과목 격차 '최대 10.5개'.. 블라인드 폐지, 학생부 평가 확대 '불가피'",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIWTBaWF9vMmFudjk0ZWpLajZhS1U4anE4bHVWVE9MYWtGQ0I5TGNmMzdpYmxlNTNGVTlLVkxHajM3M0FlQ1dlQzRPQlgtTEZ1aDRWUnljRjBlcWhkT2tXVjBrb0Jmd04wYkVLRg?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-13T18:05+09:00",
+      "tags": [
+        "고교학점제"
+      ],
+      "stages": [
+        "high"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "2e4c7274e6df",
+      "title": "[단독] ‘고교학점제 최선의 선택지’ 2026 서울 고교 주요과목 개설 현황.. 하나고 ‘최다’ 선덕 배재 톱3",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XZmNwZENRc3NfMTNqS1dGVzg1Sl9qWnNsZEhPRTJ3bC1RWlJrcHIwclhJaVpDSWtpcUwtRUwySFFDbW0xZGFnMGxoQ09IT2NJUTI0UnBtdGFHX19WZFpwaEtrOGp0ZGlMcjY4Sw?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-13T18:05+09:00",
+      "tags": [
+        "고교학점제"
+      ],
+      "stages": [
+        "high"
+      ],
+      "regions": [
+        "seoul"
+      ],
+      "places": [
+        "서울"
+      ]
+    },
+    {
+      "id": "b24e154793e2",
+      "title": "[단독] '자사고부터 외고 국제고 일반고까지' 2027하반기 고입 설명회 총정리..'막판 고입 점검'",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wZWJLNXRJNnQzZlpXYk9BanAwaHVfTnBmODB0LW5ub2hwbVZzT3o3OVJjTEhlQlhJNU5LSVRsUnN4LV94TzljNnZGMkNZUFlPOHgwSi1qaUtZTUtSWEplT24zcW1IWGRzNHFxcQ?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-13T18:05+09:00",
+      "tags": [
+        "고입"
+      ],
+      "stages": [
+        "middle"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "7ab3ad28419f",
+      "title": "[새책] '합격을 완성하는 특목고 전국자사고 자기소개서와 면접 백과사전' - 전략적으로 준비하는 특목자사고 입시",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93S2RTQzFaYkVsNi13TjBWMUJqVmFOZnVibThqY09CWkdPOFQ5MGo3ZTFiR2pyblQtMTBYZUlKSk1CaENYaU5IMTk4RlRVNXFaRUV1WnNERzBTQlBUTHlaTXZhVXBGWjNGWXNKdA?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-13T18:05+09:00",
+      "tags": [
+        "고입"
+      ],
+      "stages": [
+        "middle"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "8db7898f53c7",
+      "title": "[단독] ‘정원 원복 효과’ 2026의대 입결 반등.. 정시 23개 전형 중 14개 상승 ‘백분위 평균 97.46’",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkYzhCdjNDN3RfMDN2cFRzdHZnQi14SUZNeHM1eEp2b2wyS3cwZmtoQWEzcl9KWU80UDEwQnRiVXM0MGFrSG5tZ1JaaGhBUld5b01RZlFWY09qQmZxYlVmQWtFM193TUc1aVo5Rg?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-13T18:05+09:00",
+      "tags": [
+        "대입",
+        "의약학"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
       "id": "5e5da3be7e38",
       "title": "[2027추천고교] '자연계 최상위권 몰린 의대최강’ 상산고.. '지역인재 이어 지역의사까지 넓어진 문호'",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhWUZ4RWhQY3EyNkVuRlp3amtsdjZ5b2pqRmVtcmg1UFRVZm1QUURpR3ViYXkyVUNMbDRwQ2hCOUs4ZlpyMjVLVXRZS2JTNzJMVVpMQlFKOE9XNlNfa2RLUE8zUzRlMGRkUDlTNw?oc=5",
@@ -212,6 +713,41 @@
       "tags": [
         "의약학",
         "지역인재"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "dbf582cdc53d",
+      "title": "2030부터 의대/의전원 43개교 3871명 체제 ‘3개교 200명 확대’.. 남원의전원100명에 신설 국립순천대 60명/국립경국대 40명",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ScFlHY3lYblpDZDhVYWMybDF1cEFWQUxiWklyTXlwbDdKVXVaXzZHSU0yRGRiYnVyOGhXaTI4RlN6a1l3Sno1NkNmanB1akpGMzk1RFV3VkJmUm44OWd0SkVIZUhtT3F4VzB1ag?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-13T18:05+09:00",
+      "tags": [
+        "의약학"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "d6fd73baf778",
+      "title": "의대 정원 492명 늘었는데 정시 문턱은 더 높아졌다-일반전형 21명 축소",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vNEtLNVpMaTFhYVVZenhLVVV2c1lBV1FpanZIa3lHeXVXRnB5Z2FHYjhXR29oR19pYlhuTnllbnd1WnRIc0NLbWpmZFh2c3l3QnpR?oc=5",
+      "publisher": "유스연합",
+      "publisherUrl": "https://www.youthassembly.kr",
+      "official": false,
+      "publishedAt": "2026-11-13T17:46+09:00",
+      "tags": [
+        "대입",
+        "의약학"
       ],
       "stages": [
         "university"
@@ -273,302 +809,6 @@
       "places": []
     },
     {
-      "id": "ee5faad7edf5",
-      "title": "평창교육지원청, 중학생 대상 `고교공부법` 특강 운영",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBPMlJick5LRUtPZ0xoNm5rQjVDX0E5dlZLdXc1YVVNWmVwLUczeENQRV9qTEN6TDdwbXNpemRn?oc=5",
-      "publisher": "강원경제신문",
-      "publisherUrl": "http://www.gwbiz.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T16:39+09:00",
-      "tags": [
-        "중학교"
-      ],
-      "stages": [
-        "middle"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "4b7cbb5d55fc",
-      "title": "‘수능 D-6’ 마지막 선택과목 체제…“영어, 작년보다 쉽게 출제될 듯”",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpS280WnItaEMwbU9keGtzR0JKRnc2M3dyMm1FVzY2eXdlOUJMbjBnbWRqZ0pqZV93YWZZSzJrYjc5RFR1WjhoMFJEN3htZEhvYmJxSDM0SWpmN241a2dtMDlR?oc=5",
-      "publisher": "미주중앙일보",
-      "publisherUrl": "https://www.koreadaily.com",
-      "official": false,
-      "publishedAt": "2026-11-13T16:28+09:00",
-      "tags": [
-        "수능",
-        "고교학점제"
-      ],
-      "stages": [
-        "university",
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "9423e3c2f541",
-      "title": "평창교육지원청, 2026 ‘선배가 알려주는 고교공부법’ 중학생 대상 특강 운영",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB3M0Vvc3FIMlNzSHNMZ28zY2xYdFhLYmVPS1hTUjQtVEoydzJBN3o5WEZIQXVUVjVfeUNyZFI3cUVzVkRUS25tQ3d3?oc=5",
-      "publisher": "미디어투데이",
-      "publisherUrl": "http://www.mediatoday.asia",
-      "official": false,
-      "publishedAt": "2026-11-13T16:19+09:00",
-      "tags": [
-        "중학교"
-      ],
-      "stages": [
-        "middle"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "01fc50f19391",
-      "title": "인천시교육청, 중3 대상 찾아가는 고교학점제 연수 운영",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPeVV2Qm5GWWRQZEtkWlo3dnBmeXk2aG9CcDlOOTFPRG5BMnI0Z280clg1MjFQM1Zrd0xwZXFwMVZYcG5rV0ptX1dDWWdiQmpCTkF4Z2RwenZ3aVduV0lDY2VGekoyZkllYWc2aVhoUDQxUQ?oc=5",
-      "publisher": "웹이코노미",
-      "publisherUrl": "https://www.webeconomy.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T16:09+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "29e29dc26856",
-      "title": "동작구, 내달 대입 정시전형 설명회·컨설팅 운영",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hRUwtRmxBTmxLY1MtX3A0d0JpNGxrZF9lYjdLbklVSk90ZHNfYk9FQ3d2UDdxem9WSlZSTlcwLVZ1SEcxbTMtYXVIMUZ6ai1XU2xZaTdoeFplcWxnZ2dTbdIBYEFVX3lxTE9hRUwtRmxBTmxLY1MtX3A0d0JpNGxrZF9lYjdLbklVSk90ZHNfYk9FQ3d2UDdxem9WSlZSTlcwLVZ1SEcxbTMtYXVIMUZ6ai1XU2xZaTdoeFplcWxnZ2dTbQ?oc=5",
-      "publisher": "연합뉴스",
-      "publisherUrl": "https://www.yna.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T15:45+09:00",
-      "tags": [
-        "대입"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [
-        "seoul"
-      ],
-      "places": [
-        "동작구"
-      ]
-    },
-    {
-      "id": "66f50d9d5c62",
-      "title": "인천시교육청, 중3 학생 2만 2000명 대상 고교학점제 교육",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NOURiNzBWZHZ1MlBxOFUyNWpGcW1vY2NueElvS2pJeDNjdmxKZktrRExRdXBKTHdmd3hvclVfb2I5NlBEMm5mUExyMUp2Z3BGSlQ2bjdVcFo2aUJsWVdnUUFB?oc=5",
-      "publisher": "경인미래신문",
-      "publisherUrl": "https://www.kifuture.com",
-      "official": false,
-      "publishedAt": "2026-11-13T15:38+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "b47efd4ecd88",
-      "title": "경기 의회 서혜진 의원, 고교학점제 교육격차 해소 촉구",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zVy14ZmR2LWNKdGs4cXM0b3JtWV9xaU03UmlqbmlIdGVHUkMwM25nZ19yWHRncldVSUE3TG5Tek1yRWNWUi1RNFhxOVBLN2pkVVh5eFZNV3lwbFBZN1hKTXdQS3hic2paem40?oc=5",
-      "publisher": "한국사회복지저널",
-      "publisherUrl": "http://www.ksw-news.com",
-      "official": false,
-      "publishedAt": "2026-11-13T15:27+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "d7f8ee317cf4",
-      "title": "서혜진 의원 \"사는 곳 따라 고교학점제 과목 선택 제한\"",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yZlZMLUJVVXppVnZCTk1RQ2J2R2NSR0kxNU5ZUVpHNmswVldsWEk1TTVGam1yU0x6clc0bEd3a1hMRUNHNTZYeUhhcW9tdmJvUG5OUklJYlB3bl84NnlEQ002NTBjNVgzUlRUZWZCMUJRMVJkZzBkSNIBeEFVX3lxTE8yZlZMLUJVVXppVnZCTk1RQ2J2R2NSR0kxNU5ZUVpHNmswVldsWEk1TTVGam1yU0x6clc0bEd3a1hMRUNHNTZYeUhhcW9tdmJvUG5OUklJYlB3bl84NnlEQ002NTBjNVgzUlRUZWZCMUJRMVJkZzBkSA?oc=5",
-      "publisher": "뉴시스",
-      "publisherUrl": "https://mobile.newsis.com",
-      "official": false,
-      "publishedAt": "2026-11-13T15:10+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "936cdfe5c448",
-      "title": "서혜진 경기도의원, 고교학점제 교육격차 지적…학습권 보장 촉구",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qVXpsVFl5UW9YdHlHZXc3cndYRGpPV2t4N0F0eDF3dmdnVWJPbXZVNW9jRnMtVkE5TnhISmRxVWRLUi1QM3c1Smd3cXgzV29XX0pRdFFRcUxhRUxvVXNFLUd2aw?oc=5",
-      "publisher": "쿠키뉴스",
-      "publisherUrl": "https://www.kukinews.com",
-      "official": false,
-      "publishedAt": "2026-11-13T14:45+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "gyeonggi"
-      ],
-      "places": [
-        "경기"
-      ]
-    },
-    {
-      "id": "8f4edad79c2e",
-      "title": "“가고 싶은 고교 과목, 미리 골라본다”…인천 중3 2만2천 명 고교학점제 연수",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PZzJlbkZJelNNT0NBME0xcGhpWkpKUnJIRm1UXzlzam5teXIzeERJNzlqYzM4VlZuMko1bGZzN2ljQzRMMjZ1WFJCSGVkUmNRb054ZC0tUHhsd2ZFMHlWcFg3NFN0bG8?oc=5",
-      "publisher": "쓰담미디어",
-      "publisherUrl": "https://www.newsenc.com",
-      "official": false,
-      "publishedAt": "2026-11-13T14:01+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "9625d5f28027",
-      "title": "[포토] 고교학점제 박람회서 진로·대입 정보 살펴보는 학생들",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84SDdTT0dSQ0kxdy10RXhXejFLLVExR2lYZzlEblRTOWVPSllUMlhESGtyTC1rNHk1U2tEX2RxMUZnbDh6MWxPT2w2UkZhVzdLV2RuajhlUkZNbEQyclRhSnVsRW9KN2RVQXdOUQ?oc=5",
-      "publisher": "파이낸스투데이",
-      "publisherUrl": "https://www.fntoday.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T13:35+09:00",
-      "tags": [
-        "대입",
-        "고교학점제"
-      ],
-      "stages": [
-        "university",
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "9aea63b422ba",
-      "title": "[포토] 고교학점제 박람회서 진로·진학 정보 살펴보는 학생들",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WdTBNQ3k2NVJqVnZaSGxIQ1FCYmtiNnQ3QUxCWkpJOVg3UVltY1lHczBFZURtNjdac05qYTdkbTNXLTVRbHZJSE16MzZDOTNSUGQwdzJQbnJiTUVqYzJOT2VFTkZKNTZOUlF5Ug?oc=5",
-      "publisher": "파이낸스투데이",
-      "publisherUrl": "https://www.fntoday.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T13:34+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "0cf55473f50a",
-      "title": "“시험 당일 과목 실시간 안내”…네이버, 수능·입시 콘텐츠 강화",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WeDUwLUxiMldJRmJmU24wa1hlemhkQ2JCWHA4c1FfVWtYTDVTdUZfOFAyY3hqWXhDMmk4anVVUl9wZEYwMXlaZnRPWl9NalhUeGo0UE5ONHFJQWtyTmV0dVFTSlE?oc=5",
-      "publisher": "서울경제TV",
-      "publisherUrl": "https://www.sentv.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T13:32+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "49e05ffcde84",
-      "title": "인천시교육청, 중3 학생 고교 진학·과목 선택 지원 위해 찾아가는 고교학점제 교육 실시",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yWlRmVzJIdjVDNkRKZlQ2WGJOblIySGhzZXpSZnFQN25KTXVCaTNGNjJ4aVBlMERtRWtmeHh1bVRVaE9nZ0dPR0RpWEFiQXFWemlrTjZnQjlZam05WUVhNkxUaC1raENt?oc=5",
-      "publisher": "경인매일",
-      "publisherUrl": "https://www.kmaeil.com",
-      "official": false,
-      "publishedAt": "2026-11-13T11:50+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "4caa1dc00ba9",
-      "title": "인천광역시교육청, 중학교 3학년 2만 2천여 명 대상 찾아가는 고교학점제 연수",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zZEkwZUpEcHZqdHdFbGVwVjY3SXpoSXhHcU1DWFF0ZHZnWVE4R0F0X0llT2NoM0pnWnloVTZDcnJlNm5VeUMxZGt5WGhaRDFLZUEyWTE2RWwwMFYwMlZLU3YtY0JkalU0SkNUTUx3?oc=5",
-      "publisher": "세정포커스",
-      "publisherUrl": "https://www.sejungfocus.com",
-      "official": false,
-      "publishedAt": "2026-11-13T11:47+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "d270692ade0a",
-      "title": "인천시교육청, 중3 대상 고교학점제 사전교육",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PMDl4d0pObUhac2c0dEplZ0YtRVFRcXU2djYwbDBleDRHZF85ZWVEdUx5SkF3bXVfaGRSbU1rWjhRd0stRllYYWhfbi11NjVuNWtselI0d3NJaTN1VFBmSW9TSmc?oc=5",
-      "publisher": "매일일보",
-      "publisherUrl": "https://www.m-i.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T11:32+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
       "id": "a52216d0b7f6",
       "title": "[보도설명자료] 「\"AI 안경 쓰고 '신개념 컨닝'\"…수능 앞두고 '비상' 걸렸다」(11.11., 한국경제) 등 관련",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYldiUFFQdDYxRjFlb0w0VW1LUmllRzkyb0pkRWtfVXVXOXEzbXZKdjlSdjhuNGFsbUpOVThNMHNsc0lEQUNKMi14SENuQ0dMSXpBWDcteFhUZFVjcC13eXpERzJob3FsdHA0U2VYZmY3NHZPa0xFZy1Ed25rYmdMal9nazhGRXBZ?oc=5",
@@ -603,42 +843,6 @@
       "places": []
     },
     {
-      "id": "9594b6ff2755",
-      "title": "대구시교육청, ‘고교학점제 권역별 박람회’ 개최",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11dmxLRm5FMTk1aXVGVWZCUTNMUzMyNnJSbHZVbjhLSDdDOFV1bjdwcFZiclRUREVhN19WYjBPbHJWQWZDanp3Z2JfanBZQmZmZTViT3pCTGdHb2lRMks1dGV6X1Z4NFlnaG9WbnV3?oc=5",
-      "publisher": "영남신문",
-      "publisherUrl": "https://www.ynamnews.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T10:22+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "a162a8a2c44f",
-      "title": "리트 첫 만점자 “수능 국어 생중계로 풀겠다”… ‘AI 안경’ 의혹 대응",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX3JJT1lvOC13bVlhLTRaRXFTYTc5OTZTUXpYZG1UTG9tNHlDeUREbTdxRDlGX0FQUFczcHpEbzZ6M1JvVlBUSnZDSU1LeDFFNjNLU3NSckEtQUdzaThoRkxGbHVUVnNqOWJVZ2pBNmpIb2hja0JOVDBBeHRQMS04YUFBcElWUzd6YUHSAZ4BQVVfeXFMTnpuUTEzRFdKM1lJWEsybG02LVF1TVZWVy1NZXBfVllpSGd2MmRQMnBKM0JJYktndnZ3MDVJSFZVT3Q1TldpNDdsakJ6SDA0SFZJeG9hLTlzWFplY2N4UFE3WkF1X3ZwamhEQ0xGU05YcjJlRmdldGRINFQtQzhLeklINnB6cmM3c0U4akctNjBBaVR5OUFnS2trby1tZHc?oc=5",
-      "publisher": "Chosunbiz",
-      "publisherUrl": "https://biz.chosun.com",
-      "official": false,
-      "publishedAt": "2026-11-13T08:38+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
       "id": "98278cb011d6",
       "title": "국립순천대·국립경국대 2030년 의대 신설",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUWVYWmlxV1dVM2F5MnBjLUREV1FPSjVPbG1fVjNxZWVRelBhQ3BfXzdtY0gwSE5Vb1UtOTltMHJyUlNNSW9UMFhqQXNkSnkxMVVvWjNrU3FzT0N3ajZHUkVIaWcyYURMd0NWcGs1VHloWHJfNWNhMjhSMTNIcXVWblFfUWUwbXBLRWRLRnFwU3FhZXlELXNraHR2SnVMaXdqalpUTGd5YVk4akJVdUhkUUtZWklGZk1SWVl5eWtNaVlOS093STVmTUFlMVdJR0FL?oc=5",
@@ -653,122 +857,6 @@
         "university"
       ],
       "regions": [],
-      "places": []
-    },
-    {
-      "id": "376154cbb175",
-      "title": "[우리는 의원, 서울시의회] 통학버스·중학교 배정제도 개선 촉구…수의계약·학교시설 관리도 도마",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTU3VWSU5jTUFwQWcwNjFFRF9kay1Qdms5dEpVcjdOaXNDek1UWHNrV0UwRVd2RUVFc2FtMThnYXRoVTNKTFlMQUJmRUQ0MmdxRGRsNXdRQlpVVVRYaE9TUkt4MWxyRUhESkMzbVlSdTRsZw?oc=5",
-      "publisher": "웹이코노미",
-      "publisherUrl": "https://www.webeconomy.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-13T02:07+09:00",
-      "tags": [
-        "중학교"
-      ],
-      "stages": [
-        "middle"
-      ],
-      "regions": [
-        "seoul"
-      ],
-      "places": [
-        "서울"
-      ]
-    },
-    {
-      "id": "ef7c3d4dbb1c",
-      "title": "수능 때 스마트안경 착용만 해도 ‘부정행위’",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPYlFBUXE4cnRDREdrblpBa1NCQ05udTBkaFdIcWdET1Y3b2JaZ3NwVFJvLW1PZGNZQkt1QjNtRFQzbGttb1lZM3MxNmhodXNBUEFvUnd6ZVhZNGJpYlVVb216LVZuZkhTZmgxSm9lRDdZVEl1dGlTUHhfNW15TUkwRkdXLVlMV1M2amJiTDJnaXdvX2N3RW9ZN3JGZWtUVjhQLWxTUEpoaXhyYm9pZkh2YnFIajdKLVc3U3FoanNkZEtJZ1RnS0hsYTlqSDlMT00taGRJaG00T2FLMFIxYlF2bkMxNV9GZUtCX2FRczVGRXgtb2x1RGRYalFkRy1MQQ?oc=5",
-      "publisher": "K-공감",
-      "publisherUrl": "https://gonggam.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-13T01:33+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "a4d4bf148cbc",
-      "title": "[단독] 서울시교육청 고입 안내문에 버젓이 ‘통일교’…기독교·불교·천주교와 나란히",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjY3dyaVZzSjF1Y1lIZ29LOVAtWTItdDZhSzliRWwwRDJzcjFzbU9zWDI3RnhUdUNzbWdGVUdiU1FlMExsWjRvUjZEd1ZuMy05X0d2MWFuS0ZyVUk?oc=5",
-      "publisher": "위메이크뉴스",
-      "publisherUrl": "https://wemakenews.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-12T20:34+09:00",
-      "tags": [
-        "고입"
-      ],
-      "stages": [
-        "middle"
-      ],
-      "regions": [
-        "seoul"
-      ],
-      "places": [
-        "서울"
-      ]
-    },
-    {
-      "id": "bfea2d9f873a",
-      "title": "한국교육과정평가원, 충북경찰청과 수능 채점 보안 점검",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqOEZpdFpfcFVDTGE4Mk5kaFF4RldMbXdnOFlZcUJVWElScWpWb25ZRUQweHk4WG1FZTdDNXBMREZ1emxKR0M4Yzh2Y0Nfc0hiM01rWUNwcXRNMGVaZGYw?oc=5",
-      "publisher": "한국교육신문",
-      "publisherUrl": "https://www.hangyo.com",
-      "official": false,
-      "publishedAt": "2026-11-12T20:07+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "883a00df5824",
-      "title": "대구시교육청, ‘고교학점제 권역별 박람회’ 3차례 개최",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GLTM2S2p3TUZ0NzlDelJyMzlwMHVXbmpUTVNoRUg3V0ViVlozSmRrenVVaXl1Z2p5T3I3bHNSaENSQWdyVmdzMUJaYkp0ekwwZnFqQmVYWWttX2lCUGlSUw?oc=5",
-      "publisher": "NSP통신",
-      "publisherUrl": "https://www.nspna.com",
-      "official": false,
-      "publishedAt": "2026-11-12T18:42+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
-      "id": "0723eb7464e5",
-      "title": "포항이동고, 고교학점제 진로·학업 설계 프로그램 마무리",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2OEVjMXFhbzd5dlRtMFJMZEkwUnNqak1XQWV4cFdtdFRoeXdFQkRCNlhlbkV0dFlLclBKV2tnaEtjOHJXWUh4VWw2NjN5Y1NYd0t1Y2tzQWJzakZvcXlqbndlbzJaM3dnOXc?oc=5",
-      "publisher": "www.hidomin.com",
-      "publisherUrl": "https://www.hidomin.com",
-      "official": false,
-      "publishedAt": "2026-11-12T17:57+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
       "places": []
     },
     {
@@ -789,80 +877,6 @@
       "places": []
     },
     {
-      "id": "0b7aadf4c32d",
-      "title": "[2028 수시] 내신 1등급이 2등급에 3점 뒤진다?…2028 교과전형, 순위 바꾸는 성취도 계산법",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Lbm1QYTRmS0dlS3RYTmlPckNYRWFzMDlfV3c1ZVlFQ0JrQmxPZ2lleWFfTk45MVpuUk9GbHBHbGlMNjcwaGV3S09NaHhlc1JkX1U1amt1TDYtTGNSYWY1SWNBclNSdw?oc=5",
-      "publisher": "교육을 비추다",
-      "publisherUrl": "https://www.kyobit.com",
-      "official": false,
-      "publishedAt": "2026-11-12T17:27+09:00",
-      "tags": [
-        "대입",
-        "내신"
-      ],
-      "stages": [
-        "university",
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "e5e4c555b9dc",
-      "title": "수능 D-7 난도 전망은?…“국어·수학 전년 비슷, 영어 9모-6모 중간”",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nb3VzQ2ppWnJvc2Q3dUptYkZ4aUpRZnNHcE5fMy1mUTZtdW13aWU1MWZjUHlFYk5talZ2MkwxZ09iQlE2QlZsYW84YzA4djZEaDItX3Jrc2FvSDdUZ2lYTk5RUURtNDd5eGc?oc=5",
-      "publisher": "한겨레",
-      "publisherUrl": "https://www.hani.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-12T17:24+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "b1b981e50d33",
-      "title": "[수능 D-7] 마지막 선택과목 수능…남은 일주일 어떻게 보낼까",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nYWJDVzdwbWF3Wm1IZWhHQTV0S242aU1IYkc0WDV2RGtxTXpaUEM5RWNrZUlaSHdhUHoxNGRJdUFiOFZpaUNjR0M3T0RXdkQyVHdxMzM2QUN2Y1JPblZlYVN4MnnSAWhBVV95cUxNYllhcWhVQ1RPWnFyQWdjYnoxY0tmeTNmbFdPTjRzRy1WSEdiRERCZW5zdTBUd21iTXN5VkRoTGVTNDgwOGVfWXlpTmtLTlVUS3RMSE40Rm5Ka2M4M3NGcmc0LTZiMURmTQ?oc=5",
-      "publisher": "경인방송 뉴스",
-      "publisherUrl": "https://news.ifm.kr",
-      "official": false,
-      "publishedAt": "2026-11-12T16:50+09:00",
-      "tags": [
-        "수능",
-        "고교학점제"
-      ],
-      "stages": [
-        "university",
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "eef1625fa797",
-      "title": "전북자치도교육청, 예비 고1 대상 ‘고교학점제 맞춤형 진로 상담’ 실시",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wT0FkZFRKWEZVSlNucHdBaXR0dlVjNmU4bjNUTVdLOGc1ZW5WcldqWUtvVzc4YzBuSlhBTVdrT3RHeGR4anlRZ3MyOVQ5Z2tiSHlFSnNnYlFtYjItRUR6aVpLdDZrcmpnYnc?oc=5",
-      "publisher": "전북도민일보",
-      "publisherUrl": "http://www.domin.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-12T16:10+09:00",
-      "tags": [
-        "고교학점제"
-      ],
-      "stages": [
-        "high"
-      ],
-      "regions": [
-        "other"
-      ],
-      "places": []
-    },
-    {
       "id": "08ed3942e77e",
       "title": "수험생 필독! 수능 당일 체크리스트",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTU45SFFsRDFqSTU1YnlSTVhlSWMzSjVPdG80Tjl6VExBbEI0bF9VaFJaRXVoTHNzdjVjdUVZVzFxTTl0SjYtX2tRMHRGOTN5YVllejV6ei1PRzRwX0ktNDFyUzdyRnV2Nm5WSTVOMEo1dThxTG9NcTJiRTZ5Q2VkZk81ZzBPX3BwUzZMLVAyaUxjemxLM3JrUlpveXNvRWZqU3M1T2ZkaUZkdkFPTmJUSUpSX2RtNGtjSmd0VFZtbURmcG4zMGVXaQ?oc=5",
@@ -880,27 +894,6 @@
       "places": []
     },
     {
-      "id": "e53e839cd815",
-      "title": "서울시 중학교 배정제도, 조속한 개편 필요",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqTmM3NTQwSFV3VEdKZ2s1TV9peE91cnhlV3hMdVJxN2pmMTB1RUF0c1pEazQxYnlfa3JtRGMxS2xkOGhJX2l5Mm1oNlNrTHM1MzE4d3hiQU5BVHYtdmVLZlZ5UC1vVEZuYTlZTmNlZENzUQ?oc=5",
-      "publisher": "미디어시시비비",
-      "publisherUrl": "https://m.mediaccbb.com",
-      "official": false,
-      "publishedAt": "2026-11-12T14:19+09:00",
-      "tags": [
-        "중학교"
-      ],
-      "stages": [
-        "middle"
-      ],
-      "regions": [
-        "seoul"
-      ],
-      "places": [
-        "서울"
-      ]
-    },
-    {
       "id": "c3ba1d4c31b0",
       "title": "수능 수험생 여러분! 전자기기 가져오지 마세요!",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUc0T2Fwb29XclJhLWphcVRyQjhORWQwRXdfOFR5OGpNSzBMcEJvbmlKUlNtX2QyUElqNE9ZVExkX0VnaVFVSHJhcjFpczlVRERNc1ZBamNONmFCVzhSMkR6emVBTkFCY1hhSjh3T291TkF4aXBaUWJtSmJoRE1neXd6ZTF1VHI4Nlh3?oc=5",
@@ -908,6 +901,23 @@
       "publisherUrl": "https://www.korea.kr",
       "official": true,
       "publishedAt": "2026-11-11T10:26+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "d0ed0be0fac9",
+      "title": "수능 당일 '스마트안경' 착용하면 내년까지 시험자격 박탈",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zcG43V3M2bTVVUy1ldGM2OEM3YWkxWUhlcW5GWWxRODN6SkQ0UWNLYzh1eGVOcENUM0Y1SXZXNDZLRy0yUnZLMDEzbmtpc3BSR2FOS0l5UU1sWjZJOGxKZ1pkTWJWRUFuazNsdw?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-11T03:08+09:00",
       "tags": [
         "수능"
       ],
@@ -930,23 +940,6 @@
       ],
       "stages": [
         "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "d0ed0be0fac9",
-      "title": "수능 당일 '스마트안경' 착용하면 내년까지 시험자격 박탈",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zcG43V3M2bTVVUy1ldGM2OEM3YWkxWUhlcW5GWWxRODN6SkQ0UWNLYzh1eGVOcENUM0Y1SXZXNDZLRy0yUnZLMDEzbmtpc3BSR2FOS0l5UU1sWjZJOGxKZ1pkTWJWRUFuazNsdw?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-09T18:12+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
       ],
       "regions": [],
       "places": []
@@ -1063,23 +1056,6 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOWFPQkhKQzdFSmRySmdubXlNa1VlMUNEOU1UdVVlRllCcE9FRXZLVGdjWU1maVdSTml2aFpSU0djZFRjWTg5Ulp1YlFhUzc4TFZEX2M0dEdtRVdYY3laU1UzNGlybnpuWUl6V2NyVzE4Ym1WNUlSX2dYY1J2ckN1OU5PMGxxU3JQaDBhcXNTUWwwZ2g4UmpPV0s3T0JDSFVTeEU2MUowaDlyN01mam9HeV83bmFNSHpET2M1R0hhOV9QRm9yUlJv?oc=5",
       "publisher": "K-공감",
       "publisherUrl": "https://gonggam.korea.kr",
-      "official": true,
-      "publishedAt": "2026-10-22T16:00+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "d0838110695d",
-      "title": "수능이 코앞?! 인삼선생님이 알려주는 특별한 인삼 요리 3선",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXFNUjdyNE9wOXAtclNSblM3OFpjWDZCS25rWUZHUTZtWnNtLTgxb1ZxWGN6S3BtUzRHMThDdWpLYlYzVkFFY0w4VmpFZnFEQmpCbjlHRlBjaWIwY2hwb0ZsblhqakxQdDJCU18ya3RVdHpiOHd5bjZnNzVHeGpMdzdR?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
       "official": true,
       "publishedAt": "2026-10-22T16:00+09:00",
       "tags": [
