@@ -1,0 +1,127 @@
+{
+  "lastReviewed": "2026-11-18",
+  "hsCompetition": {
+    "title": "고교 유형별 평균 경쟁률",
+    "unit": "대 1",
+    "basis": "종로학원이 원서 접수 마감 직후 집계한 지원자 ÷ 모집인원(일반전형 중심)을 보도한 수치예요. 학교·교육청 최종 발표와 조금 다를 수 있어요.",
+    "series": [
+      {
+        "id": "gifted",
+        "name": "영재학교",
+        "scope": "전국 8곳 중 경쟁률을 공개한 7곳 평균",
+        "apply": "중3 4~5월",
+        "points": [
+          { "year": 2026, "value": 5.72, "status": "needs_verification", "sources": ["koreadaily-2027-gifted"], "note": "2027학년도 기사에 전년 수치로 보도된 값이에요." },
+          { "year": 2027, "value": 6.21, "status": "confirmed", "sources": ["hankyung-2027-gifted"] }
+        ]
+      },
+      {
+        "id": "science",
+        "name": "과학고",
+        "scope": "전국 과학고 평균(2027학년도 22곳)",
+        "apply": "중3 8~9월",
+        "points": [
+          { "year": 2023, "value": 3.50, "status": "needs_verification", "sources": ["edumorning-2026-science-hs"], "note": "2026학년도 기사에 지난 추이로 보도된 값이에요." },
+          { "year": 2024, "value": 3.49, "status": "needs_verification", "sources": ["edumorning-2026-science-hs"], "note": "2026학년도 기사에 지난 추이로 보도된 값이에요." },
+          { "year": 2025, "value": 3.49, "status": "needs_verification", "sources": ["edumorning-2026-science-hs"], "note": "2026학년도 기사에 지난 추이로 보도된 값이에요." },
+          { "year": 2026, "value": 3.41, "status": "confirmed", "sources": ["edumorning-2026-science-hs", "fnnews-2027-science-hs"] },
+          { "year": 2027, "value": 3.38, "status": "confirmed", "sources": ["fnnews-2027-science-hs"] }
+        ]
+      },
+      {
+        "id": "foreign",
+        "name": "외고·국제고",
+        "scope": "전국 외고·국제고 평균",
+        "apply": "중3 12월",
+        "points": [
+          { "year": 2022, "value": 1.06, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] },
+          { "year": 2023, "value": 1.24, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] },
+          { "year": 2024, "value": 1.41, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] },
+          { "year": 2025, "value": 1.47, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] },
+          { "year": 2026, "value": 1.54, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] }
+        ]
+      },
+      {
+        "id": "jasa-national",
+        "name": "전국단위 자사고",
+        "scope": "전국에서 뽑는 자사고 10곳 평균",
+        "apply": "중3 12월",
+        "points": [
+          { "year": 2025, "value": 1.82, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] },
+          { "year": 2026, "value": 1.63, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] }
+        ]
+      },
+      {
+        "id": "jasa-local",
+        "name": "지역단위 자사고",
+        "scope": "해당 시·도 학생만 뽑는 자사고 22곳 평균",
+        "apply": "중3 12월",
+        "points": [
+          { "year": 2025, "value": 1.21, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] },
+          { "year": 2026, "value": 1.09, "status": "confirmed", "sources": ["etoday-2026-hs-apply"] }
+        ]
+      }
+    ],
+    "takeaways": [
+      { "text": "외고·국제고는 2022학년도 1.06대 1에서 2026학년도 1.54대 1로 5년 연속 올랐어요.", "sources": ["etoday-2026-hs-apply"] },
+      { "text": "자사고 지원자는 2026학년도에 전년보다 10.1% 줄었어요. 종로학원은 내신 5등급제 부담을 이유로 꼽았어요.", "sources": ["etoday-2026-hs-apply"] },
+      { "text": "2027학년도 과학고 지원자는 6,282명으로 최근 11년 중 가장 많았지만, 부천과고·분당중앙과고 신설로 모집인원도 늘어 경쟁률은 3.38대 1이었어요.", "sources": ["fnnews-2027-science-hs"] }
+    ],
+    "pending": "2027학년도 외고·국제고·자사고 경쟁률은 12월 원서 접수가 끝나면 추가해요."
+  },
+  "susiJeongsi": {
+    "title": "대입 수시·정시 모집 비율",
+    "basis": "한국대학교육협의회가 매년 4월 발표하는 대학입학전형 시행계획(전국 4년제) 기준이에요. 학년도는 대학에 입학하는 해예요.",
+    "points": [
+      { "year": 2022, "susi": 75.7, "status": "confirmed", "sources": ["khan-2028-plan"] },
+      { "year": 2023, "susi": 78.0, "status": "confirmed", "sources": ["dhnews-2023-plan"] },
+      { "year": 2024, "susi": 79.0, "status": "confirmed", "sources": ["khan-2028-plan"] },
+      { "year": 2025, "susi": 79.6, "status": "confirmed", "sources": ["edaily-2026-plan"] },
+      { "year": 2026, "susi": 79.9, "status": "confirmed", "sources": ["khan-2028-plan", "edaily-2026-plan"] },
+      { "year": 2027, "susi": 80.3, "status": "confirmed", "sources": ["khan-2028-plan"] },
+      { "year": 2028, "susi": 80.8, "status": "confirmed", "sources": ["khan-2028-plan"] }
+    ],
+    "takeaways": [
+      { "text": "2028학년도 전체 34만 8,789명 중 수시가 28만 1,895명(80.8%)으로 역대 가장 많아요.", "sources": ["khan-2028-plan"] },
+      { "text": "같은 해 서울대 정시 인원은 1,307명으로 전년보다 15.6% 줄어요. 상위권 대학도 정시 문이 좁아지는 흐름이에요.", "sources": ["khan-2028-plan"] }
+    ],
+    "nextRelease": "2029학년도 시행계획은 2027년 4월 말 발표 예정이에요."
+  },
+  "reform2028": {
+    "title": "2028 대입 개편 전후 비교",
+    "before": "2027학년도까지",
+    "after": "2028학년도부터",
+    "beforeCohort": "2008년생까지",
+    "afterCohort": "2009년생부터",
+    "rows": [
+      {
+        "label": "수능 국어·수학",
+        "before": "공통 + 선택과목 (국어 화법과작문·언어와매체, 수학 확률과통계·미적분·기하)",
+        "after": "선택 없이 모두 같은 과목 (심화수학은 넣지 않음)",
+        "impact": "선택과목 유불리가 사라지고 모두 같은 범위로 겨뤄요.",
+        "sources": ["moe-2028-reform"]
+      },
+      {
+        "label": "수능 탐구",
+        "before": "사회·과학 17과목 중 최대 2과목 선택",
+        "after": "통합사회·통합과학 모두 응시",
+        "impact": "문·이과 구분 없이 사회와 과학을 함께 준비해요.",
+        "sources": ["moe-2028-reform"]
+      },
+      {
+        "label": "고교 내신 등급",
+        "before": "9등급 상대평가, 1등급 상위 4%",
+        "after": "5등급 상대평가, 1등급 상위 10% + 성취도(A~E) 함께 기재",
+        "impact": "1등급은 넓어지지만 등급 하나의 무게가 커져요.",
+        "sources": ["moe-2028-reform", "newsis-2025-hs-changes"]
+      },
+      {
+        "label": "고교 수업",
+        "before": "2015 개정 교육과정",
+        "after": "고교학점제 전면 시행, 2022 개정 교육과정",
+        "impact": "고른 과목이 학생부종합전형의 근거가 돼요.",
+        "sources": ["newsis-2025-hs-changes", "moe-credit-2026"]
+      }
+    ]
+  }
+}

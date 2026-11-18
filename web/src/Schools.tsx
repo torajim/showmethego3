@@ -1,7 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import type { Profile, YearMonth } from "./engine";
 import {
+  AREA_METRICS,
   SORTS,
+  areaAverages,
   areasFor,
   average,
   defaultLevel,
@@ -11,6 +13,7 @@ import {
   schoolInfoUrl,
   shortName,
   sortSchools,
+  type AreaMetric,
   type Level,
   type School,
   type SchoolsDoc,
@@ -26,6 +29,8 @@ interface Props {
 }
 
 const KINDS = ["전체", "일반고", "자율고", "특목고", "특성화고"];
+const SchoolMap = lazy(() => import("./SchoolMap"));
+type View = "list" | "map";
 
 export function SchoolsSection({ p, now, openSheet }: Props) {
   const [doc, setDoc] = useState<SchoolsDoc | null>(null);
@@ -35,6 +40,7 @@ export function SchoolsSection({ p, now, openSheet }: Props) {
   const [kind, setKind] = useState("전체");
   const [sort, setSort] = useState<SortKey>("students");
   const [picked, setPicked] = useState<string[]>([]);
+  const [view, setView] = useState<View>("list");
 
   useEffect(() => {
     loadSchools().then(setDoc, () => setFailed(true));
@@ -133,7 +139,43 @@ export function SchoolsSection({ p, now, openSheet }: Props) {
       )}
 
       <AreaSummary list={list} area={current ?? ""} level={level} />
+      <button
+        className="area-compare-btn"
+        onClick={() =>
+          openSheet({
+            title: `${p.region === "seoul" ? "서울" : "경기"} 시·군·구별 ${level === "middle" ? "중학교" : "고등학교"} 비교`,
+            body: <AreaCompare schools={regional} level={level} current={current} mine={mine} />,
+          })
+        }
+      >
+        <span>
+          <b>다른 지역과 비교</b>
+          <small>학급당 학생, 교원 1인당 학생을 시·군·구별로</small>
+        </span>
+        <span className="chev">›</span>
+      </button>
 
+      <div className="seg view-seg" role="tablist" aria-label="보기 방식">
+        {(
+          [
+            ["list", "목록"],
+            ["map", "지도"],
+          ] as [View, string][]
+        ).map(([v, label]) => (
+          <button key={v} role="tab" aria-selected={view === v} onClick={() => setView(v)}>
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {view === "map" && (
+        <Suspense fallback={<div className="school-empty">지도를 불러오는 중이에요.</div>}>
+          <SchoolMap list={list} onOpen={(x) => openSheet({ title: x.name, body: <SchoolDetail s={x} peers={list} /> })} />
+        </Suspense>
+      )}
+
+      {view === "list" && (
+      <>
       <label className="sort">
         <span className="sr-only">정렬</span>
         <select value={sort} onChange={(e) => setSort(e.target.value as SortKey)}>
@@ -177,13 +219,15 @@ export function SchoolsSection({ p, now, openSheet }: Props) {
           ))}
         </ul>
       )}
+      </>
+      )}
 
       <p className="eyebrow sources-note">
         출처:{" "}
         <a href={doc.source.url} target="_blank" rel="noopener noreferrer">
           {doc.source.title}
         </a>{" "}
-        ({doc.source.license}). 학교 서열이 아니라 규모와 여건을 보여주는 정보예요.
+        ({doc.source.license}){view === "map" && <>, 지도 © OpenStreetMap 기여자</>}. 학교 서열이 아니라 규모와 여건을 보여주는 정보예요.
       </p>
 
       {picked.length > 0 && (
@@ -407,5 +451,59 @@ function SchoolCompare({ a, b }: { a: School; b: School }) {
         </a>
       </div>
     </div>
+  );
+}
+
+/** 시·군·구별 평균을 가로 막대로. 우리 지역과 지금 보는 지역을 강조한다. */
+function AreaCompare({ schools, level, current, mine }: { schools: School[]; level: Level; current: string | null; mine: string[] }) {
+  const [metric, setMetric] = useState<AreaMetric>("perClass");
+  const rows = areaAverages(schools, level, metric);
+  const max = Math.max(1, ...rows.map((r) => r.value));
+  const [, label, unit] = AREA_METRICS.find(([k]) => k === metric)!;
+  const all = rows.length ? Math.round((rows.reduce((a, r) => a + r.value, 0) / rows.length) * 10) / 10 : null;
+  const cur = rows.find((r) => r.area === current);
+  const show = (v: number) => (metric === "students" ? Math.round(v).toLocaleString("ko-KR") : v.toFixed(1));
+  return (
+    <>
+      <div className="filters" role="tablist" aria-label="비교 기준">
+        {AREA_METRICS.map(([k, l]) => (
+          <button key={k} role="tab" className="filter" aria-selected={metric === k} onClick={() => setMetric(k)}>
+            {l}
+          </button>
+        ))}
+      </div>
+      {cur && all !== null && (
+        <div className="area-focus num">
+          <span>{cur.area}</span>
+          <b>
+            {show(cur.value)}
+            <small>{unit}</small>
+          </b>
+          <em>
+            시·군·구 평균 {show(all)}
+            {unit}보다{" "}
+            {Math.abs(cur.value - all) < 0.05 ? "비슷해요" : `${show(Math.abs(Math.round((cur.value - all) * 10) / 10))}${unit} ${cur.value > all ? "많아요" : "적어요"}`}
+          </em>
+        </div>
+      )}
+      <p className="eyebrow">{label} 평균, 적은 순</p>
+      <ol className="area-bars num">
+        {rows.map((r) => (
+          <li key={r.area} className={r.area === current ? "cur" : mine.includes(r.area) ? "mine" : ""}>
+            <span className="ab-name">{r.area}</span>
+            <span className="ab-bar">
+              <i style={{ width: `${(r.value / max) * 100}%` }} />
+            </span>
+            <b>
+              {show(r.value)}
+              <small>{unit}</small>
+            </b>
+          </li>
+        ))}
+      </ol>
+      <p className="eyebrow">
+        학교알리미 공시 수치의 단순 평균이에요(학교 {rows.reduce((a, r) => a + r.count, 0).toLocaleString("ko-KR")}곳). 지역의 좋고 나쁨이 아니라 교실 여건을 가늠하는 참고 자료예요.
+      </p>
+    </>
   );
 }

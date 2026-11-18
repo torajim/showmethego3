@@ -125,6 +125,78 @@
       "url": "https://www.adiga.kr",
       "official": true,
       "accessed": "2026-11-02"
+    },
+    {
+      "id": "khan-2028-plan",
+      "title": "현 고2 대입 때 80% 이상 수시로…상위권대 정시 큰 폭 축소",
+      "publisher": "경향신문",
+      "date": "2026-04-30",
+      "url": "https://www.khan.co.kr/article/202604302116005/",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "dhnews-2023-plan",
+      "title": "수시 27만 2442명 모집 올해 대입 전체 모집인원의 78%",
+      "publisher": "대학저널",
+      "date": null,
+      "url": "https://dhnews.co.kr/news/view/179524666338099",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "edaily-2026-plan",
+      "title": "대입 수시모집 비중 79.9%…전년 대비 0.3%p 확대",
+      "publisher": "이데일리",
+      "date": null,
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01098806642296184",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "etoday-2026-hs-apply",
+      "title": "자사고 지원자 10% 급감⋯외고·국제고 경쟁률은 5년 새 최고 (종로학원 분석)",
+      "publisher": "이투데이",
+      "date": "2025-12-21",
+      "url": "https://www.etoday.co.kr/news/view/2538227",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "edumorning-2026-science-hs",
+      "title": "과학고 지원 열기 식었다…2026학년도 경쟁률 3.41대 1, 4년 최저 (종로학원 분석)",
+      "publisher": "에듀모닝",
+      "date": "2025-09",
+      "url": "https://edumorning.com/articles/1286",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "fnnews-2027-science-hs",
+      "title": "전국 과학고 지원 6282명… 11년 만에 최다 (종로학원 분석)",
+      "publisher": "파이낸셜뉴스",
+      "date": "2026-09-09",
+      "url": "https://www.fnnews.com/news/202609091151179086",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "hankyung-2027-gifted",
+      "title": "의대보다 반도체…영재학교 경쟁률 6.21대1로 2022년 이후 최고 (종로학원 분석)",
+      "publisher": "한국경제",
+      "date": "2026-05-29",
+      "url": "https://www.hankyung.com/article/2026052958377",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "koreadaily-2027-gifted",
+      "title": "‘의대 쏠림’에 줄었던 영재학교 지원자, 역대 최대",
+      "publisher": "코리아데일리",
+      "date": "2026-05-28",
+      "url": "https://www.koreadaily.com/article/20260528184919956",
+      "official": false,
+      "accessed": "2026-11-18"
     }
   ]
 }

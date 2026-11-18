@@ -184,6 +184,8 @@ def validate() -> list[str]:
             if not DATE_RE.match(day) or not day.startswith(year) or int(day[5:7]) not in e["months"]:
                 errors.append(f"{where}: exact '{year}' 날짜 오류")
 
+    errors += validate_stats(source_ids)
+
     # 서비스 범위의 모든 출생연도·지역에 수능/내신 규칙이 정확히 하나씩 있어야 한다.
     for year in range(cov["birthYearFrom"], cov["birthYearTo"] + 1):
         for region in cov["regions"]:
@@ -192,6 +194,53 @@ def validate() -> list[str]:
                 n = sum(1 for r in applicable if r["category"] == category)
                 if n != 1:
                     errors.append(f"{year}년생/{region}: '{category}' 규칙이 {n}개입니다(1개여야 함)")
+    return errors
+
+
+def validate_stats(source_ids: set[str]) -> list[str]:
+    """data/stats.json: 모든 수치에 존재하는 출처가 있고, 연도가 오름차순·중복 없이 들어 있는지 확인한다."""
+    errors: list[str] = []
+    stats = load("stats")
+
+    def check_point(where: str, pt: dict) -> None:
+        if not pt.get("sources"):
+            errors.append(f"{where}: 출처가 없습니다")
+        for ref in pt.get("sources", []):
+            if ref not in source_ids:
+                errors.append(f"{where}: 존재하지 않는 출처 '{ref}'")
+        if pt.get("status") not in STATUSES:
+            errors.append(f"{where}: status 오류")
+        if pt.get("status") == "needs_verification" and not pt.get("note"):
+            errors.append(f"{where}: needs_verification 수치에는 note가 필요합니다")
+
+    def check_years(where: str, points: list[dict]) -> None:
+        years = [p.get("year") for p in points]
+        if not points or years != sorted(set(years)) or not all(isinstance(y, int) for y in years):
+            errors.append(f"{where}: year가 비었거나 정렬·중복 오류")
+
+    for series in stats["hsCompetition"]["series"]:
+        where = f"stats.hsCompetition[{series.get('id')}]"
+        check_years(where, series["points"])
+        for pt in series["points"]:
+            if not (isinstance(pt.get("value"), (int, float)) and 0 < pt["value"] < 30):
+                errors.append(f"{where}/{pt.get('year')}: 경쟁률 값 오류")
+            check_point(f"{where}/{pt.get('year')}", pt)
+
+    sj = stats["susiJeongsi"]["points"]
+    check_years("stats.susiJeongsi", sj)
+    for pt in sj:
+        if not (isinstance(pt.get("susi"), (int, float)) and 50 <= pt["susi"] <= 100):
+            errors.append(f"stats.susiJeongsi/{pt.get('year')}: 수시 비율 오류")
+        check_point(f"stats.susiJeongsi/{pt.get('year')}", pt)
+
+    for block in ("hsCompetition", "susiJeongsi"):
+        for i, t in enumerate(stats[block].get("takeaways", [])):
+            check_point(f"stats.{block}.takeaways[{i}]", {**t, "status": "confirmed"})
+    for row in stats["reform2028"]["rows"]:
+        check_point(f"stats.reform2028[{row.get('label')}]", {**row, "status": "confirmed"})
+        for key in ("before", "after", "impact"):
+            if not row.get(key):
+                errors.append(f"stats.reform2028[{row.get('label')}]: {key} 누락")
     return errors
 
 

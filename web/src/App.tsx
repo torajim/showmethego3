@@ -25,11 +25,13 @@ import { KEYS, readJson, writeJson } from "./storage";
 import { ForkTab } from "./Fork";
 import { ThisMonth, WhatsNewList, whatsNew } from "./Today";
 import { SchoolsSection } from "./Schools";
+import { StatsTab } from "./Stats";
 
-type Tab = "route" | "fork" | "news" | "school";
+type Tab = "route" | "fork" | "stats" | "news" | "school";
 const TABS: [Tab, string][] = [
   ["route", "노선도"],
   ["fork", "갈림길"],
+  ["stats", "통계"],
   ["news", "뉴스"],
   ["school", "학교"],
 ];
@@ -136,6 +138,7 @@ export default function App() {
         {tab === "fork" && (
           <ForkTab p={profile} now={now} openSheet={setSheet} closeSheet={() => setSheet(null)} />
         )}
+        {tab === "stats" && <StatsTab p={profile} now={now} openSheet={setSheet} />}
         {tab === "news" && <News p={profile} now={now} />}
         {tab === "school" && (
           <>
@@ -562,6 +565,7 @@ const ICON_PATHS: Record<Tab, ReactNode> = {
     </>
   ),
   fork: <path d="M12 21v-8M12 13 6 6M12 13l6-7M4 6h4M16 6h4" />,
+  stats: <path d="M4 20h16M6 16l4-5 3 3 5-7" />,
   news: (
     <>
       <rect x="4" y="4" width="16" height="16" rx="3" />

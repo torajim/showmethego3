@@ -109,3 +109,34 @@ export const schoolInfoUrl = (s: School) =>
     : `https://www.schoolinfo.go.kr/ng/go/pnnggo_a01_l0.do`;
 
 export const mapUrl = (s: School) => `https://map.naver.com/p/search/${encodeURIComponent(s.name + " " + s.area)}`;
+
+export type AreaMetric = "perClass" | "perTeacher" | "students";
+
+export const AREA_METRICS: [AreaMetric, string, string][] = [
+  ["perClass", "학급당 학생", "명"],
+  ["perTeacher", "교원 1인당 학생", "명"],
+  ["students", "학교당 평균 학생", "명"],
+];
+
+/** 시·군·구별 평균(해당 학교급, 값이 있는 학교만). 값이 작은 순으로 정렬한다. */
+export function areaAverages(
+  schools: School[],
+  level: Level,
+  metric: AreaMetric,
+): { area: string; value: number; count: number }[] {
+  const groups = new Map<string, School[]>();
+  for (const s of schools) {
+    if (s.level !== level) continue;
+    groups.set(s.area, [...(groups.get(s.area) ?? []), s]);
+  }
+  const out: { area: string; value: number; count: number }[] = [];
+  for (const [area, list] of groups) {
+    const v = average(list, metric);
+    if (v !== null) out.push({ area, value: metric === "students" ? Math.round(v) : v, count: list.length });
+  }
+  return out.sort((a, b) => a.value - b.value || a.area.localeCompare(b.area, "ko"));
+}
+
+/** 지도 표시용: 좌표가 있는 학교만. */
+export const withCoords = (list: School[]) =>
+  list.filter((s): s is School & { lat: number; lng: number } => typeof s.lat === "number" && typeof s.lng === "number");
