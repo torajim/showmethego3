@@ -10,7 +10,6 @@ import {
   formatRemaining,
   generationTags,
   gradeAt,
-  herePosition,
   nearStages,
   regionLabel,
   relativeDay,
@@ -213,9 +212,10 @@ function Hero({ p, now, today, example }: { p: Profile; now: YearMonth; today: D
 
 function RouteMap({ p, now, today, onStop }: { p: Profile; now: YearMonth; today: Date; onStop: (s: Stop) => void }) {
   const stops = buildStops(p, rules);
-  const here = herePosition(stops, now);
   const counts = stops.map((s) => countdown(s, stopDate(s), now, today));
+  // 날짜가 발표된 역은 그 날이 지나면 같은 달이라도 지난 역으로 본다.
   const nextIdx = counts.findIndex((c) => !c.passed);
+  const here = nextIdx === -1 ? stops.length : nextIdx;
   const next = nextIdx === -1 ? null : stops[nextIdx];
   const hereRow = (
     <li className="here" key="here" aria-label="지금 위치">
@@ -231,8 +231,8 @@ function RouteMap({ p, now, today, onStop }: { p: Profile; now: YearMonth; today
   const items: ReactNode[] = [];
   stops.forEach((s, i) => {
     if (i === here) items.push(hereRow);
-    const passed = i < here;
     const c = counts[i];
+    const passed = i < here || c.passed;
     const verify = s.rules.some((r) => r.status === "needs_verification");
     items.push(
       <li key={s.key} className={`stop ${passed ? "passed" : ""} ${s.big ? "big" : ""}`}>
@@ -246,7 +246,7 @@ function RouteMap({ p, now, today, onStop }: { p: Profile; now: YearMonth; today
         <button className="card" onClick={() => onStop(s)}>
           <div className="card-head">
             <h3>{s.title}</h3>
-            {!passed && <DChip c={c} />}
+            {!passed && !c.passed && <DChip c={c} />}
           </div>
           <p>{s.text}</p>
           <div className="tags">
