@@ -183,6 +183,19 @@ def validate() -> list[str]:
         for year, day in (e.get("exact") or {}).items():
             if not DATE_RE.match(day) or not day.startswith(year) or int(day[5:7]) not in e["months"]:
                 errors.append(f"{where}: exact '{year}' 날짜 오류")
+        # 정확한 날짜를 보여주는 일정은 근거 자료가 반드시 있어야 한다.
+        if e.get("exact") and not e.get("sources"):
+            errors.append(f"{where}: exact 날짜에 sources가 없습니다")
+        for sid in e.get("sources") or []:
+            if sid not in source_ids:
+                errors.append(f"{where}: 알 수 없는 출처 '{sid}'")
+        if any(x not in regions for x in e.get("regions") or []):
+            errors.append(f"{where}: regions 오류")
+        lo, hi = e.get("yearFrom", 0), e.get("yearTo", 9999)
+        if not (isinstance(lo, int) and isinstance(hi, int) and lo <= hi):
+            errors.append(f"{where}: yearFrom/yearTo 오류")
+        elif any(not lo <= int(y) <= hi for y in (e.get("exact") or {})):
+            errors.append(f"{where}: exact 연도가 yearFrom~yearTo 밖입니다")
 
     # 서비스 범위의 모든 출생연도·지역에 수능/내신 규칙이 정확히 하나씩 있어야 한다.
     for year in range(cov["birthYearFrom"], cov["birthYearTo"] + 1):

@@ -1,6 +1,6 @@
 import calendarJson from "../../data/calendar.json";
 import type { SchoolType } from "./data";
-import { FORK_TENDENCY, gradeAt, monthIndex, type Profile, type YearMonth } from "./engine";
+import { FORK_TENDENCY, formatRemaining, gradeAt, monthIndex, type Profile, type Stop, type YearMonth } from "./engine";
 
 export interface CalendarEvent {
   id: string;
@@ -11,6 +11,13 @@ export interface CalendarEvent {
   relates?: string;
   /** 정확한 날짜가 공표된 경우 연도별 날짜(YYYY-MM-DD) */
   exact?: Record<string, string>;
+  /** 날짜·내용의 근거(sources.json id). exact가 있으면 필수. */
+  sources?: string[];
+  /** 특정 시·도에만 해당하면 그 지역들. 없으면 모든 지역. */
+  regions?: string[];
+  /** 이 일정이 해당하는 달력 연도 범위(제도가 바뀌는 경우) */
+  yearFrom?: number;
+  yearTo?: number;
 }
 
 export const calendar = calendarJson as { note: string; events: CalendarEvent[] };
@@ -23,7 +30,58 @@ export const addMonths = (ym: YearMonth, n: number): YearMonth => {
 /** 이 달에 아이 학년에 해당하는 일정. */
 export function eventsIn(p: Profile, at: YearMonth, events = calendar.events): CalendarEvent[] {
   const g = gradeAt(p.birthYear, at);
-  return events.filter((e) => e.grades.includes(g) && e.months.includes(at.month));
+  return events.filter(
+    (e) =>
+      e.grades.includes(g) &&
+      e.months.includes(at.month) &&
+      (!e.regions || e.regions.includes(p.region)) &&
+      (e.yearFrom ?? 0) <= at.year &&
+      at.year <= (e.yearTo ?? 9999),
+  );
+}
+
+export interface ExactDate {
+  date: string;
+  sources: string[];
+}
+
+/** 일정 id와 달력 연도로 공표된 날짜를 찾는다. */
+export function exactDate(eventId: string, year: number, events = calendar.events): ExactDate | null {
+  const e = events.find((x) => x.id === eventId);
+  const date = e?.exact?.[String(year)];
+  return date ? { date, sources: e!.sources ?? [] } : null;
+}
+
+/** 노선도 역 → 날짜가 공표될 수 있는 일정 */
+const STOP_EVENT: Record<string, string> = { csat: "csat", susi: "susi-apply", jeongsi: "jeongsi" };
+
+export const stopDate = (s: Stop, events = calendar.events): ExactDate | null =>
+  STOP_EVENT[s.key] ? exactDate(STOP_EVENT[s.key], s.year, events) : null;
+
+export interface Countdown {
+  /** "D-12", "D-DAY", "1년 3개월" */
+  label: string;
+  /** 공표된 날짜 기준이면 true, 예년 시기(월) 기준이면 false */
+  exact: boolean;
+  days: number | null;
+  passed: boolean;
+}
+
+/** 역까지 남은 기간: 공표된 날짜가 있으면 D-day, 없으면 개월 수. */
+export function countdown(at: YearMonth, exact: ExactDate | null, now: YearMonth, today: Date): Countdown {
+  if (exact) {
+    const days = daysBetween(today, localDate(exact.date));
+    return { label: days === 0 ? "D-DAY" : days > 0 ? `D-${days}` : `D+${-days}`, exact: true, days, passed: days < 0 };
+  }
+  const n = monthIndex(at) - monthIndex(now);
+  return { label: n === 0 ? "이번 달" : formatRemaining(now, at), exact: false, days: null, passed: n < 0 };
+}
+
+const WEEKDAYS = "일월화수목금토";
+/** "2026-11-19" → "2026.11.19 (목)" */
+export function formatDate(iso: string): string {
+  const d = localDate(iso);
+  return `${iso.slice(0, 10).split("-").join(".")} (${WEEKDAYS[d.getDay()]})`;
 }
 
 export interface Upcoming {

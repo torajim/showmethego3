@@ -23,6 +23,7 @@
 | `rules.json` | 출생연도·지역별로 적용되는 제도 규칙 |
 | `school_types.json` | 고교 유형(영재학교·과고·외고/국제고·자사고·일반고·특성화고) |
 | `university_tracks.json` | 대입 전형 유형(교과·종합·논술·정시·지역인재·지역의사) |
+| `calendar.json` | 학년·월별 일정과 할 일. 발표된 날짜(`exact`)는 `sources` 필수, `regions`·`yearFrom`/`yearTo`로 지역·연도 한정 |
 | `generated/cohorts.json` | 출생연도별 입학 연도와 적용 규칙 목록(자동 생성) |
 
 각 항목에는 `status`가 있습니다.

@@ -125,6 +125,33 @@
       "url": "https://www.adiga.kr",
       "official": true,
       "accessed": "2026-11-02"
+    },
+    {
+      "id": "hankyung-2027-schedule",
+      "title": "2027학년도 대입 전략: 수능 11월 19일, 수시 접수 9월 7~11일, 성적 통지 12월 11일, 정시 접수 2027년 1월 4~7일",
+      "publisher": "생글생글(한국경제신문)",
+      "date": "2026-03-02",
+      "url": "https://sgsg.hankyung.com/article/2026022790951",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "csat-2028-date",
+      "title": "2028학년도 수능 2027년 11월 18일 시행, 성적 통지 12월 10일 (교육부 발표)",
+      "publisher": "대학저널",
+      "date": "2025-06-02",
+      "url": "https://www.dhnews.co.kr/news/view/1065578177989020",
+      "official": false,
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "hangyo-2028-susi",
+      "title": "2028학년도 대입부터 수시 9월 20일 시작, 하반기 모의평가 8월 시행",
+      "publisher": "한국교육신문",
+      "date": "2025-09-12",
+      "url": "https://hangyo.com/news/article.html?no=105345",
+      "official": false,
+      "accessed": "2026-11-18"
     }
   ]
 }
