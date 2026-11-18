@@ -1,7 +1,21 @@
 import { describe, expect, it } from "vitest";
 import { schoolTypes } from "./data";
 import type { Profile } from "./engine";
-import { addMonths, applyYear, eventsIn, newSince, recommend, upcoming, type Answers } from "./planner";
+import { rules } from "./data";
+import { buildStops } from "./engine";
+import {
+  addMonths,
+  applyYear,
+  countdown,
+  eventsIn,
+  exactDate,
+  formatDate,
+  newSince,
+  recommend,
+  stopDate,
+  upcoming,
+  type Answers,
+} from "./planner";
 
 const p = (birthYear: number): Profile => ({ birthYear, birthMonth: 5, region: "gyeonggi", district: "용인" });
 
@@ -58,5 +72,46 @@ describe("newSince", () => {
     const items = [{ date: "2026-11-01" }, { date: "2026-11-03" }];
     expect(newSince(items, null)).toEqual([]);
     expect(newSince(items, "2026-11-02")).toEqual([{ date: "2026-11-03" }]);
+  });
+});
+
+describe("D-day 타임라인", () => {
+  const seoul = (birthYear: number): Profile => ({ birthYear, birthMonth: 5, region: "seoul", district: null });
+  it("경기 전용 일정은 서울에 나오지 않는다", () => {
+    const at = { year: 2026, month: 8 };
+    expect(eventsIn(p(2013), at).map((e) => e.id)).toContain("gg-grade-start");
+    expect(eventsIn(seoul(2013), at).map((e) => e.id)).not.toContain("gg-grade-start");
+  });
+  it("2027년부터 하반기 모의평가는 8월", () => {
+    expect(eventsIn(p(2009), { year: 2027, month: 8 }).map((e) => e.id)).toContain("mock-kice-aug");
+    expect(eventsIn(p(2009), { year: 2027, month: 9 }).map((e) => e.id)).not.toContain("mock-kice");
+    expect(eventsIn(p(2008), { year: 2026, month: 9 }).map((e) => e.id)).toContain("mock-kice");
+  });
+  it("발표된 날짜에는 근거가 붙는다", () => {
+    expect(exactDate("csat", 2027)).toMatchObject({ date: "2027-11-18" });
+    expect(exactDate("csat", 2027)!.sources.length).toBeGreaterThan(0);
+    expect(exactDate("csat", 2030)).toBeNull();
+  });
+  it("2008년생 수능은 2026.11.18 기준 D-1, 정시 원서도 날짜가 있다", () => {
+    const today = new Date(2026, 10, 18);
+    const now = { year: 2026, month: 11 };
+    const stops = buildStops(p(2008), rules);
+    const csat = stops.find((s) => s.key === "csat")!;
+    expect(countdown(csat, stopDate(csat), now, today)).toMatchObject({ label: "D-1", exact: true, passed: false });
+    const jeongsi = stops.find((s) => s.key === "jeongsi")!;
+    expect(stopDate(jeongsi)?.date).toBe("2027-01-04");
+  });
+  it("날짜가 없으면 개월 수로", () => {
+    const stops = buildStops(p(2012), rules);
+    const apply = stops.find((s) => s.key === "high-apply")!;
+    const c = countdown(apply, stopDate(apply), { year: 2026, month: 11 }, new Date(2026, 10, 18));
+    expect(c).toMatchObject({ label: "1년", exact: false, passed: false });
+  });
+  it("초6이 될 아이는 중학교 배정 원서 역이 있다", () => {
+    const s = buildStops(p(2015), rules).find((x) => x.key === "middle-apply")!;
+    expect([s.year, s.month]).toEqual([2027, 12]);
+  });
+  it("요일 포함 날짜", () => {
+    expect(formatDate("2026-11-19")).toBe("2026.11.19 (목)");
   });
 });

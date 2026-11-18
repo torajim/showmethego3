@@ -24,6 +24,7 @@ import { Sheet, Sources, type SheetContent } from "./ui";
 import { KEYS, readJson, writeJson } from "./storage";
 import { ForkTab } from "./Fork";
 import { ThisMonth, WhatsNewList, whatsNew } from "./Today";
+import { countdown, exactDate, formatDate, stopDate, type Countdown } from "./planner";
 import { SchoolsSection } from "./Schools";
 
 type Tab = "route" | "fork" | "news" | "school";
@@ -121,13 +122,14 @@ export default function App() {
             {isExample ? "우리 아이로 보기" : "정보 바꾸기"}
           </button>
         </header>
-        {(tab === "route" || tab === "fork") && <Hero p={profile} now={now} example={isExample} />}
+        {(tab === "route" || tab === "fork") && <Hero p={profile} now={now} today={todayDate} example={isExample} />}
         {tab === "route" && (
           <>
             <ThisMonth p={profile} now={now} today={todayDate} />
             <RouteMap
               p={profile}
               now={now}
+              today={todayDate}
               onStop={(s) => setSheet(stopSheet(s, () => { setSheet(null); goTab("fork"); }))}
             />
             <Changes p={profile} onRule={(r) => setSheet({ title: r.title, body: <RuleBlock r={r} /> })} />
@@ -171,8 +173,9 @@ export default function App() {
   );
 }
 
-function Hero({ p, now, example }: { p: Profile; now: YearMonth; example: boolean }) {
+function Hero({ p, now, today, example }: { p: Profile; now: YearMonth; today: Date; example: boolean }) {
   const Y = p.birthYear;
+  const csat = countdown({ year: Y + 18, month: 11 }, exactDate("csat", Y + 18), now, today);
   return (
     <section className="hero">
       {example && <span className="example-tag">예시 화면</span>}
@@ -197,7 +200,7 @@ function Hero({ p, now, example }: { p: Profile; now: YearMonth; example: boolea
         </div>
         <div>
           <small>수능까지</small>
-          <b>{formatRemaining(now, { year: Y + 18, month: 11 })}</b>
+          <b>{csat.passed ? "지났어요" : csat.label}</b>
         </div>
         <div>
           <small>대입 학년도</small>
@@ -208,9 +211,12 @@ function Hero({ p, now, example }: { p: Profile; now: YearMonth; example: boolea
   );
 }
 
-function RouteMap({ p, now, onStop }: { p: Profile; now: YearMonth; onStop: (s: Stop) => void }) {
+function RouteMap({ p, now, today, onStop }: { p: Profile; now: YearMonth; today: Date; onStop: (s: Stop) => void }) {
   const stops = buildStops(p, rules);
   const here = herePosition(stops, now);
+  const counts = stops.map((s) => countdown(s, stopDate(s), now, today));
+  const nextIdx = counts.findIndex((c) => !c.passed);
+  const next = nextIdx === -1 ? null : stops[nextIdx];
   const hereRow = (
     <li className="here" key="here" aria-label="지금 위치">
       <div />
@@ -226,6 +232,7 @@ function RouteMap({ p, now, onStop }: { p: Profile; now: YearMonth; onStop: (s: 
   stops.forEach((s, i) => {
     if (i === here) items.push(hereRow);
     const passed = i < here;
+    const c = counts[i];
     const verify = s.rules.some((r) => r.status === "needs_verification");
     items.push(
       <li key={s.key} className={`stop ${passed ? "passed" : ""} ${s.big ? "big" : ""}`}>
@@ -237,7 +244,10 @@ function RouteMap({ p, now, onStop }: { p: Profile; now: YearMonth; onStop: (s: 
           <span className="dot" />
         </div>
         <button className="card" onClick={() => onStop(s)}>
-          <h3>{s.title}</h3>
+          <div className="card-head">
+            <h3>{s.title}</h3>
+            {!passed && <DChip c={c} />}
+          </div>
           <p>{s.text}</p>
           <div className="tags">
             {s.alert && <span className="tag alert">{s.alert}</span>}
@@ -256,8 +266,35 @@ function RouteMap({ p, now, onStop }: { p: Profile; now: YearMonth; onStop: (s: 
         <h2>입시 노선도</h2>
         <span className="eyebrow">눌러서 근거 보기</span>
       </div>
+      {next && <NextStop s={next} c={counts[nextIdx]} onOpen={() => onStop(next)} />}
       <ol className="route">{items}</ol>
+      <p className="eyebrow sources-note">
+        D-day는 교육부·대교협 발표를 전한 보도로 날짜가 정해진 일정만 보여줘요. 나머지는 예년 시기 기준으로 남은 기간을
+        보여줘요.
+      </p>
     </section>
+  );
+}
+
+function DChip({ c }: { c: Countdown }) {
+  return <span className={`dchip num ${c.exact ? "exact" : ""}`}>{c.exact ? c.label : `${c.label} 후`}</span>;
+}
+
+/** 다음 역 하이라이트: 가장 가까운 일정까지 크게 보여준다. */
+function NextStop({ s, c, onOpen }: { s: Stop; c: Countdown; onOpen: () => void }) {
+  const exact = stopDate(s);
+  return (
+    <button className="next-stop" onClick={onOpen}>
+      <span className="next-label">다음 역</span>
+      <span className="next-row">
+        <b className="next-d num">{c.exact ? c.label : c.label === "이번 달" ? c.label : `${c.label} 후`}</b>
+        <span className="next-what">
+          <strong>{s.title}</strong>
+          <small className="num">{exact ? formatDate(exact.date) : `${s.year}년 ${s.month}월 무렵`}</small>
+        </span>
+      </span>
+      <span className={`tag ${exact ? "alert" : ""}`}>{exact ? "발표된 날짜" : "예년 시기 기준"}</span>
+    </button>
   );
 }
 
@@ -421,12 +458,25 @@ function RuleBlock({ r }: { r: Rule }) {
   );
 }
 
+function StopDateBlock({ s }: { s: Stop }) {
+  const exact = stopDate(s);
+  if (!exact) return <p className="eyebrow">정확한 날짜는 아직 발표 전이에요. 예년 시기 기준으로 표시했어요.</p>;
+  return (
+    <div className="rule">
+      <span className="status confirmed">날짜 근거</span>
+      <h3 className="num">{formatDate(exact.date)}</h3>
+      <Sources ids={exact.sources} />
+    </div>
+  );
+}
+
 function stopSheet(s: Stop, toFork: () => void): SheetContent {
   return {
     title: `${s.year}년 ${s.month}월 · ${s.title}`,
     body: (
       <>
         <p>{s.text}</p>
+        <StopDateBlock s={s} />
         {s.fork && (
           <button className="ghost" style={{ alignSelf: "flex-start", color: "var(--accent)" }} onClick={toFork}>
             고교 유형별 갈림길 보기 ›
