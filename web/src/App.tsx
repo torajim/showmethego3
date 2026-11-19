@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { meta, news, rules, tracks, type Region, type Rule } from "./data";
+import { meta, news, rules, type Region, type Rule } from "./data";
 import {
   GG_EQUALIZED,
   GG_OTHER,
@@ -26,12 +26,14 @@ import { ThisMonth, WhatsNewList, whatsNew } from "./Today";
 import { countdown, exactDate, formatDate, stopDate, type Countdown } from "./planner";
 import { SchoolsSection } from "./Schools";
 import { StatsTab } from "./Stats";
+import { GuideTab } from "./Guide";
 
-type Tab = "route" | "fork" | "stats" | "news" | "school";
+type Tab = "route" | "fork" | "stats" | "guide" | "news" | "school";
 const TABS: [Tab, string][] = [
   ["route", "노선도"],
   ["fork", "갈림길"],
   ["stats", "통계"],
+  ["guide", "제도"],
   ["news", "뉴스"],
   ["school", "학교"],
 ];
@@ -47,7 +49,7 @@ const saveProfile = (p: Profile | null) => writeJson(KEYS.profile, p);
 
 const tabFromHash = (): Tab => {
   const raw = window.location.hash.replace("#", "");
-  const h = raw === "gloss" ? "school" : raw; // 예전 '용어' 탭 링크
+  const h = raw === "gloss" ? "guide" : raw; // 예전 '용어' 탭 링크
   return (TABS.find(([t]) => t === h)?.[0] ?? "route") as Tab;
 };
 
@@ -140,12 +142,10 @@ export default function App() {
           <ForkTab p={profile} now={now} openSheet={setSheet} closeSheet={() => setSheet(null)} />
         )}
         {tab === "stats" && <StatsTab p={profile} now={now} openSheet={setSheet} />}
+        {tab === "guide" && <GuideTab p={profile} openSheet={setSheet} goTab={goTab} />}
         {tab === "news" && <News p={profile} now={now} />}
         {tab === "school" && (
-          <>
-            <SchoolsSection p={profile} now={now} openSheet={setSheet} />
-            <Glossary />
-          </>
+          <SchoolsSection p={profile} now={now} openSheet={setSheet} />
         )}
         <Notice />
         {!isExample && (
@@ -406,38 +406,6 @@ function News({ p, now }: { p: Profile; now: YearMonth }) {
   );
 }
 
-const EXTRA_TERMS: [string, string][] = [
-  ["수시", "고3 9월에 원서를 내는 전형이에요. 내신·학생부·논술로 뽑고 최대 6곳까지 지원해요."],
-  ["정시", "수능 성적으로 뽑는 전형이에요. 수능이 끝난 뒤 12월 말에 원서를 내요."],
-  ["수능 최저학력기준", "수시에 합격하려면 넘어야 하는 최소 수능 등급이에요."],
-  ["평준화 지역", "일반고를 시험 없이 추첨으로 배정하는 지역이에요."],
-  ["성취평가(A~E)", "다른 학생과 비교하지 않고 도달한 수준으로 매기는 성적이에요."],
-];
-
-function Glossary() {
-  return (
-    <section className="section">
-      <div className="section-head">
-        <h2>입시 용어</h2>
-      </div>
-      <dl className="gloss">
-        {tracks.map((t) => (
-          <div key={t.id}>
-            <dt>{t.name}</dt>
-            <dd>{t.summary}</dd>
-          </div>
-        ))}
-        {EXTRA_TERMS.map(([a, b]) => (
-          <div key={a}>
-            <dt>{a}</dt>
-            <dd>{b}</dd>
-          </div>
-        ))}
-      </dl>
-    </section>
-  );
-}
-
 function Notice() {
   return (
     <p className="notice">
@@ -616,6 +584,12 @@ const ICON_PATHS: Record<Tab, ReactNode> = {
   ),
   fork: <path d="M12 21v-8M12 13 6 6M12 13l6-7M4 6h4M16 6h4" />,
   stats: <path d="M4 20h16M6 16l4-5 3 3 5-7" />,
+  guide: (
+    <>
+      <path d="M4 5.5C6.5 4 9.5 4 12 5.5v14C9.5 18 6.5 18 4 19.5z" />
+      <path d="M20 5.5C17.5 4 14.5 4 12 5.5v14c2.5-1.5 5.5-1.5 8 0z" />
+    </>
+  ),
   news: (
     <>
       <rect x="4" y="4" width="16" height="16" rx="3" />
