@@ -23,6 +23,7 @@
 | `rules.json` | 출생연도·지역별로 적용되는 제도 규칙 |
 | `school_types.json` | 고교 유형(영재학교·과고·외고/국제고·자사고·일반고·특성화고) |
 | `university_tracks.json` | 대입 전형 유형(교과·종합·논술·정시·지역인재·지역의사) |
+| `stats.json` | 통계 탭 수치(고교 유형별 경쟁률, 수시·정시 비율, 2028 개편 전후). 모든 수치에 `sources` 필수 |
 | `calendar.json` | 학년·월별 일정과 할 일. 발표된 날짜(`exact`)는 `sources` 필수, `regions`·`yearFrom`/`yearTo`로 지역·연도 한정 |
 | `generated/cohorts.json` | 출생연도별 입학 연도와 적용 규칙 목록(자동 생성) |
 
@@ -75,3 +76,10 @@ npm run build    # web/dist
 - 인증키는 저장소 Secrets의 `SCHOOLINFO_API_KEY`. 2026년 이후 발급 키는 시·군·구 코드가 필수라서 시·군·구마다 호출한다.
 - `.github/workflows/schools.yml`: 매월 2일 06:30 KST, 수집 스크립트가 main에 들어올 때, Actions의 "Run workflow"로 실행. 바뀐 내용이 있으면 커밋하고 사이트를 다시 배포한다.
 - 진학 실적·학업성취처럼 학교 서열로 읽힐 수 있는 정보는 다루지 않는다.
+
+## 통계 탭 (`data/stats.json`)
+
+- 고교 유형별 평균 경쟁률(종로학원 집계 보도), 대입 수시·정시 비율(대교협 시행계획), 2028 대입 개편 전후 비교를 보여준다.
+- 수치마다 `sources`(sources.json의 id)가 있어야 하고, 다른 해 기사에 함께 보도된 값처럼 원자료 확인이 남은 수치는 `status: needs_verification` + `note`로 둔다(차트에서 속 빈 점). `python scripts/admissions.py validate`가 확인한다.
+- 갱신 시기: 영재학교 5~6월, 과학고 9월, 외고·국제고·자사고 12월, 대입 시행계획 4월 말.
+- 학교 탭의 지도는 OpenStreetMap 타일(Leaflet)을 쓴다. 트래픽이 크게 늘면 OSM 타일 이용 정책에 맞춰 별도 타일 제공처로 바꿔야 한다.

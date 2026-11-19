@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { areasFor, defaultLevel, netMove, shortName, sortSchools, type School } from "./schools";
+import { areaAverages, areasFor, defaultLevel, withCoords, netMove, shortName, sortSchools, type School } from "./schools";
 
 const s = (o: Partial<School>): School => ({
   code: o.name ?? "x", name: "x", level: "middle", region: "gyeonggi", area: "용인시 수지구", kind: null, found: "공립",
@@ -32,5 +32,21 @@ describe("schools", () => {
     expect(defaultLevel(p(2014), { year: 2026, month: 11 })).toBe("middle"); // 초6
     expect(defaultLevel(p(2012), { year: 2026, month: 11 })).toBe("high"); // 중2
     expect(shortName("숙명여자중학교")).toBe("숙명여중");
+  });
+  it("시·군·구별 평균은 학교급별로, 작은 순", () => {
+    const list = [
+      s({ name: "a", area: "가구", perClass: 20 }),
+      s({ name: "b", area: "가구", perClass: 24 }),
+      s({ name: "c", area: "나구", perClass: 21 }),
+      s({ name: "d", area: "나구", perClass: null }),
+      s({ name: "e", area: "다구", level: "high", perClass: 10 }),
+    ];
+    expect(areaAverages(list, "middle", "perClass")).toEqual([
+      { area: "나구", value: 21, count: 2 },
+      { area: "가구", value: 22, count: 2 },
+    ]);
+  });
+  it("좌표 없는 학교는 지도에서 뺀다", () => {
+    expect(withCoords([s({ name: "a", lat: 37.5, lng: 127 }), s({ name: "b" })]).map((x) => x.name)).toEqual(["a"]);
   });
 });

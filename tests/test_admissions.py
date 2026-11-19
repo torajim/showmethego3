@@ -57,3 +57,18 @@ class DataTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class StatsTest(unittest.TestCase):
+    def test_every_stat_has_a_known_source(self):
+        ids = {s["id"] for s in admissions.load("sources")["sources"]}
+        self.assertEqual(admissions.validate_stats(ids), [])
+
+    def test_missing_source_is_reported(self):
+        self.assertTrue(admissions.validate_stats(set()))
+
+    def test_susi_share_keeps_rising_through_2028(self):
+        pts = admissions.load("stats")["susiJeongsi"]["points"]
+        self.assertEqual(pts[-1]["year"], 2028)
+        shares = [p["susi"] for p in pts]
+        self.assertEqual(shares, sorted(shares))
