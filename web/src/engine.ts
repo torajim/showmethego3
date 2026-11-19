@@ -72,6 +72,15 @@ export function buildStops(p: Profile, allRules: Rule[]): Stop[] {
   const push = (s: Omit<Stop, "rules"> & { rules: (Rule | null)[] }) =>
     out.push({ ...s, rules: s.rules.filter((r): r is Rule => r !== null) });
 
+  push({
+    key: "middle-apply",
+    year: Y + 12,
+    month: 12,
+    title: "중학교 배정 원서",
+    text: "초6 12월쯤 초등학교를 통해 배정 원서를 내고, 이듬해 2월에 배정 학교가 발표돼요. 시험은 없어요.",
+    rules: [R("middle-school-assignment")],
+  });
+
   const medical = R("regional-talent-medical");
   push({
     key: "middle-entry",
@@ -156,6 +165,15 @@ export function buildStops(p: Profile, allRules: Rule[]): Stop[] {
     big: true,
     text: integrated ? "선택과목 없는 통합형 수능을 치러요." : "마지막 선택형 수능이에요. 재수하면 시험 체제가 바뀌어요.",
     rules: [integrated, R("csat-selective-2022-2027"), R("retake-risk-2008")],
+  });
+
+  push({
+    key: "jeongsi",
+    year: Y + 19,
+    month: 1,
+    title: "정시 원서",
+    text: "12월에 나온 수능 성적으로 가·나·다 군에서 한 곳씩, 최대 3곳까지 지원해요. 수시에 합격했다면 지원할 수 없어요.",
+    rules: [R("csat-integrated-2028"), R("csat-selective-2022-2027")],
   });
 
   push({ key: "university", year: Y + 19, month: 3, title: "대학 입학", text: "수고 많으셨어요.", rules: [] });

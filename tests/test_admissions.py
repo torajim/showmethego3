@@ -35,6 +35,16 @@ class DataTest(unittest.TestCase):
     def test_data_is_valid(self):
         self.assertEqual(admissions.validate(), [])
 
+    def test_calendar_exact_dates_have_sources_and_match_cohorts(self):
+        events = {e["id"]: e for e in admissions.load("calendar")["events"]}
+        csat = events["csat"]
+        self.assertTrue(csat["sources"])
+        # 2008년생 수능은 2026년, 2009년생은 2027년(통합형 첫 수능)
+        for birth_year in (2008, 2009):
+            year = admissions.milestones(birth_year).csat_exam_year
+            self.assertIn(str(year), csat["exact"])
+            self.assertTrue(csat["exact"][str(year)].startswith(f"{year}-11-"))
+
     def test_region_filter(self):
         rules = admissions.load("rules")["rules"]
         seoul = {r["id"] for r in admissions.rules_for(2012, "seoul", rules)}
