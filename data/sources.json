@@ -224,6 +224,60 @@
       "url": "https://www.koreadaily.com/article/20260528184919956",
       "official": false,
       "accessed": "2026-11-18"
+    },
+    {
+      "id": "gne-credit-guide",
+      "title": "고교학점제 이해 (졸업 기준 192학점, 과목 이수 기준, 성적 산출 방식)",
+      "publisher": "경상남도교육청",
+      "date": null,
+      "url": "https://www.gne.go.kr/h-creditsystem/highschool/credit/credit_01.jsp",
+      "official": true,
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "newsis-csat-terms",
+      "title": "[2026 수능]표준점수? 백분위?…용어 이해하고 전략 세워야",
+      "publisher": "뉴시스",
+      "date": "2025-11-14",
+      "url": "https://mobile.newsis.com/view/NISX20251114_0003402990",
+      "official": false,
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "fnnews-2024-grade-a",
+      "title": "특목고·자사고 '내신 A' 일반고의 2배...대입 개정에도 유리 (종로학원 분석)",
+      "publisher": "파이낸셜뉴스",
+      "date": "2024-12-01",
+      "url": "https://www.fnnews.com/news/202412011117276652",
+      "official": false,
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "etoday-2027-susi-six",
+      "title": "수시 지원자 1인당 평균 4.96회 지원⋯428명 '6회 제한' 위반 (대교협 발표)",
+      "publisher": "이투데이",
+      "date": "2026-10-15",
+      "url": "https://www.etoday.co.kr/news/view/2636092",
+      "official": false,
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "newsis-2028-nsu-limit",
+      "title": "2028대입 주요대학 수시 전형서 N수생 제한 2.5배 급증 (종로학원 분석)",
+      "publisher": "뉴시스",
+      "date": "2026-06-14",
+      "url": "https://mobile.newsis.com/view/NISX20260612_0003667413",
+      "official": false,
+      "accessed": "2026-11-19"
+    },
+    {
+      "id": "moe-star",
+      "title": "학교생활기록부 종합지원포털 (기재요령·기재 문의)",
+      "publisher": "교육부",
+      "date": null,
+      "url": "https://star.moe.go.kr",
+      "official": true,
+      "accessed": "2026-11-19"
     }
   ]
 }

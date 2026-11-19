@@ -198,6 +198,7 @@ def validate() -> list[str]:
             errors.append(f"{where}: exact 연도가 yearFrom~yearTo 밖입니다")
 
     errors += validate_stats(source_ids)
+    errors += validate_guide(source_ids, cov)
 
     # 서비스 범위의 모든 출생연도·지역에 수능/내신 규칙이 정확히 하나씩 있어야 한다.
     for year in range(cov["birthYearFrom"], cov["birthYearTo"] + 1):
@@ -254,6 +255,64 @@ def validate_stats(source_ids: set[str]) -> list[str]:
         for key in ("before", "after", "impact"):
             if not row.get(key):
                 errors.append(f"stats.reform2028[{row.get('label')}]: {key} 누락")
+    return errors
+
+
+def validate_guide(source_ids: set[str], cov: dict) -> list[str]:
+    """data/guide.json: 제도 카드·용어·FAQ 모두 출처가 있고, 대상 출생연도가 서비스 범위 안인지 확인한다."""
+    errors: list[str] = []
+    guide = load("guide")
+    if not DATE_RE.match(guide.get("lastReviewed", "")):
+        errors.append("guide: lastReviewed 형식 오류")
+
+    def check(where: str, item: dict, keys: tuple[str, ...]) -> None:
+        for key in keys:
+            if not item.get(key):
+                errors.append(f"{where}: {key} 누락")
+        if not item.get("sources"):
+            errors.append(f"{where}: 출처가 없습니다")
+        for ref in item.get("sources", []):
+            if ref not in source_ids:
+                errors.append(f"{where}: 존재하지 않는 출처 '{ref}'")
+        if item.get("status") not in STATUSES:
+            errors.append(f"{where}: status 오류")
+        if item.get("status") == "needs_verification" and not item.get("note"):
+            errors.append(f"{where}: needs_verification 항목에는 note가 필요합니다")
+        lo = item.get("fromBirthYear", cov["birthYearFrom"])
+        hi = item.get("toBirthYear", cov["birthYearTo"])
+        if not (cov["birthYearFrom"] <= lo <= hi <= cov["birthYearTo"]):
+            errors.append(f"{where}: fromBirthYear/toBirthYear 범위 오류")
+
+    seen: set[str] = set()
+    for r in guide["reforms"]:
+        where = f"guide.reforms[{r.get('id')}]"
+        check(where, r, ("id", "title", "oneLine", "fromLabel", "points", "tip"))
+        if r.get("visual") not in {"csat", "credits", "grades"}:
+            errors.append(f"{where}: visual 오류")
+        if r.get("id") in seen:
+            errors.append(f"{where}: id 중복")
+        seen.add(r.get("id"))
+    groups = guide["termGroups"]
+    terms: set[str] = set()
+    for t in guide["terms"]:
+        where = f"guide.terms[{t.get('term')}]"
+        check(where, t, ("term", "text"))
+        if t.get("group") not in groups:
+            errors.append(f"{where}: group '{t.get('group')}'이 termGroups에 없습니다")
+        if t.get("term") in terms:
+            errors.append(f"{where}: 용어 중복")
+        terms.add(t.get("term"))
+    for g in groups:
+        if not any(t.get("group") == g for t in guide["terms"]):
+            errors.append(f"guide.termGroups: '{g}'에 용어가 없습니다")
+    for f in guide["faq"]:
+        where = f"guide.faq[{f.get('id')}]"
+        check(where, f, ("id", "q", "a", "points"))
+        if f.get("id") in seen:
+            errors.append(f"{where}: id 중복")
+        seen.add(f.get("id"))
+        if f.get("link") not in (None, "fork", "stats", "school", "route", "news"):
+            errors.append(f"{where}: link 오류")
     return errors
 
 

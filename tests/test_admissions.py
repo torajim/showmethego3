@@ -72,3 +72,19 @@ class StatsTest(unittest.TestCase):
         self.assertEqual(pts[-1]["year"], 2028)
         shares = [p["susi"] for p in pts]
         self.assertEqual(shares, sorted(shares))
+
+
+class GuideTest(unittest.TestCase):
+    def setUp(self):
+        self.ids = {s["id"] for s in admissions.load("sources")["sources"]}
+        self.cov = admissions.load("meta")["coverage"]
+
+    def test_every_card_term_and_answer_has_a_known_source(self):
+        self.assertEqual(admissions.validate_guide(self.ids, self.cov), [])
+
+    def test_missing_source_is_reported(self):
+        self.assertTrue(admissions.validate_guide(set(), self.cov))
+
+    def test_three_reform_cards(self):
+        ids = [r["id"] for r in admissions.load("guide")["reforms"]]
+        self.assertEqual(ids, ["reform-2028", "credit-system", "grade-5"])
