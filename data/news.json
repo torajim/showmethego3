@@ -1,7 +1,685 @@
 {
-  "updatedAt": "2026-11-19T11:14+09:00",
+  "updatedAt": "2026-11-20T10:59+09:00",
   "source": "Google 뉴스 RSS 검색 결과(제목·언론사·링크만 저장)",
   "items": [
+    {
+      "id": "0c081e69d8a0",
+      "title": "신고 포상금 최대 1억 원 지급! 수능 부정행위 집중신고기간 운영",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbXBrQkxrWFlmY0xfZkE4d3p0TnlCSUxlR25wY3puZC1VVVI1NFF5blBCdkxuTnlMR2tmLWxyNEZ0X0hpMWNIREtQOVNEemZINlE1VDZOYmdFWEI3R1daYjNvQUZkWmpuNzJJMFBEN3ZVR2Q0RWxLbXlPVVVKODVwdmtiQVNnVWMzblJ3?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-20T10:05+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "965c6d8272c0",
+      "title": "\"불영어\" 논란 의식했나…평가원 \"취지 맞게 적정 난이도 유지\"",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuWGNDTENSaXlGOExvRmRDbG95X1REbmhybXRuVENrWXUwdlo3SHNqQnpCOWdMSGlGVmZ0dXJpajFzYzFsNUVjS2p6a1ZXa0VLMW1LTw?oc=5",
+      "publisher": "JTBC",
+      "publisherUrl": "https://news.jtbc.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-20T07:48+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "82ae76a310bb",
+      "title": "\"국가가 50만명 줄세우는 수능… 전기차 시대에 우마차 끄는 격\"",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeTZOdkU2MmptNU9zZ09TNVgtekFPLWN3UVdpWi1ROWU1OE1Yd1h1ZWt4b2xFYi1rc3hxckNELUUzOEpRbjdISWlLNUd4XzQ1UlhWcDhzMzE5aDRZbnFKV3JiUkZLeVdMTFg0M1BROGoxX3E5Zm1wOHFVQnZSVFlOeXlSMVhzNU0?oc=5",
+      "publisher": "조선일보",
+      "publisherUrl": "https://www.chosun.com",
+      "official": false,
+      "publishedAt": "2026-11-20T00:49+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "8abf3cb816be",
+      "title": "“고교 선택부터 대입 전략까지”… 여수시, 중학교 2~3학년 대상 입시 특강 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tUTNlTEkzR0tnZk9ESXhJaktHem5LeElWaXlzUXVIMHBwUC05MnpXUjVsWVVhVWhncElLVVJfeXNMektYVVhFejVlUQ?oc=5",
+      "publisher": "더코리아",
+      "publisherUrl": "https://www.thekorea.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T22:47+09:00",
+      "tags": [
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "1a87fdf2e53b",
+      "title": "교육부 “수능 부정행위자 98명…스마트기기 활용 5건 적발”",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wQjhQcm5RSW85cERkR0gtdzh6WWdXa1BQVkJXRk1YaHBhMkJYMGFqUDRkZTllU1pObDBwMVhwLUgwOFlHZHloRW1lcnJKQ0dzeExNWnAwai02WGNLNVFmSlFMeWxGbHg3SEE?oc=5",
+      "publisher": "한겨레",
+      "publisherUrl": "https://www.hani.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T22:42+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "9988c8f31909",
+      "title": "`수능 풀어봐` 챗GPT에 시켰더니…`3분`만에 나온 충격 점수",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DNmJ3dDFISGxMZFY4Ul9EVkszWnBtUFpQckxydWYxZVlJQXlEWGlhWDhmUEl5YUFaSF9KZWRfSTF6UENxM0ZOcHdFQlp0MGpGSno0Qzg0ckw1aGNHWkhQc3Rn?oc=5",
+      "publisher": "매일신문",
+      "publisherUrl": "https://www.imaeil.com",
+      "official": false,
+      "publishedAt": "2026-11-19T22:30+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "0767aa13a945",
+      "title": "이 대통령 \"수능 문제지 AI 업로드 전수조사…부정행위 철저히 엄단\"",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsbjY0V09Sc2JpV25qbmU5TVpQT1pNYmlNMWZpNkkzbVZwS2xOcHZMdENUbnQtNEU3T3RQQ2txTlFWdlhPcWNaa09wS2sxc2xMb0JmX1hMUnpLSkV4UXN3blhwRU5BX3ItUVVpSA?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-19T22:24+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "d21e0addd4fc",
+      "title": "2027학년도 수능, 국어·영어 쉬웠다…수학 변별력 확대",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tdDJPRjhtenN2N2VOTlJCWlhNNEQyWkxaU0pIc0FJSDJMbmhwWTFkLUFNR1lURnkxNkc4YXpTY19VLVZPTEx6ZmZKeGplaWZJS296OUhEdGVnRGJPcWRlakNqYmpUOGtYa295cE40enbSAXRBVV95cUxQWG94Vk5fMGVPN2xJVGQ0ZDdYaVY2SUZmczdnYjh4SHd3bVBzRHVDaFF3SlpkU25vengtUzAwX1BiVFIwYmZXT0F6Q0VuZVd2dFQ4RTlWVTBYWnFBTjh5VjZnbU14dXdSWUp5NGNDbW1YclVGbA?oc=5",
+      "publisher": "산경투데이",
+      "publisherUrl": "https://www.sankyungtoday.com",
+      "official": false,
+      "publishedAt": "2026-11-19T20:44+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "b19992432dd4",
+      "title": "2027학년도 수능 국어·영어 쉬웠다…수학이 상위권 당락 가를 듯",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTeUdpMXIyUnMzSko2WklDUU1BVlZWRzV6VGMxT3BSbUt1bzZUc1BvbEZTOVlRMVhzcGpjaEljeVNmM2xteGRWWGlfbmlpVXN2OWh3T0RoNkg?oc=5",
+      "publisher": "경북신문",
+      "publisherUrl": "https://www.kbsm.net",
+      "official": false,
+      "publishedAt": "2026-11-19T20:12+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "e201f03303d8",
+      "title": "수능 이후 광진구, 대입 정시 지원 프로그램 운영",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54SHI0QlBvZUhVSXV0SmZXdzl6aHNybEdXaWpqdWpyNFFoa09rcEJjdDZSa2JWUHJNVUpXZ0FwcFVZbUVOTEdnNVB3cG1VYmowUWY3VnVIMXRNeXMzd3VDYk1zNTMwajZMbFVhZ0pLZ2dBUQ?oc=5",
+      "publisher": "웹이코노미",
+      "publisherUrl": "https://www.webeconomy.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T19:24+09:00",
+      "tags": [
+        "수능",
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "seoul"
+      ],
+      "places": [
+        "광진구"
+      ]
+    },
+    {
+      "id": "861d807441c8",
+      "title": "대입 수능 끝···11월 21일부터 수시 논술·면접 전형 시작",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1QWk9ERm1nanFFMk9ZWVUzTDFMaGJQRF9BcjNZc1RNbTBwX3Q0Q3lJS21MaTZKN09yTFRTSVhlNEdHS0hnb1pfRlFEWDg?oc=5",
+      "publisher": "대구MBC",
+      "publisherUrl": "https://dgmbc.com",
+      "official": false,
+      "publishedAt": "2026-11-19T18:43+09:00",
+      "tags": [
+        "수능",
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "cb34a787d347",
+      "title": "현행 체제 마지막 시험⋯강원 수능 결시율 11.67%",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqMnZQcXpVNW5zNGxCV2xEb1ZneFdSOE41VE9ad1phZV9wLWp0UzdEVm9WeEJiMGwyY2lUc2Q5NkRfcVBMUEdlb0ZTRzQ0d29RWllCdktFb0JMRmM?oc=5",
+      "publisher": "강원일보",
+      "publisherUrl": "https://www.kwnews.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T18:10+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [
+        "other"
+      ],
+      "places": []
+    },
+    {
+      "id": "c80f9e5c0b52",
+      "title": "국어·수학 \"작년보다 쉬웠다\"…평가원 \"변별력 확보\"",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nbE1jX0pRb1RXOC1kZHF6bGpsQktIS0puU25GMzVhbW00Mjd0b1lGalhYb0hZOWM2Z3NNQy1wUXVYNGtsMFlrNm5JUjBEWlc3TDU0MnNQME05YVZpMHdJVTZOMWVwVjhfUU93NTBZZHM?oc=5",
+      "publisher": "SK브로드밴드 회사소개",
+      "publisherUrl": "https://news.skbroadband.com",
+      "official": false,
+      "publishedAt": "2026-11-19T17:56+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "e592c6e92e9c",
+      "title": "국민권익위, 대학수학능력시험 부정행위 대상 집중신고기간 운영",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRTRFcDhCMWRQOHB2ZFU4amtIeXhyaEVUaTJIaldMYjJqZUptdzFmX3ZVT0ZONUJLZHVDbVpNQS1ZUi1tYmRTbl9HdmVVN29sM1BzSmh2VVlralBCbTJ3T1NsSVFXUXlJMTdVUWxhMlh3d2V3dEpjZGl1cmwtcHpsS2YwNjA0UmZkSFdNTkw0NXpFdw?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-19T17:50+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "d5c0e6f7cc38",
+      "title": "[2027 수능] 영어영역 정답표 홀수형",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUTHo1LU5BNWdkMm5GLVZoM3o5dmFJam1Jd3dKc3g2N1R5anBGVU42aUdqTk10WFZubnVza2tNYnRGMi00MUo0b2lGMjJlNnRNd2ppYlVpdm5ib1JB?oc=5",
+      "publisher": "뉴스핌",
+      "publisherUrl": "https://www.newspim.com",
+      "official": false,
+      "publishedAt": "2026-11-19T17:42+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "5201597ab3e3",
+      "title": "[2027 수능] 영어영역 정답표 짝수형",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RazlqMkgyUGZWaXFnVThDZXBpOGtteHY2MGhIUmtVRV8wTFVsUGo0NHFCSkZjdWNJRlF2WXViWklnWEctdkppTnBJNmppcnZoanV5ZEZzVUdSMkNT?oc=5",
+      "publisher": "뉴스핌",
+      "publisherUrl": "https://www.newspim.com",
+      "official": false,
+      "publishedAt": "2026-11-19T17:42+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "f667cf125e70",
+      "title": "챗GPT·제미나이, 수능 국영수 만점…'3분' 만에 풀었다",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10cy1DYjBiUnpHR09BOGs2RGdKbXpDa2l2S3JUQ2pVTGZrSmg4dUxmOGVnWlVZQVpDeS1tWEdPYUFMaFlUZlJ5alF2RVV5V2VqVGRqQ3hHNld4ZFZnUkMxV3g5dDllRlpibWZ6ZlYzM09YY2ZRMVRYMdIBeEFVX3lxTE10cy1DYjBiUnpHR09BOGs2RGdKbXpDa2l2S3JUQ2pVTGZrSmg4dUxmOGVnWlVZQVpDeS1tWEdPYUFMaFlUZlJ5alF2RVV5V2VqVGRqQ3hHNld4ZFZnUkMxV3g5dDllRlpibWZ6ZlYzM09YY2ZRMVRYMQ?oc=5",
+      "publisher": "뉴시스",
+      "publisherUrl": "https://mobile.newsis.com",
+      "official": false,
+      "publishedAt": "2026-11-19T17:41+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "326bb0cf5728",
+      "title": "정성국, 지난해 수능 시험지 보존 지시 환영…“부정행위 의혹 검증해야”",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jVDh2TWRMUllDNUZYRXhJTzhyRGFEVU9aVHZESTl3LUd6NnVqZjJ1andhWHNVVTBOX093WFlleHhrU3M1VXFsRjc4d1ZHdHV6UVczWVp6STgyZDRvTTJJWEltUDFwRWZ2SnV3?oc=5",
+      "publisher": "뉴스피릿",
+      "publisherUrl": "https://www.newsspirit.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T17:20+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "27675f1072b4",
+      "title": "[2027수능] 영어 정답/문제/듣기",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44QXpKaEk0NmlDcGFYb2FhR3ctNjlJNFJSSXBHUFJNWGMwNDBGU2RDNVItZWJueVBET1JfelVpb0xMZGY1ZEw0T1FZQzVpU1FkX05KbU9lakF6aFFydVVwX3NUdFozSjJGVVN4eg?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-19T17:13+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "308eff46809d",
+      "title": "수능 국어 56문항 푸는 데 단 1분 47초…챗GPT 오답 '0개'",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4d0VwLVpFclpKX1NPUHlyWWpjQlNqTzVUMjNIWlluNlVkeDhsNGxwLWNRUVIxcEM0SzBGUXVtY0MzXy05NnJrTUZvZHJUa0lVZmUxX1VEbTdZd05Vb1h6RE54SkNlQjl3clhxb0p30gFuQVVfeXFMUDh3RXAtWkVyWkpfU09QeXJZamNCU2pPNVQyM0haWW42VWR4OGw0bHAtY1FRUjFwQzRLMEZRdW1jQzNfLTk2cmtNRm9kclRrSVVmZTFfVURtN1l3TlVvWHpETnhKQ2VCOXdyWHFvSnc?oc=5",
+      "publisher": "주간조선",
+      "publisherUrl": "http://weekly.chosun.com",
+      "official": false,
+      "publishedAt": "2026-11-19T16:46+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "f1bbb469afa9",
+      "title": "2027학년도 대입수능 마무리...\"공교육 내용만으로 변별력 확보\"",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9uNm5mSUU2WmJwWmg0bkxsVXVtY3NzT3NFOEFPU3V3M0w5ZzNqSnV2WDVXcEVwa244N29WY2loREM?oc=5",
+      "publisher": "전북금강일보",
+      "publisherUrl": "http://www.gkg.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T16:32+09:00",
+      "tags": [
+        "수능",
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "644a46606fd8",
+      "title": "생성형 인공지능, 20초 만에 수능 국어·수학 ‘만점’",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFVKUzZOLW9MbG9YNHJKNTlVX0NQZlZBZ25KRU04T1BwalZJYUg5SGdyM1VuVjRka3hyeU5nVDM4QWJiOWh1N2d0a3Y3cUJVQkd4RWUwYkI4b1hSdUVnVXJSNThsSk5HVnQwcUF4bzBTWXo3bHZkMlNFbHJoMkxSejZEdjdFZzBrMFdUdjE1akQ?oc=5",
+      "publisher": "조선일보",
+      "publisherUrl": "https://www.chosun.com",
+      "official": false,
+      "publishedAt": "2026-11-19T15:23+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "bf4331baaa79",
+      "title": "[미래교육] 수능 국어 45문항, 배불론에서 가상 메모리·명예훼손 법리까지…독서·문학 지문 8개",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0UWtucVRQUmRoZWV5Mk5zXzZ4SkJrOFdMTUlTcTR2cWxnbnBpUFRjcGVyWVBiYUZYNU5HNnJyVVV0S2Z2VzBJS2c1TVEzVzlwbnFCMEpsam1JZDRxRlZr?oc=5",
+      "publisher": "전북미래교육신문",
+      "publisherUrl": "https://edujb.com",
+      "official": false,
+      "publishedAt": "2026-11-19T15:20+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "8795de063f0f",
+      "title": "수능일 전국에 위급재난문자 발송…\"국민 이해와 협조 부탁\"",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iX1RILTY3eEtlQ1RMYUJONVhhNlZfNDZNeGd5a1V6bFdUMXI3X2lOQlRJRHI4M2RtMTdzT1YyWVZOcXJJXzNIVWU4RDlMZ2NMc3NVVmhSV1F4aFVYVHVCdlEwTzZ6NS0tSGxyUg?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-19T15:11+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "08e4e5a32b24",
+      "title": "‘AI 커닝’ 적발했다가 소송까지?…수능 감독관 10만명 보험 가입",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EaTZMNnZEVHN3T2J1UW95QnBfSnNDdDhhTXJvbDRGTWhORkpHdUNOYjJ6Z2w4bUNTSmdtVk9RNkNZajhWRXRWSDBqVVc4RzBFOFBVNFFULW0tZw?oc=5",
+      "publisher": "한국경제",
+      "publisherUrl": "https://www.hankyung.com",
+      "official": false,
+      "publishedAt": "2026-11-19T15:04+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "cf430db668cc",
+      "title": "수능 끝! 알바 시작! 나는 어디에서 일할 수 있을까?",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hWW1kUlpZWXBuSDhtemNrTnJOWWg3bVUzY0NSMzVXdEhBd05WaUNRQUszZE9vZTk5Tnl0N1V3SlloUGJtcUp0MTlQRUdVcGVBMDFwNEg4MmZTTVlZNVlsMXNtN010dURUbjNfd0pB?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-19T15:00+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "231c3f25939c",
+      "title": "[2027 수능] 수학영역 정답표 홀수형",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83LVhJa3pZaURfT1dZcFNpV3U2WDNjQWRrZkFmUTVrX3FnYzhpckk3dzAzaHR0Wml0UnVvdGhya2ZvczU3SElQM3pwU2tVVEllSGIxbFlmTWxGMkw1?oc=5",
+      "publisher": "뉴스핌",
+      "publisherUrl": "https://www.newspim.com",
+      "official": false,
+      "publishedAt": "2026-11-19T14:58+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "cde43e22c8c7",
+      "title": "[2027 수능] 수학영역 정답표 짝수형",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VWVhxZUlVbnFCUmdOdDlSb0Y1aWlMMndpSU42cVIyMnFIVGc3VVk0NHZfT09XbXZIcjdVSElPTGJmSXZ5bVp6SmdfVVJKMFNianlNOElFVWdyckND?oc=5",
+      "publisher": "뉴스핌",
+      "publisherUrl": "https://www.newspim.com",
+      "official": false,
+      "publishedAt": "2026-11-19T14:57+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "9b576af67ecf",
+      "title": "안경까지 살피는 수능 감독관…시험장 분쟁, 보험은 어디까지",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5lU1p6VEV4TktTR2swaDZ5LXhkZUtuakY2Rmc0dUZHUy1XZXNmMGRmRElRcXZhaEtYNGVYZWJQQV9hQ3Rab2ZHT2c0U0pRSUlmQTdzVQ?oc=5",
+      "publisher": "매일경제",
+      "publisherUrl": "https://www.mk.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T14:33+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "afd87a3c4756",
+      "title": "[2027 수능] 국어영역 정답표 홀수형",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zWnR3S3pqTlZzVS1XcExjT1lNbGNWY0c0ZG4yM0RMZjkyVTZFM0ItNGZWSU5NQWkyRWpIeVNfWUZzV2xpX0hpNzdXenhXS2hEZFVrS0cwZG1lRHZa?oc=5",
+      "publisher": "뉴스핌",
+      "publisherUrl": "https://www.newspim.com",
+      "official": false,
+      "publishedAt": "2026-11-19T14:31+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "023ea74f56a8",
+      "title": "수능 수학 난이도 촉각… '현행 체제 마지막 시험' 홀·짝수형 정답지 전격 공개",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PX2QxUmV6SzAtWFVSZEtrbjczZDJJUWw5MmlyU282OV90Y1Z1bHdlM0pnVmdmMGdxejBxYWtrU2kyUlNTc3NHYWNQbW5RVk84a3p2b3dtYVFlR3o3Y3BZLTcwT0tPNkt6SWthU1N3QQ?oc=5",
+      "publisher": "내외일보",
+      "publisherUrl": "https://www.naewoeilbo.com",
+      "official": false,
+      "publishedAt": "2026-11-19T14:26+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "5c7834dbddb1",
+      "title": "[2027수능] 수학 정답/문제",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8taXV0d0VjUWdIakU4VUtlTXNFRE5RS3M5Yzl2MUVJSzhtOFNQY3drUk84bl9wY1I5WUtQQjY0R1pZR3d4M1pJM0xRZXNDV0s1Z1M0U2JhazV3cUg5cFhpOU93dk5XSTlmUFNjbQ?oc=5",
+      "publisher": "베리타스알파",
+      "publisherUrl": "https://www.veritas-a.com",
+      "official": false,
+      "publishedAt": "2026-11-19T14:16+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "f07c8591320f",
+      "title": "[2027 수능] 국어 홀수형·짝수형 정답 공개…수능 답지 확인은?",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tNXJJMGx3SzdkbWNyOHdCeU1iWGtkZUdFRlMzaE02LUpwMmo3VWNlWGdaMk5aZ0ZaWkNOMGhIaXd3SWZodzdnT2lfb2VndTlmZHI5VFR3UjM2Qy0zZC1OVjY0clNJUXdn?oc=5",
+      "publisher": "CBC뉴스",
+      "publisherUrl": "https://www.cbci.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T13:53+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "c70efe8bb7c3",
+      "title": "\"이게 오늘 수능 국어야, 풀어봐\" 시켰더니…AI, 2분 만에 100점",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15dUtQMW5LOEFHMFBqU0F2N05ZUVlKQUpwMW9JMW0ySE1EYjhzNW1LdHh3XzQ3TXdSR082ZzBCb1hzNGVZSWNpY0FCVnZOMkg3b05iXw?oc=5",
+      "publisher": "JTBC",
+      "publisherUrl": "https://news.jtbc.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T12:54+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "1ec044de5b8e",
+      "title": "여수시, 고교학점제·대입개편 대비 중학생 진학 전략 특강",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FLUozWEdKUFV0NWZyM2Q2Uy1xREkwQlpGOTVsQWJvdmNwQUJWdVVmNUxpMnN4bXZaeThJRkpPT3hGSVI1Z05PcWlsTUhTZjNkb2hqOHYtR1hBenI4OGdQdWVyWjJSUXPSAWtBVV95cUxPcU94TkNObi14Y0pMNWptVFd6Q0hydnNBT1g1TFFHYzRqQnRyaFJTeHJrTlJfOU1XUW56MzBkT2JoUVFYX2tqVFFlZWxzdkpHRjlTOWdDQkVrWEN2Qm5peFYxNy1ORTZpa2VkZw?oc=5",
+      "publisher": "SR타임스",
+      "publisherUrl": "http://www.srtimes.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T11:51+09:00",
+      "tags": [
+        "대입",
+        "고교학점제",
+        "중학교"
+      ],
+      "stages": [
+        "university",
+        "high",
+        "middle"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "2f0a5c6cbdaf",
+      "title": "[2027 수능 분석] 오늘 수능, 고1·고2는 어디까지 풀까…2028 예시문항 활용법",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tekh0TzFaVVpPMHlqREdmRFVfNUhkeHdmeXRCUWlGYmV1bXJsOTJqdzRGYUJ1bHItaWJiMEM4Z0o5NFpyX1lnRC1mRnJ1V2FzVFhSXzNrRTRCRUtzQl9ZMlJua052UQ?oc=5",
+      "publisher": "교육을 비추다",
+      "publisherUrl": "https://www.kyobit.com",
+      "official": false,
+      "publishedAt": "2026-11-19T11:24+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "5941e956df99",
+      "title": "잠수 탄 ‘리트 만점자’, 작년 수능시험지는 어디 있나…野 “폐기 안 돼”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuNVRVR3AtMV9maWJlR193d21LbUx5NmlTdGlEWmotc29lSk5IOTFFV1RJUGhnU2hsZEFYdmtMUGl4WFVjVzhTdkN0RlVWM29wQ0hDOW5tYlI2UHBWbHhMRjhUVGJpODNMbmlUdXIzNNIBc0FVX3lxTE1ib1dpVlFKRWE3RGZHaUhjYVlSNExsakZTYWZMc3duTms3ZFRpSUkxMFQ1a2JfWkdlOWgzWm5JR2hRUVdURWNyQ1hkeE1mZ2RGeE1QU25WemcxU3J1TmQtUFlyMVhwWmNMMHlrQ2ZlX3NPTW8?oc=5",
+      "publisher": "시사저널",
+      "publisherUrl": "https://www.sisajournal.com",
+      "official": false,
+      "publishedAt": "2026-11-19T11:23+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "a00bc8c3fa77",
+      "title": "현행 체제 마지막 ‘2027 수능’ 전국 1,312개 시험장서 일제히 실시… 내년부터 통합수능·내신 5등급제 대격변",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kVWpkSGRfaWpWNlZsM0pGdVJBSFpnOGo3UVEybGNhVFNRcmdXWW1YX3kyNGREYW81R29DTFlFRW1SaVdlZUhram5zN1pOSnJxcmJjVXJB?oc=5",
+      "publisher": "위키트리",
+      "publisherUrl": "https://www.wikitree.co.kr",
+      "official": false,
+      "publishedAt": "2026-11-19T11:16+09:00",
+      "tags": [
+        "수능",
+        "내신"
+      ],
+      "stages": [
+        "university",
+        "high"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "ebd892c85087",
+      "title": "2027학년도 대학수학능력시험 진행 상황 보고 브리핑",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xZ2V1V1lMSUVqVk9PRS1Oa3BOU2M4MmFKZHRaTXpaMXRCTDZhb2UyMWZDd3R3UG1Sd2FHOTJWSkpkQW1zbi1MY05aQmRKcGV4NnB3RVhUMUdXUklCT3BSdVRGMWpRSGgteTBuOHdQWVR1UWdGdnlr?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-19T11:00+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
     {
       "id": "8c85afd6bde7",
       "title": "올해 수능 샤프는 ‘무궁화보라색’…연필 빼고 필기구 모두 지급",
@@ -20,13 +698,31 @@
       "places": []
     },
     {
-      "id": "248b92e27c37",
-      "title": "[2027 수능]출제위원장 \"영어 난도 미세 조정…1등급 비율 안정적 예상\"",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkWF9DVFlpdUZzZHhsX1RvLWF5Y3RZdWdQS2FKNmtFRjUxcGVXWnV5Q2pJT3RIV2dCUjE4NFBHVUxzdXlDaEdibnhucTZFT2dlVnE4TVh6VjNHbzZTOHdwRg?oc=5",
-      "publisher": "메트로신문",
-      "publisherUrl": "https://www.metroseoul.co.kr",
+      "id": "3fa238b98559",
+      "title": "2027 대입 수능 문제 및 정답 공개-1교시 국어",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pdVRaSFJvMFR1am84S0ZFMnZVX01TdG9YcHIyS2NKQU9HeTk3Ni14eVJTcFhBeWpGUkFuaHFVSUx3ekplZHhnTmhVT1RKWTVORm5zZGx6dGVPTDNwV25qVjR5NkhnRzQtRE5F?oc=5",
+      "publisher": "대구신문",
+      "publisherUrl": "https://www.idaegu.co.kr",
       "official": false,
-      "publishedAt": "2026-11-19T10:40+09:00",
+      "publishedAt": "2026-11-19T10:56+09:00",
+      "tags": [
+        "수능",
+        "대입"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "7a682a5e11fb",
+      "title": "[2027 수능] 평가원장 “고등 교육과정 충실 이수했다면 해결 가능 수준으로 문항 출제”",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZmdoUmZwM0FZby1ES3pmSEM4Rm5PRWFtOW55dFVyUEJ0VjJxbkw0VGRmYzZwbUhaWmVRZm5lN1l6ZzZqdVVGWUdmR2xnVHJiMkZXZ3pxSW1iQV9IM2E3U0o3Q2V3VDFCWWZYUl9PcHFzMFRJcW03dFhNYUZJZW9XRG1SZ3pvZ0h3Y2fSAZ4BQVVfeXFMUFhLWWRfMXpZWGJfLUNVLXU1NzN3WXVzd3dnUThoRENkRENmTjA1RzRXUVJBdEwyVWdFUi11Zm5KcFkwaUltM0YyOGJmdVltNmkxSnNPVEFhTFJBc0N6MjZ5NDl6dDJtZlNNOURXeTlfa2NYTk5rN3IwX1FZclpwRlZiZk51RUhfNXZGejNzWG5HdVlmYVlZQnVpMkRQOFE?oc=5",
+      "publisher": "Chosunbiz",
+      "publisherUrl": "https://biz.chosun.com",
+      "official": false,
+      "publishedAt": "2026-11-19T10:49+09:00",
       "tags": [
         "수능"
       ],
@@ -37,13 +733,13 @@
       "places": []
     },
     {
-      "id": "781ccddfad87",
-      "title": "\"시험지 버리면 증거도 사라진다\"…AI 커닝 논란에 작년 수능 자료 보전 요구까지",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IU3hOSXJwM0JPSl92WWVib1V0S2txU0k5VEdWQWsyWm5venp0ZHI2QmFOeHcwT1RGMWk2Mm13NnlYanBncjl5MDRlNmVaVFprakdldTZKWWgtWm9DcnY1LWN3?oc=5",
-      "publisher": "매일신문",
-      "publisherUrl": "https://www.imaeil.com",
+      "id": "248b92e27c37",
+      "title": "[2027 수능]출제위원장 \"영어 난도 미세 조정…1등급 비율 안정적 예상\"",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkWF9DVFlpdUZzZHhsX1RvLWF5Y3RZdWdQS2FKNmtFRjUxcGVXWnV5Q2pJT3RIV2dCUjE4NFBHVUxzdXlDaEdibnhucTZFT2dlVnE4TVh6VjNHbzZTOHdwRg?oc=5",
+      "publisher": "메트로신문",
+      "publisherUrl": "https://www.metroseoul.co.kr",
       "official": false,
-      "publishedAt": "2026-11-19T10:37+09:00",
+      "publishedAt": "2026-11-19T10:40+09:00",
       "tags": [
         "수능"
       ],
@@ -90,81 +786,13 @@
       "places": []
     },
     {
-      "id": "dc6008243801",
-      "title": "[2027 수능] 문제·정답지 공개 시간은?",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xVEJwZUFUR1Bib3VMNDNVWkQ1ZHBVVUVDRmt1Q0VGTHc0TXFYLThWNHI3YmRwVzE2WWY4bXUyR0RhanNERlh1YzFybDF0SXpESVRqblBjLXpGbUNXdVRhQjVFRGR0QTMyN2c?oc=5",
-      "publisher": "금강일보",
-      "publisherUrl": "https://www.ggilbo.com",
+      "id": "05eefaf05a25",
+      "title": "[2027 수능]N수생 급증에 ‘사탐런’ 심화…평가원 “선택과목 유불리 최소화”",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMT1F0NzRibDcyYjRPR1ZEc3p4SmFkZV92anlQN0VkbGlrWWtSZnZnbjlZMEtmTHNDUXhoSTdfbDVIbjZNRERESDdXODZ2OENwRVHSAVNBVV95cUxPdEZvT0QxRWFaSWFCT2ZlaTNCTTRjdHV6QzFlWVp2M3ZZNzBnRndtVUt4ajNjZzlDT2x0eXFrV1I5WGV3RVcyYmN1VFBleFNYSEI4VQ?oc=5",
+      "publisher": "서울경제",
+      "publisherUrl": "https://www.sedaily.com",
       "official": false,
-      "publishedAt": "2026-11-19T10:18+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "13f98ed668e4",
-      "title": "2027 수능, 사교육 유리한 문항 배제…영어 1등급 비율 안정적 전망",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAySjViNjdad1F4dzJPX25GcUhnSi1qNTNUSGhWdjdjSWhoanBMY3ctMnFlUDNPV2toU1R3bnI0VzIxVUlvX2FRZENvTXpDSVk5Z1BMNE5RUjB3cG5td1B0bFA4M2o4Y1ZLZVBOcA?oc=5",
-      "publisher": "뉴시안",
-      "publisherUrl": "https://www.newsian.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T10:17+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "bc9995863ff3",
-      "title": "한국교육과정평가원 \"소수의 부정행위자가 수험생 노력 훼손해선 안 된다\"",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwa04xcW84NjFRRUVhbXV3UU9oZWFKM2Y4VGNFRmZKWVNRUUUteER1YXQ0M1lkczQ2QlJQNXpQNXZGMDNZRzJCel93TnphNDhaV19acDludjhXdjA?oc=5",
-      "publisher": "경기일보",
-      "publisherUrl": "https://www.kyeonggi.com",
-      "official": false,
-      "publishedAt": "2026-11-19T10:11+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "32de5c4774ed",
-      "title": "[2027수능] 오기영 출제위원장 “사교육 훈련받은 학생에 유리한 문항 배제”(종합)",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzbDZzUlRPTjE1UVEyaEZrcGlvRHpDM2wyNm1kSmV4X0JEY1Nzc210QzdrUmFQeENWVWFSdDNLanBCSWhacW1MYXFrZUJTOVA0MVh4d0JWOF9rVVdzZkZWR0lQbDZFbk5mbXc?oc=5",
-      "publisher": "천지일보",
-      "publisherUrl": "https://www.newscj.com",
-      "official": false,
-      "publishedAt": "2026-11-19T10:08+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "878264587f29",
-      "title": "수능 출제위원장 “영어 1등급 비율 안정적 달성 예상…선택과목 유불리 최소화”",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jRjlKTWxmM2RBMEZ5ZkVqM1VrN1dOOUd5Q1pSaVZ4eUdUT3ZLbFMxTkNxXzVSTFJmaGM3clB5SGhTOWx4YkJEM1pkUUZrTnhEWTZCVEdxRmtxbGJGcl8yY1lWODNlM2JONXc?oc=5",
-      "publisher": "한겨레",
-      "publisherUrl": "https://www.hani.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T10:07+09:00",
+      "publishedAt": "2026-11-19T10:22+09:00",
       "tags": [
         "수능",
         "고교학점제"
@@ -177,13 +805,30 @@
       "places": []
     },
     {
-      "id": "9fe7687fa104",
-      "title": "수능 출제위원장",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUmRZbFNybWZjbUxXb2xZdUtlV0ktSVFwLXRpaVJCeWdncjdUZnV4T1FKQWEtZlFnZ3pGZ1JsTzgyaC1zd1pfY1ZpckJvUGZOOEpndl96Q2pCaWdtQTduOVpLZzA0N3B5TXFUMlpJTWxjOUlqVlp4eXlxbWZISVc0RVpMOHlmS1NJdWVVLVgwRQ?oc=5",
-      "publisher": "EBS",
-      "publisherUrl": "https://home.ebs.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T10:05+09:00",
+      "id": "816b7efda425",
+      "title": "수능시험일 위급재난문자가 발송됩니다",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jeVZxbGM4NGsxVS1Ya1FZWVhaR3E1R05iVS14elQ5aERrYlY1bXU4MHBvbXl5T2lGcWhIcG80bFZiY2E0VVgtZUpUaGRtTGtROXVlVGZheGtWQlRSSy1LRWhjcnlCVXQtN05JOFZkN0hoT3B2?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-19T10:18+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "3f1eeb500e11",
+      "title": "수능 AI부정행위 대책 당정협의회",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQMDI1LWJEdjRuQ3ExcTJSb2FRbkRBQjRwSlZQNEk5Z2VpTENIZGJpUDVjZnp3LW9uTjFjS0dWRDBISTl0WkdBYjhteHk0a21uZlRuWUZiRzBIdU1PUkVHZHBSNEpBM0V3WkE?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-19T10:08+09:00",
       "tags": [
         "수능"
       ],
@@ -196,541 +841,11 @@
     {
       "id": "0ac0941e6c65",
       "title": "2027학년도 대학수학능력시험 출제 방향 브리핑",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZVdQRmdxRTREOERHdVMzVy02c19FalpOM21YS3pQbG1wdVNvTkJZaG9TM3pDT0ZGc291S3NDX0pYQ1FNMnBTZWdjTGVuT1p3VGFqTjFCZWtKRHhWVzV3ZzN6ckdpdmR4T3YwTFlGbUlGaU9tOEpvd3gtUHh6aXRVdXdzWXR5ZmlaalVGWkdxQ29QSDJPd2Jv?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aMjh6UE1JeHB0cEhIMFp2ZmlQeU51V1dwZUQyS2J1eUxYMm5Rc3Q0azdwWGcxamFoM2V5WG1OcGxMWkhHSnQ1aERwV0RzWnAxWC1EOVVrVEd1aDNscWhJd1ZObVlCMkpmZEhGeUdPQUlzb21OcFVv?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
       "official": true,
-      "publishedAt": "2026-11-19T10:04+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "758d5c96c1b7",
-      "title": "\"일반 안경인데 왜 잡아\" 소송 우려…수능 감독관들 '2억 보험' 들었다",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUHlTYnJhVG1UOVdqcWdHbDNkVnU2N2ZwRnFVSTB5VFl4UDlsMGVwVEZ1amdUQS1wZFJFeUY1U0V2ZjhqTjN5elNQWUdtQ0t3Y0hwZkgtOUsyb19mSEFrcXltZW9tY2hEUE5rcWZNZkNnWFVSa0EwRGpWamV3alhBSA?oc=5",
-      "publisher": "이데일리",
-      "publisherUrl": "https://www.edaily.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:58+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "ef3f4b635f0c",
-      "title": "수능 출제위원장 “사교육 유리 문항 배제”...N수생·사탐런 고려해 난이도 조절",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBteXRYTFo4ZjZITlpPNWF2RHMwMGdiN3RWX2RDVEttOEtCbkVLcUdIYXFsVklQRHlsRnBFcENjU0REUk13RlpyTmh0NkJ6SENCSFVBRnR4ZWlheHBkd1g0UmhTNnk2YjNUaDhMRHAtZWw?oc=5",
-      "publisher": "위키리크스한국",
-      "publisherUrl": "https://www.wikileaks-kr.org",
-      "official": false,
-      "publishedAt": "2026-11-19T09:52+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "cf5106c53262",
-      "title": "2027학년도 수능, “킬러문항 배제·영어 난도 미세 조정”",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KaXI4Szhyd3NGNGswaHhIQUtyQ2ZEUWFmU2wwV1lnTFhYWmJDTkNzQ3MyOWF5a3FZXzNKbW9FSlV6Z2dSY3U0Z3F5WExMUQ?oc=5",
-      "publisher": "전자신문",
-      "publisherUrl": "https://www.etnews.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:50+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "ef487ee48b61",
-      "title": "2027수능 출제위원장 \"영어 1등급 비율 안정적 달성 예상\"",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SU2lGQWhGbGh5RlNHM0p2NThHUjRERXFJT1E2cjVmUnZ6YUNaS1VBYkYwS01pdUU2eTlYYlJzUGZpbFVBcS12QzlDbWt2R0tKdHJFZm56dHNUclRKNkpNZ1BwNmsxY2lYV0lYejl1NGJzQ0U?oc=5",
-      "publisher": "스페셜타임스",
-      "publisherUrl": "https://www.specialtimes.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:49+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "c587d16ca695",
-      "title": "野정성국, 교육부에 '작년 수능시험·답안지 보전' 요청",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtMmpIb1BZQ3MxdnlDa2puVTJta0tVQks2ekczbjF6MDVnaXdRNmdnSlRaSTlqOFJHVlZwOTJ5WDlaQ21IVGVFY1JuczdyTjFTLUJXekEyRWFmVkswejc2a3ZtM0QtNFdUZm56UDZjM0E0Yy1D?oc=5",
-      "publisher": "연합뉴스 한민족센터",
-      "publisherUrl": "https://www.koreancenter.or.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:46+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "da28b98d6af9",
-      "title": "수능 출제위원장 \"영어 1등급 비율 안정적 달성 예상\"(종합)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HOEgzUUo2QUd4SnY2aWM0QWowZF9ySWJNRFZ5Y1ZTQ1JaempabHBfdWREckVsT3ZFSHQ5dUZvTWEzUjdBdktTNGpzSXphVTRVa0FzcTlCekZna1nSAWBBVV95cUxNOTVCWVhCN01TNU1UTE1sUlFPQWF1V0FFWTA0b1dTMW1iQjZEa3U0Q1hRNW04RWdCZmNEakFFZ1RxeXJSeEo4UUVwOVhmRWhsbERuTkRnYlhhMmxLSDFSR2Q?oc=5",
-      "publisher": "연합뉴스",
-      "publisherUrl": "https://www.yna.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:46+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "518a98d344ae",
-      "title": "2027학년도 수능, 불영어 논란 벗나…평가원 \"영어 1등급 안정적 형성 전망\"",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2Y3NCNkJFbGREYjhWRTVuSl93QmVtazlaZG8zVWZHQ2FqemxBdi1DbzVGdUN2UHJ4XzBMSFJqdFEySFpzRHZGODlmTXB1T3VYTGxXLWV3Mmg3eDRocGhwZDlfR3NLQWhFaUVN?oc=5",
-      "publisher": "뉴스인",
-      "publisherUrl": "https://www.newsin.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:43+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "833b9000c7fb",
-      "title": "정성국 의원 “AI커닝 검증해야 ..지난해 수능 시험지 ㆍ답안지 보전 요청”",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rbW1MSVpkWTlJTDg2RWdtcFVEcTdXQUhiVjllcVhlZmM3ekpldjRIaHNuZlhWdmdjYkZYYlV3d3dyZDRfdGlNY3RBN3AzdXNseHVza3pQVGR6SEtCOGl3Umxtbm8wdVcw?oc=5",
-      "publisher": "에듀프레스",
-      "publisherUrl": "https://www.edupress.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:43+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "e55a9556c107",
-      "title": "올해 수능 샤프는 ‘무궁화보라색’…기본 샤프심은 5개",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tN3dtTF9UUmNkT0NpUXZnT2gwS2RfcmFsTEhjcGoxeHZXa1d4bE9mS2J1LVdnY2ZPdXVsT3hJRkZweGh3aHM5VjFKdU5BcjNxX05KNjFWYWVJZDdoMDV6WXdCLUF6SUxJVExob0lENi14M1ljNkHSAWZBVV95cUxPZ2N2TlctU0JlcHk0b3h4YVJFeVY2cXk1ejB6QU42ZUZUaWJOYWZTNzd2M0F0Y0Q0LXU2V1VKbm81eDR2OXVDRDdiV1dIMENGU2ZfN29wSGQtQzVSWUFyMU9EQ0J5UUE?oc=5",
-      "publisher": "동아일보",
-      "publisherUrl": "https://www.donga.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:38+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "e13e55d0c9a0",
-      "title": "2027학년도 수능, 사교육 유리한 문항 배제…“공교육 중심 변별력 확보”",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQUDlOME5TNlZLLVlRZ0xFNlFIUEFvOXEtcmN5bGJyamxDRWR1SFBicTZUWXhVZllyc3htOWZQTHBjVkdrenduYzZLV1RzeUtIZnRIQUsyejFZSTQ?oc=5",
-      "publisher": "경기일보",
-      "publisherUrl": "https://www.kyeonggi.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:33+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "e9d79652a969",
-      "title": "평가원장 \"소수 부정행위자, 전체 수험생 노력 훼손 안 돼\"",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBUaVdyQVN4V1BVRTUwMGZLRlctaldTbkdvMHBHZWd4WHVPM28zdFlnQUZhYWhyTE1QOHJOUExLb0NRa3dlblFCMUFyZlNvSTgyNk92ZU1DYUFud1dxYXIzd19mTkRXdmZTZEx6YmdDQdIBc0FVX3lxTE9DZGJqYk9Sak4zemdvNlctMG5haEFOdFIzYWV5S2RzX1lFeEctcVRGdEVoaUVQS0tvbzJYUmhjSXZwYTdGX1pETnhSRFdVWEkyU3kzVUxEYzBfelQ3WFNud096ODkwdS1CUl9qTGtKemZKTHc?oc=5",
-      "publisher": "뉴스웍스",
-      "publisherUrl": "https://www.newsworks.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:30+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "235819b71424",
-      "title": "2027 수능 샤프, 올해는 '무궁화보라색'…90만여 개 시험장 지급",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BUndDRHM4enJpZ2hyLU5zM2x6SThmTDRBRHJaSk5aaXZzNmt5a3hKeGJqQnFnQ25Hbks0MzNVMlFWT0wzcDdxZmNya1VFTGh4UGZJYU01MXN6QXhmemdHbDZxeXRkUkVSTGlJ?oc=5",
-      "publisher": "서울뉴스통신",
-      "publisherUrl": "http://www.snakorea.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:29+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "0205364dfeef",
-      "title": "김문희 평가원장 “공정 수능 지킬 것”",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOEoyazU5WFQ0N2pueTIyY0hCMXB2cFdxNWtzemRVMnloX2xkTkNqWlNudW9sUkZZQjdpcnZQQzFqOWx6aVNNcjJKSWtYdTZvck9mT2RVMGVud1dqTTg2T2x3Z0V6cjJLcnA1X0tFXzN4NmNiREpWSy1Zd0RqRzZtVw?oc=5",
-      "publisher": "이데일리",
-      "publisherUrl": "https://www.edaily.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:27+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "04e848ed72d9",
-      "title": "수능 1312개 시험장서 일제히 시작…전국 '위급재난문자' 울려",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE91RVF2dF9uMVFJWXF3UjhBNDBCRFozMk5uaGFRMDF3SFhfNDRMYWNRel80eWpudjQ5ZHlSUkt6NmdMNkZ6T0d6SGE5NG9jZGJjdmF0bWRDTGYwaW1BRXVZOC1LZnI4bVctTVNBUTBld9IBc0FVX3lxTE1vVXlCVE9FNzdOb1dLZmZfX29zX1dubzllckxNdXVkNVROVmhjZndVXzI4LTJXSGFOWG94bDJHeHNtVy1pMXd5U1QyblBhRnA5Q09ybDNLbG1FYnlpSGt3dEozVmR2Q1g2Nl92eWh6MjFBam8?oc=5",
-      "publisher": "뉴스웍스",
-      "publisherUrl": "https://www.newsworks.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:25+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "3b5489747c3b",
-      "title": "[2027 수능] EBS 연계율 50%… “킬러문항 배제, 영어 난이도 미세 조정”",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84S1p4bXJ6d3N2TjFxQVRTRnlzRmJ4akV6VkZaNGprQVgwZGVXXzJOSV9fcnRTeXN6bkozMWloTXBEOThmTnBEd2F5dkdOSGlxamlSOGhsSlRnZ3JzSENocWp2MVBEUQ?oc=5",
-      "publisher": "한국대학신문",
-      "publisherUrl": "https://news.unn.net",
-      "official": false,
-      "publishedAt": "2026-11-19T09:24+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "d7fe9fa5d785",
-      "title": "[2027 수능] 영어 난도 조정…1등급 비율 안정화 예상",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kR3JZRHdGU243TzdjdHQ2dnl6QnBTRGxLbVBFNTliVWZ1X0JuYVR1MXAwbldGVHZBVG5zbHkyUk1aQ0NCNnBBU3dmaktNcGpJMkNOaTRobmhkVFBtNWtSQS1yTV83ZDBFWk9sd1FB?oc=5",
-      "publisher": "아시아투데이",
-      "publisherUrl": "https://www.asiatoday.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:23+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "3c27758c47e7",
-      "title": "수능 출제위원장 \"N수생·사탐런 고려해 출제...영어 1등급 안정 예상 \"",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwVzVJajVXWnNBM3ZYb1laeDU5VzFBWVZlVDFqd05IemIteEs0TWE4d05GSVFNMElJUUhqMU9qM2lIMFdaLUlwVTZOLThPQmZIVzJlZ2hXLUtlWXpYM1NHcEttdnJhOGxrRnUtLThuZ9IBb0FVX3lxTFBwVzVJajVXWnNBM3ZYb1laeDU5VzFBWVZlVDFqd05IemIteEs0TWE4d05GSVFNMElJUUhqMU9qM2lIMFdaLUlwVTZOLThPQmZIVzJlZ2hXLUtlWXpYM1NHcEttdnJhOGxrRnUtLThuZw?oc=5",
-      "publisher": "머니투데이",
-      "publisherUrl": "https://www.mt.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:21+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "eb1f02f68196",
-      "title": "[2027 수능] 사탐런 심화 속 모평·원서접수 분석해 선택과목 난이도 균형 맞췄다",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DQnRNNUdsdXk4SEVPSXEyUGpSbkFTNzZBcXE1QWFTS3gySEJVWGRMWG9BcHJ1ZUZsV2lJTGp6NkFnNDZXSUdHbVQ3VjRCekV4amtVbDVaNHpLUQ?oc=5",
-      "publisher": "파이낸셜뉴스",
-      "publisherUrl": "https://www.fnnews.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:20+09:00",
-      "tags": [
-        "수능",
-        "대입",
-        "고교학점제"
-      ],
-      "stages": [
-        "university",
-        "high"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "55169862a143",
-      "title": "2027학년도 수능 전국 1312개 시험장서 일제 시작",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84R3FCZ3FtSWIwSGh5NzBqWGRocGV6WUtOOS10T2dldEdzUTNhZGt5Z1dZTm00bF91TEVGeGtCVmwwcnZYeHZQb1RKRFJKWFhSY3JxdGpObmpzQQ?oc=5",
-      "publisher": "경남신문",
-      "publisherUrl": "https://m.knnews.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:18+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "8f3dffd8f068",
-      "title": "올해 샤프색, 보라·연보라 아닌 '무궁화보라색'이었다[2027 수능]",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kaUFBdVFjYXZZTnl3OU85a0g5ZDdlYlNBdUZaQWRqcU5EYWhaRnNjTW4yb0hmUmFjcnNJUmxyaFViS2dUcHFPR3ZGdU02S2MyWVh0bnk1QUZENldpMk4xWVF3M0EtTkJCZzcwVW9hMW5lVy1TdDRKddIBeEFVX3lxTE1kaUFBdVFjYXZZTnl3OU85a0g5ZDdlYlNBdUZaQWRqcU5EYWhaRnNjTW4yb0hmUmFjcnNJUmxyaFViS2dUcHFPR3ZGdU02S2MyWVh0bnk1QUZENldpMk4xWVF3M0EtTkJCZzcwVW9hMW5lVy1TdDRKdQ?oc=5",
-      "publisher": "뉴시스",
-      "publisherUrl": "https://mobile.newsis.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:13+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "e603802cb9f5",
-      "title": "평가원장 “AI 부정행위, 수능 끝난 뒤에도 철저 대응” [2027 수능]",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jVkJ2RmZvay1iaTdFVGNSOG9xSEE2WVBQenpwVkxOMm1MY2FyTS1LdWZoVXJJOGhCOUgzdm9YeUxMVVVMeGE1MlUyRnJOWWZWVnNoOQ?oc=5",
-      "publisher": "이투데이",
-      "publisherUrl": "https://www.etoday.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:09+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "7f4081b50d6d",
-      "title": "법원, ‘수능 연기’ 집행정지 기각…예정대로",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZRTE3RjZSRExUcy1BQ1NXd3AzN2JJQ3RuV3htTndIRVBVTXllbUE0VklaLXd3VG83MENPRHNULWVzN1BvaFdtcHlUSmUtd3M3S3BaSVdEMzZydWNTcDFsWTZZSVNRRFZVb1BkU1A4ZW9iQQ?oc=5",
-      "publisher": "한겨레",
-      "publisherUrl": "https://www.hani.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:08+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "73ffcfd8fa28",
-      "title": "2027학년도 수능 출제 기조는 '공교육 중심'…적정 난이도 유지",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aNVZwWVZvRTB2RVRyYUEzMzN5cGMtbmFvRDVwTGxuNHVkSTl4NjZEWkhGN2NJWVB5cTJHNWRPVzRBTkNRVlFRQkRsdUZaX0Y1T0RPZUJNcTMzOXc?oc=5",
-      "publisher": "데일리연합",
-      "publisherUrl": "https://dailyan.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:07+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "5f42f9d3e374",
-      "title": "[2027수능] 수능 이의신청 19일부터 23일까지.. ‘12월1일 정답 확정'",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Pa0FtUVAyMGRpQWQ3U1hoWWZnT3JwQ0NpN0xXZjVBZDgtOTBQMVVIendhV2s3QWw3cjl5V2k2SmxpX0gtb2RnTDBndnZMWmtmeGVoNEJyT28xZ3lSNWt3LXBQUWdSYWt5WkNiLQ?oc=5",
-      "publisher": "베리타스알파",
-      "publisherUrl": "https://www.veritas-a.com",
-      "official": false,
-      "publishedAt": "2026-11-19T09:03+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "100a7ffcfafa",
-      "title": "[속보]수능검토위원장 \"수능 영어 적정 난이도 유지하려고 노력\"",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX216aG0zTDlndVRFRGlGUE1pYlZMb016NUVVQkQzd2ZrZWgyT204X2dkTW1lMUZWaEJDakxya2tVaEp6RkRrUlJ1cGVjUldhcHhTbDFfTE9OemdnTUxxMDdBN21TWk92VE11RWY3V3JKM0lUMndyb0tBZ1hBaDZsOQ?oc=5",
-      "publisher": "이데일리",
-      "publisherUrl": "https://www.edaily.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T09:03+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "47722e880e08",
-      "title": "2027학년도 수능 “초고난도 배제·공교육 중심 변별력 확보”",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oMWVYb1JUZTdHeW1mRXBFbEUxaEo4aVlJRGhqVzByb2RkbmZaOUg4c2hOZ0NiOEtwamo0TXhNVmpEMDI2aDlXQWtGcU4teE5XYU5QTmt6a3Rkcy1BMDZkZTVuZVhBU3JQV3M4?oc=5",
-      "publisher": "BBS불교방송",
-      "publisherUrl": "https://news.bbsi.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T08:58+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "36ce64cd6ea6",
-      "title": "수능 출제위원 500여명, 40일 만에 세상 밖으로",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRWM0c0pPcF9VQkZtRnZKZy1nYnBnRzNlVm9MZjlWLW55YnFMZ2l4YkZsTUJUZFE4eWlYZTFVZnctdXpGOGFnbWZkN1I2NnpMMnBFQi1YNldCYlBlZXpHSmNLSWJEVHpCdUxxcm1hRlM?oc=5",
-      "publisher": "신아일보",
-      "publisherUrl": "https://www.shinailbo.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T08:55+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "f9f08ffb568e",
-      "title": "평가원장 \"수능 끝나도 부정행위 의심 정황 확인되면 적극 협조\"",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UNlA1ZjhiTG1wMUMxejhYbzNqYjllTS1fV0xZVGRRSld4bUtpc1VtTWlKazZOa0ZLWHlodUVMQkI4dzRJcmFGRkRCMzJBZDNqa0lWRlRIeXFrQQ?oc=5",
-      "publisher": "뉴스1",
-      "publisherUrl": "https://www.news1.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T08:54+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "f2acb76df75a",
-      "title": "[속보] 평가원 \"사교육 유리 문항 배제…공교육 기반 변별력 확보\" [2027 수능]",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SRWxIT3hXX0tncG1Bcy1IRFBfWG5MSXprRk9sWVZ2UmF2X25LeWtydkFoTXlqNUM5TVB1U2RzTXd3MzUzbWdEUUs4QzVCUnMwVExabg?oc=5",
-      "publisher": "이투데이",
-      "publisherUrl": "https://www.etoday.co.kr",
-      "official": false,
-      "publishedAt": "2026-11-19T08:43+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "cf430db668cc",
-      "title": "수능 끝! 알바 시작! 나는 어디에서 일할 수 있을까?",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hWW1kUlpZWXBuSDhtemNrTnJOWWg3bVUzY0NSMzVXdEhBd05WaUNRQUszZE9vZTk5Tnl0N1V3SlloUGJtcUp0MTlQRUdVcGVBMDFwNEg4MmZTTVlZNVlsMXNtN010dURUbjNfd0pB?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-19T07:44+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "cf55213d28e8",
-      "title": "수능 필기구 '흑색연필'만 허용…사인펜·수정테이프·지우개·샤프심 시험장 지급",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PbjVSeVZrNTlJZHp0ZVYyeW1hQ0s5bTBTaXhyMlpzeklXSHdnMlFDeW1hR2VIT21jMExqelJVekR6VUNaVGVscHIxNjY2a1FuZl9samxQMVZDTHBpY21hc1haMUJmR0pYRmpJMA?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-19T02:01+09:00",
+      "publishedAt": "2026-11-19T08:40+09:00",
       "tags": [
         "수능"
       ],
@@ -775,30 +890,13 @@
       "places": []
     },
     {
-      "id": "0767aa13a945",
-      "title": "이 대통령 \"수능 문제지 AI 업로드 전수조사…부정행위 철저히 엄단\"",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsbjY0V09Sc2JpV25qbmU5TVpQT1pNYmlNMWZpNkkzbVZwS2xOcHZMdENUbnQtNEU3T3RQQ2txTlFWdlhPcWNaa09wS2sxc2xMb0JmX1hMUnpLSkV4UXN3blhwRU5BX3ItUVVpSA?oc=5",
+      "id": "a6096517180c",
+      "title": "[보도자료] \"수능 부정행위, 결코 용납하지 않겠습니다.\" 범정부, 모든 역량 총동원",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBUMmE3SnlVUHhqaEVyMEowY2pLRGlNSjFyQWYxNXY3RnU1eUh6VDJFQ0xzRVRWRlNSV2NFNjVxMTMtYU9xY1MwLXNaeDZSRGJDOFp4dkNCdlV4clZXcFE5TlhUZjZMM05LVnd5QXRjeWJvMlly?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
       "official": true,
-      "publishedAt": "2026-11-18T17:20+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "b55ea3dd791b",
-      "title": "수능시험일 위급재난문자 놀라지 마세요!",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yYjZtdjRERGJEY0hnUHBlNDg0dDhWUmRqbXVxdGY3aHhPdmJKX2lWUHBmMWFVM1F4MGNKYVNMeEtrOE9HZURrRHBTSElVX3lxLVdiZl9HYTJ0dDNzQU5WTWhmOFBLMzlQbUZkbGVn?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-18T17:17+09:00",
+      "publishedAt": "2026-11-18T21:23+09:00",
       "tags": [
         "수능"
       ],
@@ -811,7 +909,24 @@
     {
       "id": "c51d9a84d04f",
       "title": "[수능] 필기구·복장·검사 유의사항을 꼭 확인하세요!",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zREN0cW9tRFNma2ZTRTVZTHhoQzVnVDRjRGZSbGpHXy13M3BtVEMyelNTUk00NXl0dE03d1l1c253MWQ0N0tKRG00WEloNXNwWWtJVWxJNllXVmpRUGJibmlINDdKNUxsSktJSHhn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVlRyVGZwZ1J3LUhka1RGQWs4S194c0JjdmwtNUVONTFRV3V1ajk2bi1lTk8yTXd4MkNvS3lhOW4zcDNkelV6NmFHbV9aWTFteEhlSDNpS09VN3U5SlcwRkIxRzhxLWNxNFVPTi10ZzNEemY4U1RUYmFCRllFSEtZUVpxQlkxcDJRN0NZ?oc=5",
+      "publisher": "대한민국 정책브리핑",
+      "publisherUrl": "https://www.korea.kr",
+      "official": true,
+      "publishedAt": "2026-11-18T17:34+09:00",
+      "tags": [
+        "수능"
+      ],
+      "stages": [
+        "university"
+      ],
+      "regions": [],
+      "places": []
+    },
+    {
+      "id": "b55ea3dd791b",
+      "title": "수능시험일 위급재난문자 놀라지 마세요!",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYWpEa3haOTVOb3pmdXJzcnpNVGo3ZVV2RzQweGY2M21sZHBZTUVNdG5lbWhVVkl4SlhDTUF2MmpwclI4cUpQZ2VWajRCc09ONXNOQzJ4UVJ1aF9ILW4tWUJfZzRpUk9RY2tCRDdDQTYzNDRrdnpHRktrQWpab0ZKLTE4NTdpanVHSFM2N1RR?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
       "official": true,
@@ -828,7 +943,7 @@
     {
       "id": "f6dec8578ad5",
       "title": "'수험생 안전 최우선', 수능 대비 대설·한파 대응체계 총력 가동",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4ZklOZGxmVm9EMTdoOTNqeDM5TlRPQkM3eFBmdmttdWtsQTlKTkZiRjdGQXVZeGtPTXVtTEtpX3ZaeFBHTFFGOGpfdVZQbXMzSXh6YlYzWGowMEpfZjVMWU01UEdfOF9HaElGSkdyYjZRSUNL?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaV81SS1iclpUMHJidy15ZnBUVHJXUVdla0xYVWNfZ0hmZE1nUEZxR0F2bk1SQk5rOGE5UEJQTG5TWjhCZEE0dEVMemt6MWY2VzBkdjhtYnVpYkJXLTBKenQzb0ZNVW1JdkhGb2hiUjBua3JhNUtvbDJJNllMU0ZWbWJvamJXU21uSW9MazVRNXpjZw?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
       "official": true,
@@ -843,30 +958,13 @@
       "places": []
     },
     {
-      "id": "4490ce1036d0",
-      "title": "‘수험생 안전 최우선’, 수능 대비 대설·한파·지진 대응체계 총력 가동",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1FY19pWDRtV2lSOUxBaTFWb2xXeUdzcWJuUG9KSnBaVms5N3RoRmdwcUh4blZIOU5XbGZpQklIMHFBTmV5TEtWX2RHeHBaZlhZaFFwSjJQcW1sS1d3SGNlT1BtNTVhdGZkaFAwdGY1bE96NFpFTEE?oc=5",
+      "id": "cf55213d28e8",
+      "title": "수능 필기구 '흑색연필'만 허용…사인펜·수정테이프·지우개·샤프심 시험장 지급",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PbjVSeVZrNTlJZHp0ZVYyeW1hQ0s5bTBTaXhyMlpzeklXSHdnMlFDeW1hR2VIT21jMExqelJVekR6VUNaVGVscHIxNjY2a1FuZl9samxQMVZDTHBpY21hc1haMUJmR0pYRmpJMA?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
       "official": true,
-      "publishedAt": "2026-11-18T16:30+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "51c1e5094c1d",
-      "title": "수능 당일 위급재난문자가 발송됩니다!",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPXzRKVzNGT0dUZFF3Zkg4OXRkaWZGZ3lkY012N1VtX2VsU0owbF9NSmVnNGRwdzRmZEFuQmw1a0pCYXJyai1wcE9ad2o3blkwSnFQWmFxeUVVS0lWRDI3LS1oNmQ3b2tHd2dobWs1X0F3dlA2QmxPbGI1RTd4RkJfNWRNbVRscnYySi1N?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://m.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-18T16:02+09:00",
+      "publishedAt": "2026-11-18T14:30+09:00",
       "tags": [
         "수능"
       ],
@@ -879,11 +977,11 @@
     {
       "id": "0a91aa4180e1",
       "title": "공정하고 안정적인 수능시험이 치러질 수 있도록 최선을 다하겠습니다",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VR0pTRy1YUW9aQS1IbzE3WVV2Q3ZJM3RUQldZRVdPLWtMM0xzUGpqQVJ2Y29YNS1pb0dQVUF6dTNLejZsWWI1OW14Ny0wcmFnVnB4a2JZZjk5SDBHWktrZHRQNTlqRTl5WmhoSjVB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMjlKTlNHMGdpajFEaFRVZ1hmRlZGdFVTNC00b3hZYTNDWHpHY1o5R3N1RWRhSS1yOVVZYTRLbDB5dm9Ic0VVSkRkZFk2XzQ4X3M4NGcySEhBTERfS3A4SHl5eUxqajI2UDF0cXVwbjFpUEZ1YUJyQW1sakl2RXRyYzJHdGcwX0Zpa2tv?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
       "official": true,
-      "publishedAt": "2026-11-18T14:20+09:00",
+      "publishedAt": "2026-11-18T14:15+09:00",
       "tags": [
         "수능"
       ],
@@ -894,13 +992,13 @@
       "places": []
     },
     {
-      "id": "3f1eeb500e11",
-      "title": "수능 AI부정행위 대책 당정협의회",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PTVdMU2xLYVc5M25yYURLemZBM1hZbjlPaVBsWFdGVW5NblhFSGdLR0tnemtrN2RTbG85SzZZNWhZbUFWODZVS1ZhaERJNzY2cjU4VG5NZTdTNU53N0NMeGlrY3hLYklhRnc5T0d5RXM1bzQ1RjBXSVFn?oc=5",
+      "id": "51c1e5094c1d",
+      "title": "수능 당일 위급재난문자가 발송됩니다!",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcEh5ellqWmtsWFBuZExmN2lBcWNuY21WdWhEMGxtU2puMWM1OEJNa0pHOWVMRjhqMjQ3YWVlcHJ0NHc5WFUza19iTHN1a0gwWmtCSnR4OW1LU3FGcEZLMktiaHZDUGpNWlpYN01MdVZGM0trZVZzeU1OenptdWJTVldlbEZ5NUh1cWkw?oc=5",
       "publisher": "대한민국 정책브리핑",
       "publisherUrl": "https://www.korea.kr",
       "official": true,
-      "publishedAt": "2026-11-18T14:06+09:00",
+      "publishedAt": "2026-11-18T14:04+09:00",
       "tags": [
         "수능"
       ],
@@ -935,91 +1033,6 @@
       "publisherUrl": "https://www.korea.kr",
       "official": true,
       "publishedAt": "2026-11-18T13:39+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "c760491df4ce",
-      "title": "2027 수능 강화된 부정행위 예방조치에 따른 수험생 유의사항 추가 안내",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRDBWNnRyZWx6UE1scGxLMVFKb2otdF9uSTRiOHpWNnB3U3h4aENOWTByRG4wYkZ0UkF5aFk5ektsSHp3R1JYT21hVzkyZVVDSHFLTldSRTRFdURIcmYyclpfUVVkU01GN056ZzEwRTc1d3lRbEJYVFMwUzJoRm9jdkpDVnk0Vmg2RnhHVHh2MGRGdw?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-18T11:50+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "816b7efda425",
-      "title": "수능시험일 위급재난문자가 발송됩니다",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxONWg4TUlmRTJRUG9sSzczeTlYRlg4bmVvd0tQS0JYcWYyZ3pfNEh2Tjl3Z1BGeW03ZUVQVTZpVGg3cDlteGh1VFdBcHNQYVJaVk52bG04RDktM1lZVkxiOFUtOWVIWndpMmxoUlkxQ0NYWHpqNGNpR3h1T0RjeWhjMlIya0VRM3FlTU9mUXVCRVR0N3RNVVlfckxUemQzQldyVEFvYWJYS3RIeUVRR0RxOFRWZko3Qk85bzFvaThRM1RRQXR1Ym1fNGNqTlhZWnk1aWNaMnJSTVVxczhxclg1VnltbS1WSEtqMWQ0ZzZaR1VMeng0TC1vdi1kOHRYR29WdjNXa3BYbjBLN1ZNZXh3cw?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-18T10:00+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "61dba1330838",
-      "title": "2027학년도 수능 시험 준비 상황 점검",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sR2NsUUtab2tpdm1NZXliLWdMVldrSHVUbVdlbHlkdzRGcG1vSDNxV0ZNRlA1UTRiR2RvZzRNMDRPcks0VVZKV0ozT0xfTU56Sl94OTV2bGp0LUl3b19GTkd0SnB4TUNmczhOYVI1dTRtUEM3NGdwcHZB?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-18T03:42+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "9a1a1709bf55",
-      "title": "수능 때 안경 전수검사·옷 단추에 스티커…감독관 8400명 추가 배치",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jR0p0dEx1MEl4bG5fZjNkMjRYNVdlYV8wV3p2Qmx3RFZIemVvLXFTbVJWb3ZwMlhRV2JQdk9BYnJxVHpLOENsMU1SZ0RPNTllLU43RlpnRnZ1QUZaUG93eU9tMGpGUzNmRlR2Zw?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-17T23:48+09:00",
-      "tags": [
-        "수능"
-      ],
-      "stages": [
-        "university"
-      ],
-      "regions": [],
-      "places": []
-    },
-    {
-      "id": "b069c98512b6",
-      "title": "이재명 대통령 주재 '대학수학능력시험 비상 점검회의' 관련 강유정 수석 대변인 서면 브리핑",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iM0dTS2FrcDB0QllpemJrQUFaS213bWhhQ082QUEzTnBySnI0SjdpTWdmV3ZXZzVDN2RIUGNrano3dlB0eHdqTmpKalhHMF9JdTFFcExqN1F4RzJ0TzEzbXEwUkVweUFyWjFoMUJCUUY?oc=5",
-      "publisher": "대한민국 정책브리핑",
-      "publisherUrl": "https://www.korea.kr",
-      "official": true,
-      "publishedAt": "2026-11-17T21:49+09:00",
       "tags": [
         "수능"
       ],
